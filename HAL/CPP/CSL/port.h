@@ -19,8 +19,17 @@ enum
  */
 enum Id
 {
-  a,
-  b
+  A,B,C,D,E,F,G
+};
+
+enum {
+	BASE_ADDRESS_PORT_A = 0x48000000,
+	BASE_ADDRESS_PORT_B = 0x48000400,
+	BASE_ADDRESS_PORT_C = 0x48000800,
+	BASE_ADDRESS_PORT_D = 0x48000C00,
+	BASE_ADDRESS_PORT_E = 0x48001000,
+	BASE_ADDRESS_PORT_F = 0x48001400,
+	BASE_ADDRESS_PORT_G = 0x48001800
 };
 
 /**
@@ -31,51 +40,35 @@ enum Id
 template<Id id>
 struct GetAddrReg
 {
-  static const uintptr_t ctrl;
-  static const uintptr_t sel1;
-  static const uintptr_t sel2;
-  static const uintptr_t mux1;
-  static const uintptr_t mux2;
-  static const uintptr_t dir;
-  static const uintptr_t pud;
-
-  static const uintptr_t dat;
-  static const uintptr_t set;
-  static const uintptr_t clr;
-  static const uintptr_t toggle;
+  static const uintptr_t MODER;
+  static const uintptr_t OTYPER;
+  static const uintptr_t OSPEEDER;
+  static const uintptr_t PUPDR;
+  static const uintptr_t IDR;
+  static const uintptr_t ODR;
+  static const uintptr_t BSRR;
+  static const uintptr_t LCKR;
+  static const uintptr_t AFRL;
+  static const uintptr_t AFRH;
+  static const uintptr_t BRR;
 };
+
 template<>
-struct GetAddrReg<a>
+struct GetAddrReg<A>
 {
-  static const uintptr_t ctrl   = 0x00006F80;
-  static const uintptr_t sel1   = ctrl+2;
-  static const uintptr_t sel2   = ctrl+4;
-  static const uintptr_t mux1   = ctrl+6;
-  static const uintptr_t mux2   = ctrl+8;
-  static const uintptr_t dir    = ctrl+10;
-  static const uintptr_t pud    = ctrl+12;
-
-  static const uintptr_t dat    = 0x00006FC0;
-  static const uintptr_t set    = dat+2;
-  static const uintptr_t clr    = dat+4;
-  static const uintptr_t toggle = dat+6;
+  static const uintptr_t MODER = BASE_ADDRESS_PORT_A;
+  static const uintptr_t OTYPER = MODER + 0x04;
+  static const uintptr_t OSPEEDER = MODER + 0x08;
+  static const uintptr_t PUPDR = MODER + 0x0C;
+  static const uintptr_t IDR = MODER + 0x10;
+  static const uintptr_t ODR = MODER + 0x14;
+  static const uintptr_t BSRR = MODER + 0x18;
+  static const uintptr_t LCKR = MODER + 0x1C;
+  static const uintptr_t AFRL = MODER + 0x20;
+  static const uintptr_t AFRH = MODER + 0x24;
+  static const uintptr_t BRR = MODER + 0x28;
 };
-template<>
-struct GetAddrReg<b>
-{
-  static const uintptr_t ctrl   = 0x00006F90;
-  static const uintptr_t sel1   = ctrl+2;
-  static const uintptr_t sel2   = ctrl+4;
-  static const uintptr_t mux1   = ctrl+6;
-  static const uintptr_t mux2   = ctrl+8;
-  static const uintptr_t dir    = ctrl+10;
-  static const uintptr_t pud    = ctrl+12;
 
-  static const uintptr_t dat    = 0x00006FC8;
-  static const uintptr_t set    = dat+2;
-  static const uintptr_t clr    = dat+4;
-  static const uintptr_t toggle = dat+6;
-};
 
 /**
  * @brief Abstracts C2000 ports.
