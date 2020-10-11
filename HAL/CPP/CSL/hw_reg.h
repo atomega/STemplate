@@ -1,9 +1,10 @@
 #ifndef _CSL_HWREG_H_
 #define _CSL_HWREG_H_
 
+#include "bits.h"
+
 namespace csl
 {
-
 
 /**
  * @brief Abstraction of STM32 hardware registers.
