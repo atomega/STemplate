@@ -1,5 +1,5 @@
-#ifndef CSL_HWREG_H_
-#define CSL_HWREG_H_
+#ifndef _CSL_HWREG_H_
+#define _CSL_HWREG_H_
 
 namespace csl
 {
@@ -73,9 +73,32 @@ class HWReg
 		 }
 
 	private:
-	 		 
+		 /**
+		  * @brief The destructor.
+		  *
+		  * @note Is set private to prevent destruction of directly mapped register. 
+		  */
+		~HWReg(); 		 
+
+		/**
+		 * @brief The copy constructor.
+		 *
+		 * @note Is set private to prevent copying of directly mapped register.
+		 */
+		HWReg(const  HWReg&);
+
+		/**
+		 * @brief The assignment operator.
+		 *
+		 * @note Is set private to prevent copying directly mapped register.
+		 */
+		HWReg& operator=(const HWReg&);
+		
+		volatile RegType reg; ///< register which is directly mapped to the register address
 };
 
 
 } // namespace csl
-#endif // CSL_HWREG_H_
+#endif // _CSL_HWREG_H_
+
+_
