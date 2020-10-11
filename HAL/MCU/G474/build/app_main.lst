@@ -1,0 +1,113 @@
+ARM GAS  /tmp/cc5ibE6o.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"app_main.cpp"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.app_main,"ax",%progbits
+  18              		.align	1
+  19              		.global	app_main
+  20              		.arch armv7e-m
+  21              		.syntax unified
+  22              		.thumb
+  23              		.thumb_func
+  24              		.fpu fpv4-sp-d16
+  26              	app_main:
+  27              		.fnstart
+  28              	.LFB132:
+  29              		.file 1 "Core/Src/Cpp/app_main.cpp"
+   1:Core/Src/Cpp/app_main.cpp **** #include "main.h"
+   2:Core/Src/Cpp/app_main.cpp **** #include "app_main.h"
+   3:Core/Src/Cpp/app_main.cpp **** int app_main()
+   4:Core/Src/Cpp/app_main.cpp **** {
+  30              		.loc 1 4 1 view -0
+  31              		.cfi_startproc
+  32              		@ args = 0, pretend = 0, frame = 0
+  33              		@ frame_needed = 0, uses_anonymous_args = 0
+  34 0000 08B5     		push	{r3, lr}
+  35              		.save {r3, lr}
+  36              	.LCFI0:
+  37              		.cfi_def_cfa_offset 8
+  38              		.cfi_offset 3, -8
+  39              		.cfi_offset 14, -4
+   5:Core/Src/Cpp/app_main.cpp **** 	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
+  40              		.loc 1 5 2 view .LVU1
+  41              		.loc 1 5 19 is_stmt 0 view .LVU2
+  42 0002 0122     		movs	r2, #1
+  43 0004 2021     		movs	r1, #32
+  44 0006 4FF09040 		mov	r0, #1207959552
+  45 000a FFF7FEFF 		bl	HAL_GPIO_WritePin
+  46              	.LVL0:
+   6:Core/Src/Cpp/app_main.cpp **** 	HAL_Delay(300);
+  47              		.loc 1 6 2 is_stmt 1 view .LVU3
+  48              		.loc 1 6 11 is_stmt 0 view .LVU4
+  49 000e 4FF49670 		mov	r0, #300
+  50 0012 FFF7FEFF 		bl	HAL_Delay
+  51              	.LVL1:
+   7:Core/Src/Cpp/app_main.cpp **** 	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
+ARM GAS  /tmp/cc5ibE6o.s 			page 2
+
+
+  52              		.loc 1 7 2 is_stmt 1 view .LVU5
+  53              		.loc 1 7 19 is_stmt 0 view .LVU6
+  54 0016 0022     		movs	r2, #0
+  55 0018 2021     		movs	r1, #32
+  56 001a 4FF09040 		mov	r0, #1207959552
+  57 001e FFF7FEFF 		bl	HAL_GPIO_WritePin
+  58              	.LVL2:
+   8:Core/Src/Cpp/app_main.cpp **** 	HAL_Delay(300);
+  59              		.loc 1 8 2 is_stmt 1 view .LVU7
+  60              		.loc 1 8 11 is_stmt 0 view .LVU8
+  61 0022 4FF49670 		mov	r0, #300
+  62 0026 FFF7FEFF 		bl	HAL_Delay
+  63              	.LVL3:
+   9:Core/Src/Cpp/app_main.cpp **** 	return 1; 
+  64              		.loc 1 9 2 is_stmt 1 view .LVU9
+  10:Core/Src/Cpp/app_main.cpp **** }
+  65              		.loc 1 10 1 is_stmt 0 view .LVU10
+  66 002a 0120     		movs	r0, #1
+  67 002c 08BD     		pop	{r3, pc}
+  68              		.cfi_endproc
+  69              	.LFE132:
+  70              		.fnend
+  72              		.text
+  73              	.Letext0:
+  74              		.file 2 "/home/key/github/STM-Linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machi
+  75              		.file 3 "/home/key/github/STM-Linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_
+  76              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
+  77              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h"
+  78              		.file 6 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g474xx.h"
+  79              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
+  80              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h"
+  81              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h"
+  82              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
+  83              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
+  84              		.file 12 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
+  85              		.file 13 "Core/Inc/usart.h"
+ARM GAS  /tmp/cc5ibE6o.s 			page 3
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 app_main.cpp
+     /tmp/cc5ibE6o.s:18     .text.app_main:0000000000000000 $t
+     /tmp/cc5ibE6o.s:26     .text.app_main:0000000000000000 app_main
+         .ARM.extab.text.app_main:0000000000000000 $d
+         .ARM.exidx.text.app_main:0000000000000000 $d
+
+UNDEFINED SYMBOLS
+HAL_GPIO_WritePin
+HAL_Delay
+__aeabi_unwind_cpp_pr1

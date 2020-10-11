@@ -1,0 +1,94 @@
+ARM GAS  /tmp/ccr5p31M.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"app_main.cpp"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.app_main,"ax",%progbits
+  18              		.align	1
+  19              		.global	app_main
+  20              		.syntax unified
+  21              		.thumb
+  22              		.thumb_func
+  23              		.fpu fpv4-sp-d16
+  25              	app_main:
+  26              		.fnstart
+  27              	.LFB132:
+  28              		.file 1 "Core/Src/Cpp/app_main.cpp"
+   1:Core/Src/Cpp/app_main.cpp **** #include "app_main.h"
+   2:Core/Src/Cpp/app_main.cpp **** #include <stdint.h>
+   3:Core/Src/Cpp/app_main.cpp **** 
+   4:Core/Src/Cpp/app_main.cpp **** //#include "stm32g4xx_hal_gpio.h"
+   5:Core/Src/Cpp/app_main.cpp **** #include "main.h"
+   6:Core/Src/Cpp/app_main.cpp **** 
+   7:Core/Src/Cpp/app_main.cpp **** 
+   8:Core/Src/Cpp/app_main.cpp **** int app_main()
+   9:Core/Src/Cpp/app_main.cpp **** {
+  29              		.loc 1 9 0
+  30              		.cfi_startproc
+  31              		@ args = 0, pretend = 0, frame = 0
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  33 0000 08B5     		push	{r3, lr}
+  34              		.save {r3, lr}
+  35              	.LCFI0:
+  36              		.cfi_def_cfa_offset 8
+  37              		.cfi_offset 3, -8
+  38              		.cfi_offset 14, -4
+  39              	.L2:
+  10:Core/Src/Cpp/app_main.cpp **** 	uint32_t i = 0;
+  11:Core/Src/Cpp/app_main.cpp **** 	while(1)
+  12:Core/Src/Cpp/app_main.cpp **** 	{
+  13:Core/Src/Cpp/app_main.cpp **** 		
+  14:Core/Src/Cpp/app_main.cpp **** 		
+  15:Core/Src/Cpp/app_main.cpp **** 		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
+  40              		.loc 1 15 0 discriminator 1
+  41 0002 0122     		movs	r2, #1
+  42 0004 2021     		movs	r1, #32
+  43 0006 4FF09040 		mov	r0, #1207959552
+ARM GAS  /tmp/ccr5p31M.s 			page 2
+
+
+  44 000a FFF7FEFF 		bl	HAL_GPIO_WritePin
+  45              	.LVL0:
+  46 000e F8E7     		b	.L2
+  47              		.cfi_endproc
+  48              	.LFE132:
+  49              		.fnend
+  51              		.text
+  52              	.Letext0:
+  53              		.file 2 "/usr/include/newlib/machine/_default_types.h"
+  54              		.file 3 "/usr/include/newlib/sys/_stdint.h"
+  55              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
+  56              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h"
+  57              		.file 6 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h"
+  58              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
+  59              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h"
+  60              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
+  61              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
+  62              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
+ARM GAS  /tmp/ccr5p31M.s 			page 3
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 app_main.cpp
+     /tmp/ccr5p31M.s:18     .text.app_main:0000000000000000 $t
+     /tmp/ccr5p31M.s:25     .text.app_main:0000000000000000 app_main
+         .ARM.extab.text.app_main:0000000000000000 $d
+         .ARM.exidx.text.app_main:0000000000000000 $d
+
+UNDEFINED SYMBOLS
+HAL_GPIO_WritePin
+__aeabi_unwind_cpp_pr1
