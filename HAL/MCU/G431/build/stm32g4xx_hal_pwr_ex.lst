@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc3pSE8g.s 			page 1
+ARM GAS  /tmp/ccYifw0y.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
   29:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @{
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   */
   31:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
-ARM GAS  /tmp/cc3pSE8g.s 			page 2
+ARM GAS  /tmp/ccYifw0y.s 			page 2
 
 
   32:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** /** @defgroup PWREx PWREx
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
   86:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
   87:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** /** @defgroup PWREx_Exported_Functions PWR Extended Exported Functions
   88:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @{
-ARM GAS  /tmp/cc3pSE8g.s 			page 3
+ARM GAS  /tmp/ccYifw0y.s 			page 3
 
 
   89:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  125:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** }
   46              		.loc 1 125 0
   47 001c 7047     		bx	lr
-ARM GAS  /tmp/cc3pSE8g.s 			page 4
+ARM GAS  /tmp/ccYifw0y.s 			page 4
 
 
   48              	.L5:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  155:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** {
   73              		.loc 1 155 0
   74              		.cfi_startproc
-ARM GAS  /tmp/cc3pSE8g.s 			page 5
+ARM GAS  /tmp/ccYifw0y.s 			page 5
 
 
   75              		@ args = 0, pretend = 0, frame = 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  182:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     /* If current range is range 1 normal or boost mode */
  183:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     else
  184:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     {
-ARM GAS  /tmp/cc3pSE8g.s 			page 6
+ARM GAS  /tmp/ccYifw0y.s 			page 6
 
 
  185:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       /* Enable Range 1 Boost (no issue if bit already reset) */
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  114 0036 9E21     		movs	r1, #158
  115 0038 3948     		ldr	r0, .L30+4
  116              	.LVL3:
-ARM GAS  /tmp/cc3pSE8g.s 			page 7
+ARM GAS  /tmp/ccYifw0y.s 			page 7
 
 
  117 003a FFF7FEFF 		bl	assert_failed
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  163              		.loc 1 226 0
  164 008a 0020     		movs	r0, #0
  165 008c 0CE0     		b	.L15
-ARM GAS  /tmp/cc3pSE8g.s 			page 8
+ARM GAS  /tmp/ccYifw0y.s 			page 8
 
 
  166              	.L26:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  211 00e2 1360     		str	r3, [r2]
  201:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       while ((HAL_IS_BIT_SET(PWR->SR2, PWR_SR2_VOSF)) && (wait_loop_index != 0U))
  212              		.loc 1 201 0
-ARM GAS  /tmp/cc3pSE8g.s 			page 9
+ARM GAS  /tmp/ccYifw0y.s 			page 9
 
 
  213 00e4 0F4B     		ldr	r3, .L30+8
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  261              		.section	.text.HAL_PWREx_EnableBatteryCharging,"ax",%progbits
  262              		.align	1
  263              		.global	HAL_PWREx_EnableBatteryCharging
-ARM GAS  /tmp/cc3pSE8g.s 			page 10
+ARM GAS  /tmp/ccYifw0y.s 			page 10
 
 
  264              		.syntax unified
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  247:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   SET_BIT(PWR->CR4, PWR_CR4_VBE);
  300              		.loc 1 247 0
  301 0020 DA68     		ldr	r2, [r3, #12]
-ARM GAS  /tmp/cc3pSE8g.s 			page 11
+ARM GAS  /tmp/ccYifw0y.s 			page 11
 
 
  302 0022 42F48072 		orr	r2, r2, #256
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  348              		.thumb
  349              		.thumb_func
  350              		.fpu fpv4-sp-d16
-ARM GAS  /tmp/cc3pSE8g.s 			page 12
+ARM GAS  /tmp/ccYifw0y.s 			page 12
 
 
  352              	HAL_PWREx_EnableInternalWakeUpLine:
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  389 0000 024A     		ldr	r2, .L44
  390 0002 9368     		ldr	r3, [r2, #8]
  391 0004 23F40043 		bic	r3, r3, #32768
-ARM GAS  /tmp/cc3pSE8g.s 			page 13
+ARM GAS  /tmp/ccYifw0y.s 			page 13
 
 
  392 0008 9360     		str	r3, [r2, #8]
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  421              		.cfi_offset 4, -12
  422              		.cfi_offset 5, -8
  423              		.cfi_offset 14, -4
-ARM GAS  /tmp/cc3pSE8g.s 			page 14
+ARM GAS  /tmp/ccYifw0y.s 			page 14
 
 
  424 0002 0546     		mov	r5, r0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  467              		.loc 1 313 0
  468 0036 2A4B     		ldr	r3, .L62+4
  469 0038 1A6A     		ldr	r2, [r3, #32]
-ARM GAS  /tmp/cc3pSE8g.s 			page 15
+ARM GAS  /tmp/ccYifw0y.s 			page 15
 
 
  470 003a 24F48041 		bic	r1, r4, #16384
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  489 0054 9A6A     		ldr	r2, [r3, #40]
  490 0056 2243     		orrs	r2, r2, r4
  491 0058 9A62     		str	r2, [r3, #40]
-ARM GAS  /tmp/cc3pSE8g.s 			page 16
+ARM GAS  /tmp/ccYifw0y.s 			page 16
 
 
  318:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****        break;
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  535              	.L55:
  329:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****        CLEAR_BIT(PWR->PDCRE, GPIONumber);
  536              		.loc 1 329 0
-ARM GAS  /tmp/cc3pSE8g.s 			page 17
+ARM GAS  /tmp/ccYifw0y.s 			page 17
 
 
  537 0092 134B     		ldr	r3, .L62+4
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  581              		.loc 1 305 0
  582 00d2 0020     		movs	r0, #0
  339:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     default:
-ARM GAS  /tmp/cc3pSE8g.s 			page 18
+ARM GAS  /tmp/ccYifw0y.s 			page 18
 
 
  583              		.loc 1 339 0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  619              		.cfi_offset 14, -4
  620 0002 0446     		mov	r4, r0
  621 0004 0D46     		mov	r5, r1
-ARM GAS  /tmp/cc3pSE8g.s 			page 19
+ARM GAS  /tmp/ccYifw0y.s 			page 19
 
 
  622              	.LVL40:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  665 0038 136A     		ldr	r3, [r2, #32]
  666 003a 25F48045 		bic	r5, r5, #16384
  667              	.LVL47:
-ARM GAS  /tmp/cc3pSE8g.s 			page 20
+ARM GAS  /tmp/ccYifw0y.s 			page 20
 
 
  668 003e 23EA0505 		bic	r5, r3, r5
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  691 0056 164A     		ldr	r2, .L80+4
  692 0058 136B     		ldr	r3, [r2, #48]
  693 005a 23EA0505 		bic	r5, r3, r5
-ARM GAS  /tmp/cc3pSE8g.s 			page 21
+ARM GAS  /tmp/ccYifw0y.s 			page 21
 
 
  694              	.LVL52:
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  737              		.loc 1 390 0
  738 0094 D7E7     		b	.L67
  739              	.LVL59:
-ARM GAS  /tmp/cc3pSE8g.s 			page 22
+ARM GAS  /tmp/ccYifw0y.s 			page 22
 
 
  740              	.L75:
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  418:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @param  GPIONumber: Specify the I/O pins numbers.
  419:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   *         This parameter can be one of the following values:
  420:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   *         PWR_GPIO_BIT_0, ..., PWR_GPIO_BIT_15 (except for the port where less
-ARM GAS  /tmp/cc3pSE8g.s 			page 23
+ARM GAS  /tmp/ccYifw0y.s 			page 23
 
 
  421:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   *         I/O pins are available) or the logical OR of several of them to set
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  816              	.LVL66:
  817 0022 2E48     		ldr	r0, .L98
  818              	.LVL67:
-ARM GAS  /tmp/cc3pSE8g.s 			page 24
+ARM GAS  /tmp/ccYifw0y.s 			page 24
 
 
  819 0024 FFF7FEFF 		bl	assert_failed
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  458:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     case PWR_GPIO_G:
  459:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****        SET_BIT(PWR->PDCRG, ((GPIONumber & PWR_PORTG_AVAILABLE_PINS) & (~(PWR_GPIO_BIT_10))));
  460:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****        CLEAR_BIT(PWR->PUCRG, (GPIONumber & PWR_PORTG_AVAILABLE_PINS));
-ARM GAS  /tmp/cc3pSE8g.s 			page 25
+ARM GAS  /tmp/ccYifw0y.s 			page 25
 
 
  461:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****        break;
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  883              		.loc 1 447 0
  884 007e 184B     		ldr	r3, .L98+4
  885 0080 DA6B     		ldr	r2, [r3, #60]
-ARM GAS  /tmp/cc3pSE8g.s 			page 26
+ARM GAS  /tmp/ccYifw0y.s 			page 26
 
 
  886 0082 2243     		orrs	r2, r2, r4
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  457:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     case PWR_GPIO_G:
  930              		.loc 1 457 0
  931 00c0 C6E7     		b	.L85
-ARM GAS  /tmp/cc3pSE8g.s 			page 27
+ARM GAS  /tmp/ccYifw0y.s 			page 27
 
 
  932              	.LVL82:
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  481:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   *         PWR_GPIO_BIT_0, ..., PWR_GPIO_BIT_15 (except for the port where less
  482:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   *         I/O pins are available) or the logical OR of several of them to reset
  483:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   *         several bits for a given port in a single API call.
-ARM GAS  /tmp/cc3pSE8g.s 			page 28
+ARM GAS  /tmp/ccYifw0y.s 			page 28
 
 
  484:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @retval HAL Status
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1014              	.LVL90:
  1015 0024 FFF7FEFF 		bl	assert_failed
  1016              	.LVL91:
-ARM GAS  /tmp/cc3pSE8g.s 			page 29
+ARM GAS  /tmp/ccYifw0y.s 			page 29
 
 
  1017 0028 EFE7     		b	.L101
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1040              	.L106:
  499:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****        break;
  1041              		.loc 1 499 0
-ARM GAS  /tmp/cc3pSE8g.s 			page 30
+ARM GAS  /tmp/ccYifw0y.s 			page 30
 
 
  1042 0048 184A     		ldr	r2, .L116+4
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  509:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     case PWR_GPIO_F:
  1086              		.loc 1 509 0
  1087 0082 E0E7     		b	.L103
-ARM GAS  /tmp/cc3pSE8g.s 			page 31
+ARM GAS  /tmp/ccYifw0y.s 			page 31
 
 
  1088              	.LVL103:
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  525:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
  526:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** /**
  527:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @brief Enable pull-up and pull-down configuration.
-ARM GAS  /tmp/cc3pSE8g.s 			page 32
+ARM GAS  /tmp/ccYifw0y.s 			page 32
 
 
  528:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @note  When APC bit is set, the I/O pull-up and pull-down configurations defined in
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  550:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   CLEAR_BIT(PWR->CR3, PWR_CR3_APC);
  1169              		.loc 1 550 0
  1170 0000 024A     		ldr	r2, .L122
-ARM GAS  /tmp/cc3pSE8g.s 			page 33
+ARM GAS  /tmp/ccYifw0y.s 			page 33
 
 
  1171 0002 9368     		ldr	r3, [r2, #8]
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1214              		.global	HAL_PWREx_DisableSRAM2ContentRetention
  1215              		.syntax unified
  1216              		.thumb
-ARM GAS  /tmp/cc3pSE8g.s 			page 34
+ARM GAS  /tmp/ccYifw0y.s 			page 34
 
 
  1217              		.thumb_func
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1251              		.loc 1 587 0
  1252              		.cfi_startproc
  1253              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/cc3pSE8g.s 			page 35
+ARM GAS  /tmp/ccYifw0y.s 			page 35
 
 
  1254              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1300              		.align	1
  1301              		.global	HAL_PWREx_EnablePVM2
  1302              		.syntax unified
-ARM GAS  /tmp/cc3pSE8g.s 			page 36
+ARM GAS  /tmp/ccYifw0y.s 			page 36
 
 
  1303              		.thumb
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1341              		@ frame_needed = 0, uses_anonymous_args = 0
  1342              		@ link register save eliminated.
  618:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   CLEAR_BIT(PWR->CR2, PWR_PVM_2);
-ARM GAS  /tmp/cc3pSE8g.s 			page 37
+ARM GAS  /tmp/ccYifw0y.s 			page 37
 
 
  1343              		.loc 1 618 0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1388              		.global	HAL_PWREx_DisablePVM3
  1389              		.syntax unified
  1390              		.thumb
-ARM GAS  /tmp/cc3pSE8g.s 			page 38
+ARM GAS  /tmp/ccYifw0y.s 			page 38
 
 
  1391              		.thumb_func
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1430              		.loc 1 648 0
  1431 0000 024A     		ldr	r2, .L149
  1432 0002 5368     		ldr	r3, [r2, #4]
-ARM GAS  /tmp/cc3pSE8g.s 			page 39
+ARM GAS  /tmp/ccYifw0y.s 			page 39
 
 
  1433 0004 43F08003 		orr	r3, r3, #128
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1481              	HAL_PWREx_ConfigPVM:
  1482              	.LFB154:
  659:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
-ARM GAS  /tmp/cc3pSE8g.s 			page 40
+ARM GAS  /tmp/ccYifw0y.s 			page 40
 
 
  660:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1515 001e 0ED0     		beq	.L156
  1516              		.loc 1 681 0 discriminator 2
  1517 0020 874A     		ldr	r2, .L184
-ARM GAS  /tmp/cc3pSE8g.s 			page 41
+ARM GAS  /tmp/ccYifw0y.s 			page 41
 
 
  1518 0022 9342     		cmp	r3, r2
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  709:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       /* Configure the edge */
  710:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       if((sConfigPVM->Mode & PVM_RISING_EDGE) == PVM_RISING_EDGE)
  711:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       {
-ARM GAS  /tmp/cc3pSE8g.s 			page 42
+ARM GAS  /tmp/ccYifw0y.s 			page 42
 
 
  712:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****         __HAL_PWR_PVM1_EXTI_ENABLE_RISING_EDGE();
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  766:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       }
  767:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
  768:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       /* Configure event mode */
-ARM GAS  /tmp/cc3pSE8g.s 			page 43
+ARM GAS  /tmp/ccYifw0y.s 			page 43
 
 
  769:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       if((sConfigPVM->Mode & PVM_MODE_EVT) == PVM_MODE_EVT)
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1571              	.L172:
  797:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       }
  798:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
-ARM GAS  /tmp/cc3pSE8g.s 			page 44
+ARM GAS  /tmp/ccYifw0y.s 			page 44
 
 
  799:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       /* Configure event mode */
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1609              	.LVL110:
  1610 00ca FFF7FEFF 		bl	assert_failed
  1611              	.LVL111:
-ARM GAS  /tmp/cc3pSE8g.s 			page 45
+ARM GAS  /tmp/ccYifw0y.s 			page 45
 
 
  1612 00ce A2E7     		b	.L155
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1656 011e 4A4A     		ldr	r2, .L184+8
  1657 0120 536A     		ldr	r3, [r2, #36]
  1658 0122 43F00803 		orr	r3, r3, #8
-ARM GAS  /tmp/cc3pSE8g.s 			page 46
+ARM GAS  /tmp/ccYifw0y.s 			page 46
 
 
  1659 0126 5362     		str	r3, [r2, #36]
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1703 0174 13F4803F 		tst	r3, #65536
  1704 0178 04D0     		beq	.L166
  733:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       }
-ARM GAS  /tmp/cc3pSE8g.s 			page 47
+ARM GAS  /tmp/ccYifw0y.s 			page 47
 
 
  1705              		.loc 1 733 0
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1750 01c8 1A6A     		ldr	r2, [r3, #32]
  1751 01ca 22F02002 		bic	r2, r2, #32
  1752 01ce 1A62     		str	r2, [r3, #32]
-ARM GAS  /tmp/cc3pSE8g.s 			page 48
+ARM GAS  /tmp/ccYifw0y.s 			page 48
 
 
  759:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       __HAL_PWR_PVM3_EXTI_DISABLE_RISING_EDGE();
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1797 0220 D36A     		ldr	r3, [r2, #44]
  1798 0222 43F02003 		orr	r3, r3, #32
  1799 0226 D362     		str	r3, [r2, #44]
-ARM GAS  /tmp/cc3pSE8g.s 			page 49
+ARM GAS  /tmp/ccYifw0y.s 			page 49
 
 
  677:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  824:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
  825:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
  826:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** /**
-ARM GAS  /tmp/cc3pSE8g.s 			page 50
+ARM GAS  /tmp/ccYifw0y.s 			page 50
 
 
  827:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @brief Enter Low-power Run mode
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1874              		.cfi_startproc
  1875              		@ args = 0, pretend = 0, frame = 0
  1876              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc3pSE8g.s 			page 51
+ARM GAS  /tmp/ccYifw0y.s 			page 51
 
 
  1877              		@ link register save eliminated.
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  866:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     return HAL_TIMEOUT;
  867:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   }
  868:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
-ARM GAS  /tmp/cc3pSE8g.s 			page 52
+ARM GAS  /tmp/ccYifw0y.s 			page 52
 
 
  869:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   return HAL_OK;
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1943              		.cfi_startproc
  1944              		@ args = 0, pretend = 0, frame = 0
  1945              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc3pSE8g.s 			page 53
+ARM GAS  /tmp/ccYifw0y.s 			page 53
 
 
  1946              	.LVL118:
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  1980 0026 20BF     		wfe
  1981              	@ 0 "" 2
  917:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     __WFE();
-ARM GAS  /tmp/cc3pSE8g.s 			page 54
+ARM GAS  /tmp/ccYifw0y.s 			page 54
 
 
  1982              		.loc 1 917 0
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  2031              	HAL_PWREx_EnterSTOP1Mode:
  2032              	.LFB158:
  923:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
-ARM GAS  /tmp/cc3pSE8g.s 			page 55
+ARM GAS  /tmp/ccYifw0y.s 			page 55
 
 
  924:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  954:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   /* Set SLEEPDEEP bit of Cortex System Control Register */
  955:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   SET_BIT(SCB->SCR, ((uint32_t)SCB_SCR_SLEEPDEEP_Msk));
  2057              		.loc 1 955 0
-ARM GAS  /tmp/cc3pSE8g.s 			page 56
+ARM GAS  /tmp/ccYifw0y.s 			page 56
 
 
  2058 001a 0D4A     		ldr	r2, .L214+4
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  2093              	.LVL126:
  2094 0040 FFF7FEFF 		bl	assert_failed
  2095              	.LVL127:
-ARM GAS  /tmp/cc3pSE8g.s 			page 57
+ARM GAS  /tmp/ccYifw0y.s 			page 57
 
 
  2096 0044 E2E7     		b	.L208
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  2133 0004 23F00703 		bic	r3, r3, #7
  2134 0008 43F00403 		orr	r3, r3, #4
  2135 000c 1360     		str	r3, [r2]
-ARM GAS  /tmp/cc3pSE8g.s 			page 58
+ARM GAS  /tmp/ccYifw0y.s 			page 58
 
 
  992:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
 1016:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   {
 1017:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     /* PWR PVD interrupt user callback */
 1018:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     HAL_PWR_PVDCallback();
-ARM GAS  /tmp/cc3pSE8g.s 			page 59
+ARM GAS  /tmp/ccYifw0y.s 			page 59
 
 
 1019:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  2171              		@ frame_needed = 0, uses_anonymous_args = 0
  2172              		@ link register save eliminated.
 1070:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   /* NOTE : This function should not be modified; when the callback is needed,
-ARM GAS  /tmp/cc3pSE8g.s 			page 60
+ARM GAS  /tmp/ccYifw0y.s 			page 60
 
 
 1071:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****             HAL_PWREx_PVM1Callback() API can be implemented in the user file
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
 1094:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** {
  2208              		.loc 1 1094 0
  2209              		.cfi_startproc
-ARM GAS  /tmp/cc3pSE8g.s 			page 61
+ARM GAS  /tmp/ccYifw0y.s 			page 61
 
 
  2210              		@ args = 0, pretend = 0, frame = 0
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  2252 0000 08B5     		push	{r3, lr}
  2253              	.LCFI9:
  2254              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/cc3pSE8g.s 			page 62
+ARM GAS  /tmp/ccYifw0y.s 			page 62
 
 
  2255              		.cfi_offset 3, -8
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  2300 0044 FFF7FEFF 		bl	HAL_PWREx_PVM1Callback
  2301              	.LVL129:
 1031:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   }
-ARM GAS  /tmp/cc3pSE8g.s 			page 63
+ARM GAS  /tmp/ccYifw0y.s 			page 63
 
 
  2302              		.loc 1 1031 0
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  2351              	.LFB165:
 1110:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
 1111:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** #if defined(PWR_CR3_UCPD_STDBY)
-ARM GAS  /tmp/cc3pSE8g.s 			page 64
+ARM GAS  /tmp/ccYifw0y.s 			page 64
 
 
 1112:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** /**
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  2387 0000 024A     		ldr	r2, .L241
  2388 0002 9368     		ldr	r3, [r2, #8]
  2389 0004 23F40053 		bic	r3, r3, #8192
-ARM GAS  /tmp/cc3pSE8g.s 			page 65
+ARM GAS  /tmp/ccYifw0y.s 			page 65
 
 
  2390 0008 9360     		str	r3, [r2, #8]
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  2433              		.thumb
  2434              		.thumb_func
  2435              		.fpu fpv4-sp-d16
-ARM GAS  /tmp/cc3pSE8g.s 			page 66
+ARM GAS  /tmp/ccYifw0y.s 			page 66
 
 
  2437              	HAL_PWREx_DisableUCPDDeadBattery:
@@ -3958,143 +3958,143 @@ ARM GAS  /tmp/cc3pSE8g.s 			page 1
  2471              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
  2472              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h"
  2473              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
-ARM GAS  /tmp/cc3pSE8g.s 			page 67
+ARM GAS  /tmp/ccYifw0y.s 			page 67
 
 
  2474              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
  2475              		.file 12 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h"
  2476              		.file 13 "Core/Inc/stm32g4xx_hal_conf.h"
-ARM GAS  /tmp/cc3pSE8g.s 			page 68
+ARM GAS  /tmp/ccYifw0y.s 			page 68
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32g4xx_hal_pwr_ex.c
-     /tmp/cc3pSE8g.s:18     .text.HAL_PWREx_GetVoltageRange:0000000000000000 $t
-     /tmp/cc3pSE8g.s:25     .text.HAL_PWREx_GetVoltageRange:0000000000000000 HAL_PWREx_GetVoltageRange
-     /tmp/cc3pSE8g.s:59     .text.HAL_PWREx_GetVoltageRange:000000000000002c $d
-     /tmp/cc3pSE8g.s:64     .text.HAL_PWREx_ControlVoltageScaling:0000000000000000 $t
-     /tmp/cc3pSE8g.s:71     .text.HAL_PWREx_ControlVoltageScaling:0000000000000000 HAL_PWREx_ControlVoltageScaling
-     /tmp/cc3pSE8g.s:254    .text.HAL_PWREx_ControlVoltageScaling:000000000000011c $d
-     /tmp/cc3pSE8g.s:262    .text.HAL_PWREx_EnableBatteryCharging:0000000000000000 $t
-     /tmp/cc3pSE8g.s:269    .text.HAL_PWREx_EnableBatteryCharging:0000000000000000 HAL_PWREx_EnableBatteryCharging
-     /tmp/cc3pSE8g.s:310    .text.HAL_PWREx_EnableBatteryCharging:000000000000002c $d
-     /tmp/cc3pSE8g.s:316    .text.HAL_PWREx_DisableBatteryCharging:0000000000000000 $t
-     /tmp/cc3pSE8g.s:323    .text.HAL_PWREx_DisableBatteryCharging:0000000000000000 HAL_PWREx_DisableBatteryCharging
-     /tmp/cc3pSE8g.s:340    .text.HAL_PWREx_DisableBatteryCharging:000000000000000c $d
-     /tmp/cc3pSE8g.s:345    .text.HAL_PWREx_EnableInternalWakeUpLine:0000000000000000 $t
-     /tmp/cc3pSE8g.s:352    .text.HAL_PWREx_EnableInternalWakeUpLine:0000000000000000 HAL_PWREx_EnableInternalWakeUpLine
-     /tmp/cc3pSE8g.s:369    .text.HAL_PWREx_EnableInternalWakeUpLine:000000000000000c $d
-     /tmp/cc3pSE8g.s:374    .text.HAL_PWREx_DisableInternalWakeUpLine:0000000000000000 $t
-     /tmp/cc3pSE8g.s:381    .text.HAL_PWREx_DisableInternalWakeUpLine:0000000000000000 HAL_PWREx_DisableInternalWakeUpLine
-     /tmp/cc3pSE8g.s:398    .text.HAL_PWREx_DisableInternalWakeUpLine:000000000000000c $d
-     /tmp/cc3pSE8g.s:403    .text.HAL_PWREx_EnableGPIOPullUp:0000000000000000 $t
-     /tmp/cc3pSE8g.s:410    .text.HAL_PWREx_EnableGPIOPullUp:0000000000000000 HAL_PWREx_EnableGPIOPullUp
-     /tmp/cc3pSE8g.s:441    .text.HAL_PWREx_EnableGPIOPullUp:0000000000000016 $d
-     /tmp/cc3pSE8g.s:593    .text.HAL_PWREx_EnableGPIOPullUp:00000000000000dc $d
-     /tmp/cc3pSE8g.s:599    .text.HAL_PWREx_DisableGPIOPullUp:0000000000000000 $t
-     /tmp/cc3pSE8g.s:606    .text.HAL_PWREx_DisableGPIOPullUp:0000000000000000 HAL_PWREx_DisableGPIOPullUp
-     /tmp/cc3pSE8g.s:637    .text.HAL_PWREx_DisableGPIOPullUp:0000000000000016 $d
-     /tmp/cc3pSE8g.s:760    .text.HAL_PWREx_DisableGPIOPullUp:00000000000000ac $d
-     /tmp/cc3pSE8g.s:766    .text.HAL_PWREx_EnableGPIOPullDown:0000000000000000 $t
-     /tmp/cc3pSE8g.s:773    .text.HAL_PWREx_EnableGPIOPullDown:0000000000000000 HAL_PWREx_EnableGPIOPullDown
-     /tmp/cc3pSE8g.s:804    .text.HAL_PWREx_EnableGPIOPullDown:0000000000000016 $d
-     /tmp/cc3pSE8g.s:956    .text.HAL_PWREx_EnableGPIOPullDown:00000000000000dc $d
-     /tmp/cc3pSE8g.s:962    .text.HAL_PWREx_DisableGPIOPullDown:0000000000000000 $t
-     /tmp/cc3pSE8g.s:969    .text.HAL_PWREx_DisableGPIOPullDown:0000000000000000 HAL_PWREx_DisableGPIOPullDown
-     /tmp/cc3pSE8g.s:1000   .text.HAL_PWREx_DisableGPIOPullDown:0000000000000016 $d
-     /tmp/cc3pSE8g.s:1120   .text.HAL_PWREx_DisableGPIOPullDown:00000000000000a8 $d
-     /tmp/cc3pSE8g.s:1126   .text.HAL_PWREx_EnablePullUpPullDownConfig:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1133   .text.HAL_PWREx_EnablePullUpPullDownConfig:0000000000000000 HAL_PWREx_EnablePullUpPullDownConfig
-     /tmp/cc3pSE8g.s:1150   .text.HAL_PWREx_EnablePullUpPullDownConfig:000000000000000c $d
-     /tmp/cc3pSE8g.s:1155   .text.HAL_PWREx_DisablePullUpPullDownConfig:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1162   .text.HAL_PWREx_DisablePullUpPullDownConfig:0000000000000000 HAL_PWREx_DisablePullUpPullDownConfig
-     /tmp/cc3pSE8g.s:1179   .text.HAL_PWREx_DisablePullUpPullDownConfig:000000000000000c $d
-     /tmp/cc3pSE8g.s:1184   .text.HAL_PWREx_EnableSRAM2ContentRetention:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1191   .text.HAL_PWREx_EnableSRAM2ContentRetention:0000000000000000 HAL_PWREx_EnableSRAM2ContentRetention
-     /tmp/cc3pSE8g.s:1208   .text.HAL_PWREx_EnableSRAM2ContentRetention:000000000000000c $d
-     /tmp/cc3pSE8g.s:1213   .text.HAL_PWREx_DisableSRAM2ContentRetention:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1220   .text.HAL_PWREx_DisableSRAM2ContentRetention:0000000000000000 HAL_PWREx_DisableSRAM2ContentRetention
-     /tmp/cc3pSE8g.s:1237   .text.HAL_PWREx_DisableSRAM2ContentRetention:000000000000000c $d
-     /tmp/cc3pSE8g.s:1242   .text.HAL_PWREx_EnablePVM1:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1249   .text.HAL_PWREx_EnablePVM1:0000000000000000 HAL_PWREx_EnablePVM1
-     /tmp/cc3pSE8g.s:1266   .text.HAL_PWREx_EnablePVM1:000000000000000c $d
-     /tmp/cc3pSE8g.s:1271   .text.HAL_PWREx_DisablePVM1:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1278   .text.HAL_PWREx_DisablePVM1:0000000000000000 HAL_PWREx_DisablePVM1
-     /tmp/cc3pSE8g.s:1295   .text.HAL_PWREx_DisablePVM1:000000000000000c $d
-     /tmp/cc3pSE8g.s:1300   .text.HAL_PWREx_EnablePVM2:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1307   .text.HAL_PWREx_EnablePVM2:0000000000000000 HAL_PWREx_EnablePVM2
-     /tmp/cc3pSE8g.s:1324   .text.HAL_PWREx_EnablePVM2:000000000000000c $d
-ARM GAS  /tmp/cc3pSE8g.s 			page 69
+     /tmp/ccYifw0y.s:18     .text.HAL_PWREx_GetVoltageRange:0000000000000000 $t
+     /tmp/ccYifw0y.s:25     .text.HAL_PWREx_GetVoltageRange:0000000000000000 HAL_PWREx_GetVoltageRange
+     /tmp/ccYifw0y.s:59     .text.HAL_PWREx_GetVoltageRange:000000000000002c $d
+     /tmp/ccYifw0y.s:64     .text.HAL_PWREx_ControlVoltageScaling:0000000000000000 $t
+     /tmp/ccYifw0y.s:71     .text.HAL_PWREx_ControlVoltageScaling:0000000000000000 HAL_PWREx_ControlVoltageScaling
+     /tmp/ccYifw0y.s:254    .text.HAL_PWREx_ControlVoltageScaling:000000000000011c $d
+     /tmp/ccYifw0y.s:262    .text.HAL_PWREx_EnableBatteryCharging:0000000000000000 $t
+     /tmp/ccYifw0y.s:269    .text.HAL_PWREx_EnableBatteryCharging:0000000000000000 HAL_PWREx_EnableBatteryCharging
+     /tmp/ccYifw0y.s:310    .text.HAL_PWREx_EnableBatteryCharging:000000000000002c $d
+     /tmp/ccYifw0y.s:316    .text.HAL_PWREx_DisableBatteryCharging:0000000000000000 $t
+     /tmp/ccYifw0y.s:323    .text.HAL_PWREx_DisableBatteryCharging:0000000000000000 HAL_PWREx_DisableBatteryCharging
+     /tmp/ccYifw0y.s:340    .text.HAL_PWREx_DisableBatteryCharging:000000000000000c $d
+     /tmp/ccYifw0y.s:345    .text.HAL_PWREx_EnableInternalWakeUpLine:0000000000000000 $t
+     /tmp/ccYifw0y.s:352    .text.HAL_PWREx_EnableInternalWakeUpLine:0000000000000000 HAL_PWREx_EnableInternalWakeUpLine
+     /tmp/ccYifw0y.s:369    .text.HAL_PWREx_EnableInternalWakeUpLine:000000000000000c $d
+     /tmp/ccYifw0y.s:374    .text.HAL_PWREx_DisableInternalWakeUpLine:0000000000000000 $t
+     /tmp/ccYifw0y.s:381    .text.HAL_PWREx_DisableInternalWakeUpLine:0000000000000000 HAL_PWREx_DisableInternalWakeUpLine
+     /tmp/ccYifw0y.s:398    .text.HAL_PWREx_DisableInternalWakeUpLine:000000000000000c $d
+     /tmp/ccYifw0y.s:403    .text.HAL_PWREx_EnableGPIOPullUp:0000000000000000 $t
+     /tmp/ccYifw0y.s:410    .text.HAL_PWREx_EnableGPIOPullUp:0000000000000000 HAL_PWREx_EnableGPIOPullUp
+     /tmp/ccYifw0y.s:441    .text.HAL_PWREx_EnableGPIOPullUp:0000000000000016 $d
+     /tmp/ccYifw0y.s:593    .text.HAL_PWREx_EnableGPIOPullUp:00000000000000dc $d
+     /tmp/ccYifw0y.s:599    .text.HAL_PWREx_DisableGPIOPullUp:0000000000000000 $t
+     /tmp/ccYifw0y.s:606    .text.HAL_PWREx_DisableGPIOPullUp:0000000000000000 HAL_PWREx_DisableGPIOPullUp
+     /tmp/ccYifw0y.s:637    .text.HAL_PWREx_DisableGPIOPullUp:0000000000000016 $d
+     /tmp/ccYifw0y.s:760    .text.HAL_PWREx_DisableGPIOPullUp:00000000000000ac $d
+     /tmp/ccYifw0y.s:766    .text.HAL_PWREx_EnableGPIOPullDown:0000000000000000 $t
+     /tmp/ccYifw0y.s:773    .text.HAL_PWREx_EnableGPIOPullDown:0000000000000000 HAL_PWREx_EnableGPIOPullDown
+     /tmp/ccYifw0y.s:804    .text.HAL_PWREx_EnableGPIOPullDown:0000000000000016 $d
+     /tmp/ccYifw0y.s:956    .text.HAL_PWREx_EnableGPIOPullDown:00000000000000dc $d
+     /tmp/ccYifw0y.s:962    .text.HAL_PWREx_DisableGPIOPullDown:0000000000000000 $t
+     /tmp/ccYifw0y.s:969    .text.HAL_PWREx_DisableGPIOPullDown:0000000000000000 HAL_PWREx_DisableGPIOPullDown
+     /tmp/ccYifw0y.s:1000   .text.HAL_PWREx_DisableGPIOPullDown:0000000000000016 $d
+     /tmp/ccYifw0y.s:1120   .text.HAL_PWREx_DisableGPIOPullDown:00000000000000a8 $d
+     /tmp/ccYifw0y.s:1126   .text.HAL_PWREx_EnablePullUpPullDownConfig:0000000000000000 $t
+     /tmp/ccYifw0y.s:1133   .text.HAL_PWREx_EnablePullUpPullDownConfig:0000000000000000 HAL_PWREx_EnablePullUpPullDownConfig
+     /tmp/ccYifw0y.s:1150   .text.HAL_PWREx_EnablePullUpPullDownConfig:000000000000000c $d
+     /tmp/ccYifw0y.s:1155   .text.HAL_PWREx_DisablePullUpPullDownConfig:0000000000000000 $t
+     /tmp/ccYifw0y.s:1162   .text.HAL_PWREx_DisablePullUpPullDownConfig:0000000000000000 HAL_PWREx_DisablePullUpPullDownConfig
+     /tmp/ccYifw0y.s:1179   .text.HAL_PWREx_DisablePullUpPullDownConfig:000000000000000c $d
+     /tmp/ccYifw0y.s:1184   .text.HAL_PWREx_EnableSRAM2ContentRetention:0000000000000000 $t
+     /tmp/ccYifw0y.s:1191   .text.HAL_PWREx_EnableSRAM2ContentRetention:0000000000000000 HAL_PWREx_EnableSRAM2ContentRetention
+     /tmp/ccYifw0y.s:1208   .text.HAL_PWREx_EnableSRAM2ContentRetention:000000000000000c $d
+     /tmp/ccYifw0y.s:1213   .text.HAL_PWREx_DisableSRAM2ContentRetention:0000000000000000 $t
+     /tmp/ccYifw0y.s:1220   .text.HAL_PWREx_DisableSRAM2ContentRetention:0000000000000000 HAL_PWREx_DisableSRAM2ContentRetention
+     /tmp/ccYifw0y.s:1237   .text.HAL_PWREx_DisableSRAM2ContentRetention:000000000000000c $d
+     /tmp/ccYifw0y.s:1242   .text.HAL_PWREx_EnablePVM1:0000000000000000 $t
+     /tmp/ccYifw0y.s:1249   .text.HAL_PWREx_EnablePVM1:0000000000000000 HAL_PWREx_EnablePVM1
+     /tmp/ccYifw0y.s:1266   .text.HAL_PWREx_EnablePVM1:000000000000000c $d
+     /tmp/ccYifw0y.s:1271   .text.HAL_PWREx_DisablePVM1:0000000000000000 $t
+     /tmp/ccYifw0y.s:1278   .text.HAL_PWREx_DisablePVM1:0000000000000000 HAL_PWREx_DisablePVM1
+     /tmp/ccYifw0y.s:1295   .text.HAL_PWREx_DisablePVM1:000000000000000c $d
+     /tmp/ccYifw0y.s:1300   .text.HAL_PWREx_EnablePVM2:0000000000000000 $t
+     /tmp/ccYifw0y.s:1307   .text.HAL_PWREx_EnablePVM2:0000000000000000 HAL_PWREx_EnablePVM2
+     /tmp/ccYifw0y.s:1324   .text.HAL_PWREx_EnablePVM2:000000000000000c $d
+ARM GAS  /tmp/ccYifw0y.s 			page 69
 
 
-     /tmp/cc3pSE8g.s:1329   .text.HAL_PWREx_DisablePVM2:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1336   .text.HAL_PWREx_DisablePVM2:0000000000000000 HAL_PWREx_DisablePVM2
-     /tmp/cc3pSE8g.s:1353   .text.HAL_PWREx_DisablePVM2:000000000000000c $d
-     /tmp/cc3pSE8g.s:1358   .text.HAL_PWREx_EnablePVM3:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1365   .text.HAL_PWREx_EnablePVM3:0000000000000000 HAL_PWREx_EnablePVM3
-     /tmp/cc3pSE8g.s:1382   .text.HAL_PWREx_EnablePVM3:000000000000000c $d
-     /tmp/cc3pSE8g.s:1387   .text.HAL_PWREx_DisablePVM3:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1394   .text.HAL_PWREx_DisablePVM3:0000000000000000 HAL_PWREx_DisablePVM3
-     /tmp/cc3pSE8g.s:1411   .text.HAL_PWREx_DisablePVM3:000000000000000c $d
-     /tmp/cc3pSE8g.s:1416   .text.HAL_PWREx_EnablePVM4:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1423   .text.HAL_PWREx_EnablePVM4:0000000000000000 HAL_PWREx_EnablePVM4
-     /tmp/cc3pSE8g.s:1440   .text.HAL_PWREx_EnablePVM4:000000000000000c $d
-     /tmp/cc3pSE8g.s:1445   .text.HAL_PWREx_DisablePVM4:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1452   .text.HAL_PWREx_DisablePVM4:0000000000000000 HAL_PWREx_DisablePVM4
-     /tmp/cc3pSE8g.s:1469   .text.HAL_PWREx_DisablePVM4:000000000000000c $d
-     /tmp/cc3pSE8g.s:1474   .text.HAL_PWREx_ConfigPVM:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1481   .text.HAL_PWREx_ConfigPVM:0000000000000000 HAL_PWREx_ConfigPVM
-     /tmp/cc3pSE8g.s:1827   .text.HAL_PWREx_ConfigPVM:0000000000000240 $d
-     /tmp/cc3pSE8g.s:1835   .text.HAL_PWREx_EnableLowPowerRunMode:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1842   .text.HAL_PWREx_EnableLowPowerRunMode:0000000000000000 HAL_PWREx_EnableLowPowerRunMode
-     /tmp/cc3pSE8g.s:1859   .text.HAL_PWREx_EnableLowPowerRunMode:000000000000000c $d
-     /tmp/cc3pSE8g.s:1864   .text.HAL_PWREx_DisableLowPowerRunMode:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1871   .text.HAL_PWREx_DisableLowPowerRunMode:0000000000000000 HAL_PWREx_DisableLowPowerRunMode
-     /tmp/cc3pSE8g.s:1927   .text.HAL_PWREx_DisableLowPowerRunMode:000000000000004c $d
-     /tmp/cc3pSE8g.s:1933   .text.HAL_PWREx_EnterSTOP0Mode:0000000000000000 $t
-     /tmp/cc3pSE8g.s:1940   .text.HAL_PWREx_EnterSTOP0Mode:0000000000000000 HAL_PWREx_EnterSTOP0Mode
-     /tmp/cc3pSE8g.s:2017   .text.HAL_PWREx_EnterSTOP0Mode:0000000000000048 $d
-     /tmp/cc3pSE8g.s:2024   .text.HAL_PWREx_EnterSTOP1Mode:0000000000000000 $t
-     /tmp/cc3pSE8g.s:2031   .text.HAL_PWREx_EnterSTOP1Mode:0000000000000000 HAL_PWREx_EnterSTOP1Mode
-     /tmp/cc3pSE8g.s:2109   .text.HAL_PWREx_EnterSTOP1Mode:000000000000004c $d
-     /tmp/cc3pSE8g.s:2116   .text.HAL_PWREx_EnterSHUTDOWNMode:0000000000000000 $t
-     /tmp/cc3pSE8g.s:2123   .text.HAL_PWREx_EnterSHUTDOWNMode:0000000000000000 HAL_PWREx_EnterSHUTDOWNMode
-     /tmp/cc3pSE8g.s:2153   .text.HAL_PWREx_EnterSHUTDOWNMode:000000000000001c $d
-     /tmp/cc3pSE8g.s:2159   .text.HAL_PWREx_PVM1Callback:0000000000000000 $t
-     /tmp/cc3pSE8g.s:2166   .text.HAL_PWREx_PVM1Callback:0000000000000000 HAL_PWREx_PVM1Callback
-     /tmp/cc3pSE8g.s:2179   .text.HAL_PWREx_PVM2Callback:0000000000000000 $t
-     /tmp/cc3pSE8g.s:2186   .text.HAL_PWREx_PVM2Callback:0000000000000000 HAL_PWREx_PVM2Callback
-     /tmp/cc3pSE8g.s:2199   .text.HAL_PWREx_PVM3Callback:0000000000000000 $t
-     /tmp/cc3pSE8g.s:2206   .text.HAL_PWREx_PVM3Callback:0000000000000000 HAL_PWREx_PVM3Callback
-     /tmp/cc3pSE8g.s:2219   .text.HAL_PWREx_PVM4Callback:0000000000000000 $t
-     /tmp/cc3pSE8g.s:2226   .text.HAL_PWREx_PVM4Callback:0000000000000000 HAL_PWREx_PVM4Callback
-     /tmp/cc3pSE8g.s:2239   .text.HAL_PWREx_PVD_PVM_IRQHandler:0000000000000000 $t
-     /tmp/cc3pSE8g.s:2246   .text.HAL_PWREx_PVD_PVM_IRQHandler:0000000000000000 HAL_PWREx_PVD_PVM_IRQHandler
-     /tmp/cc3pSE8g.s:2338   .text.HAL_PWREx_PVD_PVM_IRQHandler:0000000000000074 $d
-     /tmp/cc3pSE8g.s:2343   .text.HAL_PWREx_EnableUCPDStandbyMode:0000000000000000 $t
-     /tmp/cc3pSE8g.s:2350   .text.HAL_PWREx_EnableUCPDStandbyMode:0000000000000000 HAL_PWREx_EnableUCPDStandbyMode
-     /tmp/cc3pSE8g.s:2367   .text.HAL_PWREx_EnableUCPDStandbyMode:000000000000000c $d
-     /tmp/cc3pSE8g.s:2372   .text.HAL_PWREx_DisableUCPDStandbyMode:0000000000000000 $t
-     /tmp/cc3pSE8g.s:2379   .text.HAL_PWREx_DisableUCPDStandbyMode:0000000000000000 HAL_PWREx_DisableUCPDStandbyMode
-     /tmp/cc3pSE8g.s:2396   .text.HAL_PWREx_DisableUCPDStandbyMode:000000000000000c $d
-     /tmp/cc3pSE8g.s:2401   .text.HAL_PWREx_EnableUCPDDeadBattery:0000000000000000 $t
-     /tmp/cc3pSE8g.s:2408   .text.HAL_PWREx_EnableUCPDDeadBattery:0000000000000000 HAL_PWREx_EnableUCPDDeadBattery
-     /tmp/cc3pSE8g.s:2425   .text.HAL_PWREx_EnableUCPDDeadBattery:000000000000000c $d
-     /tmp/cc3pSE8g.s:2430   .text.HAL_PWREx_DisableUCPDDeadBattery:0000000000000000 $t
-     /tmp/cc3pSE8g.s:2437   .text.HAL_PWREx_DisableUCPDDeadBattery:0000000000000000 HAL_PWREx_DisableUCPDDeadBattery
-     /tmp/cc3pSE8g.s:2454   .text.HAL_PWREx_DisableUCPDDeadBattery:000000000000000c $d
-     /tmp/cc3pSE8g.s:2459   .rodata.HAL_PWREx_ControlVoltageScaling.str1.4:0000000000000000 $d
-ARM GAS  /tmp/cc3pSE8g.s 			page 70
+     /tmp/ccYifw0y.s:1329   .text.HAL_PWREx_DisablePVM2:0000000000000000 $t
+     /tmp/ccYifw0y.s:1336   .text.HAL_PWREx_DisablePVM2:0000000000000000 HAL_PWREx_DisablePVM2
+     /tmp/ccYifw0y.s:1353   .text.HAL_PWREx_DisablePVM2:000000000000000c $d
+     /tmp/ccYifw0y.s:1358   .text.HAL_PWREx_EnablePVM3:0000000000000000 $t
+     /tmp/ccYifw0y.s:1365   .text.HAL_PWREx_EnablePVM3:0000000000000000 HAL_PWREx_EnablePVM3
+     /tmp/ccYifw0y.s:1382   .text.HAL_PWREx_EnablePVM3:000000000000000c $d
+     /tmp/ccYifw0y.s:1387   .text.HAL_PWREx_DisablePVM3:0000000000000000 $t
+     /tmp/ccYifw0y.s:1394   .text.HAL_PWREx_DisablePVM3:0000000000000000 HAL_PWREx_DisablePVM3
+     /tmp/ccYifw0y.s:1411   .text.HAL_PWREx_DisablePVM3:000000000000000c $d
+     /tmp/ccYifw0y.s:1416   .text.HAL_PWREx_EnablePVM4:0000000000000000 $t
+     /tmp/ccYifw0y.s:1423   .text.HAL_PWREx_EnablePVM4:0000000000000000 HAL_PWREx_EnablePVM4
+     /tmp/ccYifw0y.s:1440   .text.HAL_PWREx_EnablePVM4:000000000000000c $d
+     /tmp/ccYifw0y.s:1445   .text.HAL_PWREx_DisablePVM4:0000000000000000 $t
+     /tmp/ccYifw0y.s:1452   .text.HAL_PWREx_DisablePVM4:0000000000000000 HAL_PWREx_DisablePVM4
+     /tmp/ccYifw0y.s:1469   .text.HAL_PWREx_DisablePVM4:000000000000000c $d
+     /tmp/ccYifw0y.s:1474   .text.HAL_PWREx_ConfigPVM:0000000000000000 $t
+     /tmp/ccYifw0y.s:1481   .text.HAL_PWREx_ConfigPVM:0000000000000000 HAL_PWREx_ConfigPVM
+     /tmp/ccYifw0y.s:1827   .text.HAL_PWREx_ConfigPVM:0000000000000240 $d
+     /tmp/ccYifw0y.s:1835   .text.HAL_PWREx_EnableLowPowerRunMode:0000000000000000 $t
+     /tmp/ccYifw0y.s:1842   .text.HAL_PWREx_EnableLowPowerRunMode:0000000000000000 HAL_PWREx_EnableLowPowerRunMode
+     /tmp/ccYifw0y.s:1859   .text.HAL_PWREx_EnableLowPowerRunMode:000000000000000c $d
+     /tmp/ccYifw0y.s:1864   .text.HAL_PWREx_DisableLowPowerRunMode:0000000000000000 $t
+     /tmp/ccYifw0y.s:1871   .text.HAL_PWREx_DisableLowPowerRunMode:0000000000000000 HAL_PWREx_DisableLowPowerRunMode
+     /tmp/ccYifw0y.s:1927   .text.HAL_PWREx_DisableLowPowerRunMode:000000000000004c $d
+     /tmp/ccYifw0y.s:1933   .text.HAL_PWREx_EnterSTOP0Mode:0000000000000000 $t
+     /tmp/ccYifw0y.s:1940   .text.HAL_PWREx_EnterSTOP0Mode:0000000000000000 HAL_PWREx_EnterSTOP0Mode
+     /tmp/ccYifw0y.s:2017   .text.HAL_PWREx_EnterSTOP0Mode:0000000000000048 $d
+     /tmp/ccYifw0y.s:2024   .text.HAL_PWREx_EnterSTOP1Mode:0000000000000000 $t
+     /tmp/ccYifw0y.s:2031   .text.HAL_PWREx_EnterSTOP1Mode:0000000000000000 HAL_PWREx_EnterSTOP1Mode
+     /tmp/ccYifw0y.s:2109   .text.HAL_PWREx_EnterSTOP1Mode:000000000000004c $d
+     /tmp/ccYifw0y.s:2116   .text.HAL_PWREx_EnterSHUTDOWNMode:0000000000000000 $t
+     /tmp/ccYifw0y.s:2123   .text.HAL_PWREx_EnterSHUTDOWNMode:0000000000000000 HAL_PWREx_EnterSHUTDOWNMode
+     /tmp/ccYifw0y.s:2153   .text.HAL_PWREx_EnterSHUTDOWNMode:000000000000001c $d
+     /tmp/ccYifw0y.s:2159   .text.HAL_PWREx_PVM1Callback:0000000000000000 $t
+     /tmp/ccYifw0y.s:2166   .text.HAL_PWREx_PVM1Callback:0000000000000000 HAL_PWREx_PVM1Callback
+     /tmp/ccYifw0y.s:2179   .text.HAL_PWREx_PVM2Callback:0000000000000000 $t
+     /tmp/ccYifw0y.s:2186   .text.HAL_PWREx_PVM2Callback:0000000000000000 HAL_PWREx_PVM2Callback
+     /tmp/ccYifw0y.s:2199   .text.HAL_PWREx_PVM3Callback:0000000000000000 $t
+     /tmp/ccYifw0y.s:2206   .text.HAL_PWREx_PVM3Callback:0000000000000000 HAL_PWREx_PVM3Callback
+     /tmp/ccYifw0y.s:2219   .text.HAL_PWREx_PVM4Callback:0000000000000000 $t
+     /tmp/ccYifw0y.s:2226   .text.HAL_PWREx_PVM4Callback:0000000000000000 HAL_PWREx_PVM4Callback
+     /tmp/ccYifw0y.s:2239   .text.HAL_PWREx_PVD_PVM_IRQHandler:0000000000000000 $t
+     /tmp/ccYifw0y.s:2246   .text.HAL_PWREx_PVD_PVM_IRQHandler:0000000000000000 HAL_PWREx_PVD_PVM_IRQHandler
+     /tmp/ccYifw0y.s:2338   .text.HAL_PWREx_PVD_PVM_IRQHandler:0000000000000074 $d
+     /tmp/ccYifw0y.s:2343   .text.HAL_PWREx_EnableUCPDStandbyMode:0000000000000000 $t
+     /tmp/ccYifw0y.s:2350   .text.HAL_PWREx_EnableUCPDStandbyMode:0000000000000000 HAL_PWREx_EnableUCPDStandbyMode
+     /tmp/ccYifw0y.s:2367   .text.HAL_PWREx_EnableUCPDStandbyMode:000000000000000c $d
+     /tmp/ccYifw0y.s:2372   .text.HAL_PWREx_DisableUCPDStandbyMode:0000000000000000 $t
+     /tmp/ccYifw0y.s:2379   .text.HAL_PWREx_DisableUCPDStandbyMode:0000000000000000 HAL_PWREx_DisableUCPDStandbyMode
+     /tmp/ccYifw0y.s:2396   .text.HAL_PWREx_DisableUCPDStandbyMode:000000000000000c $d
+     /tmp/ccYifw0y.s:2401   .text.HAL_PWREx_EnableUCPDDeadBattery:0000000000000000 $t
+     /tmp/ccYifw0y.s:2408   .text.HAL_PWREx_EnableUCPDDeadBattery:0000000000000000 HAL_PWREx_EnableUCPDDeadBattery
+     /tmp/ccYifw0y.s:2425   .text.HAL_PWREx_EnableUCPDDeadBattery:000000000000000c $d
+     /tmp/ccYifw0y.s:2430   .text.HAL_PWREx_DisableUCPDDeadBattery:0000000000000000 $t
+     /tmp/ccYifw0y.s:2437   .text.HAL_PWREx_DisableUCPDDeadBattery:0000000000000000 HAL_PWREx_DisableUCPDDeadBattery
+     /tmp/ccYifw0y.s:2454   .text.HAL_PWREx_DisableUCPDDeadBattery:000000000000000c $d
+     /tmp/ccYifw0y.s:2459   .rodata.HAL_PWREx_ControlVoltageScaling.str1.4:0000000000000000 $d
+ARM GAS  /tmp/ccYifw0y.s 			page 70
 
 
-     /tmp/cc3pSE8g.s:449    .text.HAL_PWREx_EnableGPIOPullUp:000000000000001d $d
-     /tmp/cc3pSE8g.s:449    .text.HAL_PWREx_EnableGPIOPullUp:000000000000001e $t
-     /tmp/cc3pSE8g.s:645    .text.HAL_PWREx_DisableGPIOPullUp:000000000000001d $d
-     /tmp/cc3pSE8g.s:645    .text.HAL_PWREx_DisableGPIOPullUp:000000000000001e $t
-     /tmp/cc3pSE8g.s:812    .text.HAL_PWREx_EnableGPIOPullDown:000000000000001d $d
-     /tmp/cc3pSE8g.s:812    .text.HAL_PWREx_EnableGPIOPullDown:000000000000001e $t
-     /tmp/cc3pSE8g.s:1008   .text.HAL_PWREx_DisableGPIOPullDown:000000000000001d $d
-     /tmp/cc3pSE8g.s:1008   .text.HAL_PWREx_DisableGPIOPullDown:000000000000001e $t
+     /tmp/ccYifw0y.s:449    .text.HAL_PWREx_EnableGPIOPullUp:000000000000001d $d
+     /tmp/ccYifw0y.s:449    .text.HAL_PWREx_EnableGPIOPullUp:000000000000001e $t
+     /tmp/ccYifw0y.s:645    .text.HAL_PWREx_DisableGPIOPullUp:000000000000001d $d
+     /tmp/ccYifw0y.s:645    .text.HAL_PWREx_DisableGPIOPullUp:000000000000001e $t
+     /tmp/ccYifw0y.s:812    .text.HAL_PWREx_EnableGPIOPullDown:000000000000001d $d
+     /tmp/ccYifw0y.s:812    .text.HAL_PWREx_EnableGPIOPullDown:000000000000001e $t
+     /tmp/ccYifw0y.s:1008   .text.HAL_PWREx_DisableGPIOPullDown:000000000000001d $d
+     /tmp/ccYifw0y.s:1008   .text.HAL_PWREx_DisableGPIOPullDown:000000000000001e $t
 
 UNDEFINED SYMBOLS
 assert_failed

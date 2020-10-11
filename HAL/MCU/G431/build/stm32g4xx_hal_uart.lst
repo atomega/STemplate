@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccQ5PNEm.s 			page 1
+ARM GAS  /tmp/ccG8xVzu.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         (++) UART interrupts handling:
   31:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****               -@@-  The specific UART interrupts (Transmission complete interrupt,
   32:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****                 RXNE interrupt, RX/TX FIFOs related interrupts and Error Interrupts)
-ARM GAS  /tmp/ccQ5PNEm.s 			page 2
+ARM GAS  /tmp/ccG8xVzu.s 			page 2
 
 
   33:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****                 are managed using the macros __HAL_UART_ENABLE_IT() and __HAL_UART_DISABLE_IT()
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
   87:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     (+) AbortTransmitCpltCallback : Abort Transmit Complete Callback.
   88:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     (+) AbortReceiveCpltCallback  : Abort Receive Complete Callback.
   89:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     (+) WakeupCallback            : Wakeup Callback.
-ARM GAS  /tmp/ccQ5PNEm.s 			page 3
+ARM GAS  /tmp/ccG8xVzu.s 			page 3
 
 
   90:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     (+) RxFifoFullCallback        : Rx Fifo Full Callback.
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  144:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @attention
  145:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *
  146:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * <h2><center>&copy; Copyright (c) 2019 STMicroelectronics.
-ARM GAS  /tmp/ccQ5PNEm.s 			page 4
+ARM GAS  /tmp/ccG8xVzu.s 			page 4
 
 
  147:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * All rights reserved.</center></h2>
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  201:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_EndTxTransfer(UART_HandleTypeDef *huart);
  202:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_EndRxTransfer(UART_HandleTypeDef *huart);
  203:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_DMATransmitCplt(DMA_HandleTypeDef *hdma);
-ARM GAS  /tmp/ccQ5PNEm.s 			page 5
+ARM GAS  /tmp/ccG8xVzu.s 			page 5
 
 
  204:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_DMAReceiveCplt(DMA_HandleTypeDef *hdma);
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  258:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         (++) MSB first on communication line
  259:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         (++) auto Baud rate detection
  260:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     [..]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 6
+ARM GAS  /tmp/ccG8xVzu.s 			page 6
 
 
  261:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     The HAL_UART_Init(), HAL_HalfDuplex_Init(), HAL_LIN_Init()and HAL_MultiProcessor_Init()API
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  315:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
  316:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  317:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (huart->gState == HAL_UART_STATE_RESET)
-ARM GAS  /tmp/ccQ5PNEm.s 			page 7
+ARM GAS  /tmp/ccG8xVzu.s 			page 7
 
 
  318:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  372:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** {
  373:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Check the UART handle allocation */
  374:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (huart == NULL)
-ARM GAS  /tmp/ccQ5PNEm.s 			page 8
+ARM GAS  /tmp/ccG8xVzu.s 			page 8
 
 
  375:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  429:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* TEACK and/or REACK to check before moving huart->gState and huart->RxState to Ready */
  430:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   return (UART_CheckIdleState(huart));
  431:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
-ARM GAS  /tmp/ccQ5PNEm.s 			page 9
+ARM GAS  /tmp/ccG8xVzu.s 			page 9
 
 
  432:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  486:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #endif /* (USE_HAL_UART_REGISTER_CALLBACKS) */
  487:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
  488:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 10
+ARM GAS  /tmp/ccG8xVzu.s 			page 10
 
 
  489:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->gState = HAL_UART_STATE_BUSY;
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  543:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Check the UART handle allocation */
  544:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (huart == NULL)
  545:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccQ5PNEm.s 			page 11
+ARM GAS  /tmp/ccG8xVzu.s 			page 11
 
 
  546:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     return HAL_ERROR;
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  600:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Set the wake up method by setting the WAKE bit in the CR1 register */
  601:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   MODIFY_REG(huart->Instance->CR1, USART_CR1_WAKE, WakeUpMethod);
  602:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 12
+ARM GAS  /tmp/ccG8xVzu.s 			page 12
 
 
  603:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   __HAL_UART_ENABLE(huart);
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  657:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param huart UART handle.
  658:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval None
  659:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 13
+ARM GAS  /tmp/ccG8xVzu.s 			page 13
 
 
  660:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** __weak void HAL_UART_MspInit(UART_HandleTypeDef *huart)
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  714:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
  715:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->ErrorCode |= HAL_UART_ERROR_INVALID_CALLBACK;
  716:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 14
+ARM GAS  /tmp/ccG8xVzu.s 			page 14
 
 
  717:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     return HAL_ERROR;
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  771:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->MspInitCallback = pCallback;
  772:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         break;
  773:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 15
+ARM GAS  /tmp/ccG8xVzu.s 			page 15
 
 
  774:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       case HAL_UART_MSPDEINIT_CB_ID :
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  828:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           @arg @ref HAL_UART_ABORT_TRANSMIT_COMPLETE_CB_ID Abort Transmit Complete Callback ID
  829:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           @arg @ref HAL_UART_ABORT_RECEIVE_COMPLETE_CB_ID Abort Receive Complete Callback ID
  830:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           @arg @ref HAL_UART_WAKEUP_CB_ID Wakeup Callback ID
-ARM GAS  /tmp/ccQ5PNEm.s 			page 16
+ARM GAS  /tmp/ccG8xVzu.s 			page 16
 
 
  831:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           @arg @ref HAL_UART_RX_FIFO_FULL_CB_ID Rx Fifo Full Callback ID
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  885:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       case HAL_UART_RX_FIFO_FULL_CB_ID :
  886:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->RxFifoFullCallback = HAL_UARTEx_RxFifoFullCallback;             /* Legacy weak RxFif
  887:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         break;
-ARM GAS  /tmp/ccQ5PNEm.s 			page 17
+ARM GAS  /tmp/ccG8xVzu.s 			page 17
 
 
  888:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  942:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
  943:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  944:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** /** @defgroup UART_Exported_Functions_Group2 IO operation functions
-ARM GAS  /tmp/ccQ5PNEm.s 			page 18
+ARM GAS  /tmp/ccG8xVzu.s 			page 18
 
 
  945:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @brief UART Transmit/Receive functions
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  999:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         (+) HAL_UART_AbortCpltCallback()
 1000:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         (+) HAL_UART_AbortTransmitCpltCallback()
 1001:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         (+) HAL_UART_AbortReceiveCpltCallback()
-ARM GAS  /tmp/ccQ5PNEm.s 			page 19
+ARM GAS  /tmp/ccG8xVzu.s 			page 19
 
 
 1002:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1056:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->gState = HAL_UART_STATE_BUSY_TX;
 1057:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 1058:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Init tickstart for timeout management */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 20
+ARM GAS  /tmp/ccG8xVzu.s 			page 20
 
 
 1059:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     tickstart = HAL_GetTick();
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1113:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** /**
 1114:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @brief Receive an amount of data in blocking mode.
 1115:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @note   When UART parity is not enabled (PCE = 0), and Word Length is configured to 9 bits (M1-
-ARM GAS  /tmp/ccQ5PNEm.s 			page 21
+ARM GAS  /tmp/ccG8xVzu.s 			page 21
 
 
 1116:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *         the received data is handled as a set of u16. In this case, Size must indicate the numb
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1170:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     __HAL_UNLOCK(huart);
 1171:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 1172:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* as long as data have to be received */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 22
+ARM GAS  /tmp/ccG8xVzu.s 			page 22
 
 
 1173:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     while (huart->RxXferCount > 0U)
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1227:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->TxXferCount = Size;
 1228:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->TxISR       = NULL;
 1229:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 23
+ARM GAS  /tmp/ccG8xVzu.s 			page 23
 
 
 1230:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->ErrorCode = HAL_UART_ERROR_NONE;
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1284:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param Size  Amount of data elements (u8 or u16) to be received.
 1285:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval HAL status
 1286:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 24
+ARM GAS  /tmp/ccG8xVzu.s 			page 24
 
 
 1287:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size)
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1341:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->RxISR = UART_RxISR_8BIT;
 1342:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
 1343:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 25
+ARM GAS  /tmp/ccG8xVzu.s 			page 25
 
 
 1344:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       __HAL_UNLOCK(huart);
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1398:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       /* Set the DMA abort callback */
 1399:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->hdmatx->XferAbortCallback = NULL;
 1400:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 26
+ARM GAS  /tmp/ccG8xVzu.s 			page 26
 
 
 1401:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       /* Enable the UART transmit DMA channel */
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1455:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 1456:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->pRxBuffPtr = pData;
 1457:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->RxXferSize = Size;
-ARM GAS  /tmp/ccQ5PNEm.s 			page 27
+ARM GAS  /tmp/ccG8xVzu.s 			page 27
 
 
 1458:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1512:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param huart UART handle.
 1513:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval HAL status
 1514:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 28
+ARM GAS  /tmp/ccG8xVzu.s 			page 28
 
 
 1515:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** HAL_StatusTypeDef HAL_UART_DMAPause(UART_HandleTypeDef *huart)
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1569:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
 1570:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 1571:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   __HAL_UNLOCK(huart);
-ARM GAS  /tmp/ccQ5PNEm.s 			page 29
+ARM GAS  /tmp/ccG8xVzu.s 			page 29
 
 
 1572:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1626:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       if (HAL_DMA_Abort(huart->hdmarx) != HAL_OK)
 1627:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       {
 1628:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         if (HAL_DMA_GetError(huart->hdmarx) == HAL_DMA_ERROR_TIMEOUT)
-ARM GAS  /tmp/ccQ5PNEm.s 			page 30
+ARM GAS  /tmp/ccG8xVzu.s 			page 30
 
 
 1629:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1683:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         }
 1684:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
 1685:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
-ARM GAS  /tmp/ccQ5PNEm.s 			page 31
+ARM GAS  /tmp/ccG8xVzu.s 			page 31
 
 
 1686:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1740:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param  huart UART handle.
 1741:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @note   This procedure could be used for aborting any ongoing Tx transfer started in Interrupt 
 1742:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *         This procedure performs following operations :
-ARM GAS  /tmp/ccQ5PNEm.s 			page 32
+ARM GAS  /tmp/ccG8xVzu.s 			page 32
 
 
 1743:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           - Disable UART Interrupts (Tx)
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1797:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @brief  Abort ongoing Receive transfer (blocking mode).
 1798:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param  huart UART handle.
 1799:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @note   This procedure could be used for aborting any ongoing Rx transfer started in Interrupt 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 33
+ARM GAS  /tmp/ccG8xVzu.s 			page 33
 
 
 1800:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *         This procedure performs following operations :
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1854:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** /**
 1855:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @brief  Abort ongoing transfers (Interrupt mode).
 1856:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param  huart UART handle.
-ARM GAS  /tmp/ccQ5PNEm.s 			page 34
+ARM GAS  /tmp/ccG8xVzu.s 			page 34
 
 
 1857:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @note   This procedure could be used for aborting any ongoing transfer started in Interrupt or 
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1911:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Disable DMA Tx at UART level */
 1912:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     CLEAR_BIT(huart->Instance->CR3, USART_CR3_DMAT);
 1913:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 35
+ARM GAS  /tmp/ccG8xVzu.s 			page 35
 
 
 1914:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Abort the UART DMA Tx channel : use non blocking DMA Abort API (callback) */
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1968:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->ErrorCode = HAL_UART_ERROR_NONE;
 1969:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 1970:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Clear the Error flags in the ICR register */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 36
+ARM GAS  /tmp/ccG8xVzu.s 			page 36
 
 
 1971:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     __HAL_UART_CLEAR_FLAG(huart, UART_CLEAR_OREF | UART_CLEAR_NEF | UART_CLEAR_PEF | UART_CLEAR_FEF
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2025:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     if (huart->hdmatx != NULL)
 2026:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
 2027:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       /* Set the UART DMA Abort callback :
-ARM GAS  /tmp/ccQ5PNEm.s 			page 37
+ARM GAS  /tmp/ccG8xVzu.s 			page 37
 
 
 2028:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****          will lead to call HAL_UART_AbortCpltCallback() at end of DMA abort procedure */
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2082:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     HAL_UART_AbortTransmitCpltCallback(huart);
 2083:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
 2084:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
-ARM GAS  /tmp/ccQ5PNEm.s 			page 38
+ARM GAS  /tmp/ccG8xVzu.s 			page 38
 
 
 2085:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2139:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       /* Discard the received data */
 2140:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       __HAL_UART_SEND_REQ(huart, UART_RXDATA_FLUSH_REQUEST);
 2141:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 39
+ARM GAS  /tmp/ccG8xVzu.s 			page 39
 
 
 2142:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       /* Restore huart->RxState to Ready */
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2196:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* If no error occurs */
 2197:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   errorflags = (isrflags & (uint32_t)(USART_ISR_PE | USART_ISR_FE | USART_ISR_ORE | USART_ISR_NE | 
 2198:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (errorflags == 0U)
-ARM GAS  /tmp/ccQ5PNEm.s 			page 40
+ARM GAS  /tmp/ccG8xVzu.s 			page 40
 
 
 2199:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2253:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     if (((isrflags & USART_ISR_RTOF) != 0U) && ((cr1its & USART_CR1_RTOIE) != 0U))
 2254:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
 2255:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       __HAL_UART_CLEAR_FLAG(huart, UART_CLEAR_RTOF);
-ARM GAS  /tmp/ccQ5PNEm.s 			page 41
+ARM GAS  /tmp/ccG8xVzu.s 			page 41
 
 
 2256:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2310:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #if (USE_HAL_UART_REGISTER_CALLBACKS == 1)
 2311:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****             /*Call registered error callback*/
 2312:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****             huart->ErrorCallback(huart);
-ARM GAS  /tmp/ccQ5PNEm.s 			page 42
+ARM GAS  /tmp/ccG8xVzu.s 			page 42
 
 
 2313:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #else
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2367:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 2368:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* UART in mode Transmitter ------------------------------------------------*/
 2369:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (((isrflags & USART_ISR_TXE_TXFNF) != 0U)
-ARM GAS  /tmp/ccQ5PNEm.s 			page 43
+ARM GAS  /tmp/ccG8xVzu.s 			page 43
 
 
 2370:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       && (((cr1its & USART_CR1_TXEIE_TXFNFIE) != 0U)
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2424:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* NOTE : This function should not be modified, when the callback is needed,
 2425:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****             the HAL_UART_TxCpltCallback can be implemented in the user file.
 2426:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****    */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 44
+ARM GAS  /tmp/ccG8xVzu.s 			page 44
 
 
 2427:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2481:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Prevent unused argument(s) compilation warning */
 2482:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   UNUSED(huart);
 2483:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 45
+ARM GAS  /tmp/ccG8xVzu.s 			page 45
 
 
 2484:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* NOTE : This function should not be modified, when the callback is needed,
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2538:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** /** @defgroup UART_Exported_Functions_Group3 Peripheral Control functions
 2539:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *  @brief   UART control functions
 2540:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *
-ARM GAS  /tmp/ccQ5PNEm.s 			page 46
+ARM GAS  /tmp/ccG8xVzu.s 			page 46
 
 
 2541:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** @verbatim
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2595:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->gState = HAL_UART_STATE_BUSY;
 2596:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 2597:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       /* Set the USART RTOEN bit */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 47
+ARM GAS  /tmp/ccG8xVzu.s 			page 47
 
 
 2598:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       SET_BIT(huart->Instance->CR2, USART_CR2_RTOEN);
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2652:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     return HAL_ERROR;
 2653:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
 2654:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
-ARM GAS  /tmp/ccQ5PNEm.s 			page 48
+ARM GAS  /tmp/ccG8xVzu.s 			page 48
 
 
 2655:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2709:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param  huart UART handle.
 2710:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval HAL status
 2711:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 49
+ARM GAS  /tmp/ccG8xVzu.s 			page 49
 
 
 2712:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** HAL_StatusTypeDef HAL_HalfDuplex_EnableTransmitter(UART_HandleTypeDef *huart)
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2766:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->gState = HAL_UART_STATE_BUSY;
 2767:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 2768:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Send break characters */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 50
+ARM GAS  /tmp/ccG8xVzu.s 			page 50
 
 
 2769:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   __HAL_UART_SEND_REQ(huart, UART_SENDBREAK_REQUEST);
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2823:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
 2824:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** /**
 2825:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @}
-ARM GAS  /tmp/ccQ5PNEm.s 			page 51
+ARM GAS  /tmp/ccG8xVzu.s 			page 51
 
 
 2826:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2880:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     assert_param(IS_LPUART_STOPBITS(huart->Init.StopBits));
 2881:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
 2882:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   else
-ARM GAS  /tmp/ccQ5PNEm.s 			page 52
+ARM GAS  /tmp/ccG8xVzu.s 			page 52
 
 
 2883:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2937:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
 2938:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       case UART_CLOCKSOURCE_PCLK1:
 2939:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         pclk = HAL_RCC_GetPCLK1Freq();
-ARM GAS  /tmp/ccQ5PNEm.s 			page 53
+ARM GAS  /tmp/ccG8xVzu.s 			page 53
 
 
 2940:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         break;
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2994:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         pclk = HAL_RCC_GetPCLK2Freq();
 2995:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         break;
 2996:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       case UART_CLOCKSOURCE_HSI:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 54
+ARM GAS  /tmp/ccG8xVzu.s 			page 54
 
 
 2997:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         pclk = (uint32_t) HSI_VALUE;
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3051:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3052:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     if (pclk != 0U)
 3053:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
-ARM GAS  /tmp/ccQ5PNEm.s 			page 55
+ARM GAS  /tmp/ccG8xVzu.s 			page 55
 
 
 3054:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       /* USARTDIV must be greater than or equal to 0d16 */
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3108:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3109:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* if required, configure RX/TX pins swap */
 3110:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (HAL_IS_BIT_SET(huart->AdvancedInit.AdvFeatureInit, UART_ADVFEATURE_SWAP_INIT))
-ARM GAS  /tmp/ccQ5PNEm.s 			page 56
+ARM GAS  /tmp/ccG8xVzu.s 			page 56
 
 
 3111:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3165:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   tickstart = HAL_GetTick();
 3166:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3167:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Check if the Transmitter is enabled */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 57
+ARM GAS  /tmp/ccG8xVzu.s 			page 57
 
 
 3168:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if ((huart->Instance->CR1 & USART_CR1_TE) == USART_CR1_TE)
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3222:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3223:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->gState = HAL_UART_STATE_READY;
 3224:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->RxState = HAL_UART_STATE_READY;
-ARM GAS  /tmp/ccQ5PNEm.s 			page 58
+ARM GAS  /tmp/ccG8xVzu.s 			page 58
 
 
 3225:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3268:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   CLEAR_BIT(huart->Instance->CR3, (USART_CR3_TXFTIE));
   38              		.loc 1 3268 0
   39 000a 0268     		ldr	r2, [r0]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 59
+ARM GAS  /tmp/ccG8xVzu.s 			page 59
 
 
   40 000c 9368     		ldr	r3, [r2, #8]
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
   77              		.loc 1 3287 0
   78 0018 2023     		movs	r3, #32
   79 001a C0F88430 		str	r3, [r0, #132]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 60
+ARM GAS  /tmp/ccG8xVzu.s 			page 60
 
 
 3288:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3327:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3328:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** /**
 3329:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @brief DMA UART transmit process half complete callback.
-ARM GAS  /tmp/ccQ5PNEm.s 			page 61
+ARM GAS  /tmp/ccG8xVzu.s 			page 61
 
 
 3330:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param hdma DMA handle.
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3384:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval None
 3385:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
 3386:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_DMARxHalfCplt(DMA_HandleTypeDef *hdma)
-ARM GAS  /tmp/ccQ5PNEm.s 			page 62
+ARM GAS  /tmp/ccG8xVzu.s 			page 62
 
 
 3387:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** {
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3441:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param  hdma DMA handle.
 3442:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval None
 3443:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 63
+ARM GAS  /tmp/ccG8xVzu.s 			page 63
 
 
 3444:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_DMAAbortOnError(DMA_HandleTypeDef *hdma)
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3498:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Restore huart->gState and huart->RxState to Ready */
 3499:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->gState  = HAL_UART_STATE_READY;
 3500:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->RxState = HAL_UART_STATE_READY;
-ARM GAS  /tmp/ccQ5PNEm.s 			page 64
+ARM GAS  /tmp/ccG8xVzu.s 			page 64
 
 
 3501:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3555:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Call registered Abort complete callback */
 3556:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->AbortCpltCallback(huart);
 3557:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #else
-ARM GAS  /tmp/ccQ5PNEm.s 			page 65
+ARM GAS  /tmp/ccG8xVzu.s 			page 65
 
 
 3558:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Call legacy weak Abort complete callback */
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3612:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   __HAL_UART_CLEAR_FLAG(huart, UART_CLEAR_OREF | UART_CLEAR_NEF | UART_CLEAR_PEF | UART_CLEAR_FEF);
 3613:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3614:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Discard the received data */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 66
+ARM GAS  /tmp/ccG8xVzu.s 			page 66
 
 
 3615:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   __HAL_UART_SEND_REQ(huart, UART_RXDATA_FLUSH_REQUEST);
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  108              		.loc 1 3657 0
  109 0008 7047     		bx	lr
  110              	.L6:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 67
+ARM GAS  /tmp/ccG8xVzu.s 			page 67
 
 
 3642:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3664:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval None
 3665:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
 3666:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_TxISR_16BIT(UART_HandleTypeDef *huart)
-ARM GAS  /tmp/ccQ5PNEm.s 			page 68
+ARM GAS  /tmp/ccG8xVzu.s 			page 68
 
 
 3667:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** {
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3685:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->TxXferCount--;
  183              		.loc 1 3685 0
  184 001e 036D     		ldr	r3, [r0, #80]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 69
+ARM GAS  /tmp/ccG8xVzu.s 			page 69
 
 
  185 0020 0233     		adds	r3, r3, #2
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  224              		.loc 1 3703 0
  225 0000 D0F88030 		ldr	r3, [r0, #128]
  226 0004 212B     		cmp	r3, #33
-ARM GAS  /tmp/ccQ5PNEm.s 			page 70
+ARM GAS  /tmp/ccG8xVzu.s 			page 70
 
 
  227 0006 00D0     		beq	.L19
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  251              	.L17:
 3705:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  252              		.loc 1 3705 0 discriminator 2
-ARM GAS  /tmp/ccQ5PNEm.s 			page 71
+ARM GAS  /tmp/ccG8xVzu.s 			page 71
 
 
  253 0026 013B     		subs	r3, r3, #1
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3736:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval None
 3737:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
 3738:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_TxISR_16BIT_FIFOEN(UART_HandleTypeDef *huart)
-ARM GAS  /tmp/ccQ5PNEm.s 			page 72
+ARM GAS  /tmp/ccG8xVzu.s 			page 72
 
 
 3739:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** {
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  316              		.loc 1 3751 0
  317 0010 0268     		ldr	r2, [r0]
  318 0012 9368     		ldr	r3, [r2, #8]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 73
+ARM GAS  /tmp/ccG8xVzu.s 			page 73
 
 
  319              	.LVL15:
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  363              		.loc 1 3763 0
  364 0052 B0F85620 		ldrh	r2, [r0, #86]
  365 0056 013A     		subs	r2, r2, #1
-ARM GAS  /tmp/ccQ5PNEm.s 			page 74
+ARM GAS  /tmp/ccG8xVzu.s 			page 74
 
 
  366 0058 92B2     		uxth	r2, r2
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  422              	HAL_UART_DeInit:
  423              	.LFB136:
  616:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Check the UART handle allocation */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 75
+ARM GAS  /tmp/ccG8xVzu.s 			page 75
 
 
  424              		.loc 1 616 0
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  469              		.loc 1 626 0 is_stmt 1
  470 003a 2423     		movs	r3, #36
  471 003c C4F88030 		str	r3, [r4, #128]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 76
+ARM GAS  /tmp/ccG8xVzu.s 			page 76
 
 
  628:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  653:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  514              		.loc 1 653 0
  515 0074 7047     		bx	lr
-ARM GAS  /tmp/ccQ5PNEm.s 			page 77
+ARM GAS  /tmp/ccG8xVzu.s 			page 77
 
 
  516              	.L40:
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1228:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  563              		.loc 1 1228 0 discriminator 2
  564 0028 0023     		movs	r3, #0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 78
+ARM GAS  /tmp/ccG8xVzu.s 			page 78
 
 
  565 002a 0367     		str	r3, [r0, #112]
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  609              	.L45:
 1246:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  610              		.loc 1 1246 0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 79
+ARM GAS  /tmp/ccG8xVzu.s 			page 79
 
 
  611 006a 0023     		movs	r3, #0
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  657 009e 0120     		movs	r0, #1
  658              	.LVL45:
  659 00a0 7047     		bx	lr
-ARM GAS  /tmp/ccQ5PNEm.s 			page 80
+ARM GAS  /tmp/ccG8xVzu.s 			page 80
 
 
  660              	.LVL46:
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  708 0018 0123     		movs	r3, #1
  709 001a 80F87C30 		strb	r3, [r0, #124]
 1299:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->RxXferSize  = Size;
-ARM GAS  /tmp/ccQ5PNEm.s 			page 81
+ARM GAS  /tmp/ccG8xVzu.s 			page 81
 
 
  710              		.loc 1 1299 0 is_stmt 1 discriminator 2
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1305:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  753              		.loc 1 1305 0 discriminator 10
  754 0066 0023     		movs	r3, #0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 82
+ARM GAS  /tmp/ccG8xVzu.s 			page 82
 
 
  755 0068 A0F86030 		strh	r3, [r0, #96]	@ movhi
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  799              		.loc 1 1305 0 discriminator 9
  800 00aa 0369     		ldr	r3, [r0, #16]
  801 00ac 1BB9     		cbnz	r3, .L65
-ARM GAS  /tmp/ccQ5PNEm.s 			page 83
+ARM GAS  /tmp/ccG8xVzu.s 			page 83
 
 
 1305:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  846              	.L79:
 1317:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       {
  847              		.loc 1 1317 0 discriminator 1
-ARM GAS  /tmp/ccQ5PNEm.s 			page 84
+ARM GAS  /tmp/ccG8xVzu.s 			page 84
 
 
  848 00f0 0369     		ldr	r3, [r0, #16]
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  895              		.cfi_endproc
  896              	.LFE142:
  898              		.section	.text.HAL_UART_Transmit_DMA,"ax",%progbits
-ARM GAS  /tmp/ccQ5PNEm.s 			page 85
+ARM GAS  /tmp/ccG8xVzu.s 			page 85
 
 
  899              		.align	1
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  944              		.loc 1 1384 0 discriminator 2
  945 002e 0022     		movs	r2, #0
  946 0030 C0F88820 		str	r2, [r0, #136]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 86
+ARM GAS  /tmp/ccG8xVzu.s 			page 86
 
 
 1385:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  991 0076 9360     		str	r3, [r2, #8]
 1424:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
  992              		.loc 1 1424 0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 87
+ARM GAS  /tmp/ccG8xVzu.s 			page 87
 
 
  993 0078 0BE0     		b	.L83
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1039              	.LFE143:
  1041              		.section	.text.HAL_UART_Receive_DMA,"ax",%progbits
  1042              		.align	1
-ARM GAS  /tmp/ccQ5PNEm.s 			page 88
+ARM GAS  /tmp/ccG8xVzu.s 			page 88
 
 
  1043              		.global	HAL_UART_Receive_DMA
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1088              		.loc 1 1460 0 discriminator 2
  1089 0030 2222     		movs	r2, #34
  1090 0032 C0F88420 		str	r2, [r0, #132]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 89
+ARM GAS  /tmp/ccG8xVzu.s 			page 89
 
 
 1462:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1135 0078 2268     		ldr	r2, [r4]
  1136 007a 9368     		ldr	r3, [r2, #8]
  1137 007c 43F04003 		orr	r3, r3, #64
-ARM GAS  /tmp/ccQ5PNEm.s 			page 90
+ARM GAS  /tmp/ccG8xVzu.s 			page 90
 
 
  1138 0080 9360     		str	r3, [r2, #8]
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1183 00b0 00000000 		.word	UART_DMARxHalfCplt
  1184 00b4 00000000 		.word	UART_DMAError
  1185              		.cfi_endproc
-ARM GAS  /tmp/ccQ5PNEm.s 			page 91
+ARM GAS  /tmp/ccG8xVzu.s 			page 91
 
 
  1186              	.LFE144:
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1234 002e 01D0     		beq	.L107
 1528:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       (rxstate == HAL_UART_STATE_BUSY_RX))
  1235              		.loc 1 1528 0 is_stmt 0 discriminator 1
-ARM GAS  /tmp/ccQ5PNEm.s 			page 92
+ARM GAS  /tmp/ccG8xVzu.s 			page 92
 
 
  1236 0030 2229     		cmp	r1, #34
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1282              	.LVL100:
  1283 006c E6E7     		b	.L105
  1284              		.cfi_endproc
-ARM GAS  /tmp/ccQ5PNEm.s 			page 93
+ARM GAS  /tmp/ccG8xVzu.s 			page 93
 
 
  1285              	.LFE145:
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1333 0030 9360     		str	r3, [r2, #8]
  1334 0032 F0E7     		b	.L114
  1335              	.L118:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 94
+ARM GAS  /tmp/ccG8xVzu.s 			page 94
 
 
 1561:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1385              		.cfi_offset 5, -8
  1386              		.cfi_offset 14, -4
  1387 0002 0446     		mov	r4, r0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 95
+ARM GAS  /tmp/ccG8xVzu.s 			page 95
 
 
 1590:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   const HAL_UART_StateTypeDef rxstate = huart->RxState;
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1431 003e 2046     		mov	r0, r4
  1432 0040 FFF7FEFF 		bl	UART_EndTxTransfer
  1433              	.LVL112:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 96
+ARM GAS  /tmp/ccG8xVzu.s 			page 96
 
 
  1434 0044 E9E7     		b	.L120
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1633:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         }
  1478              		.loc 1 1633 0
  1479 0086 0320     		movs	r0, #3
-ARM GAS  /tmp/ccQ5PNEm.s 			page 97
+ARM GAS  /tmp/ccG8xVzu.s 			page 97
 
 
  1480 0088 00E0     		b	.L122
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1529 0028 22F08002 		bic	r2, r2, #128
  1530 002c 9A60     		str	r2, [r3, #8]
 1669:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
-ARM GAS  /tmp/ccQ5PNEm.s 			page 98
+ARM GAS  /tmp/ccG8xVzu.s 			page 98
 
 
  1531              		.loc 1 1669 0
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1574              		.loc 1 1721 0
  1575 0070 636E     		ldr	r3, [r4, #100]
  1576 0072 B3F1005F 		cmp	r3, #536870912
-ARM GAS  /tmp/ccQ5PNEm.s 			page 99
+ARM GAS  /tmp/ccG8xVzu.s 			page 99
 
 
  1577 0076 21D0     		beq	.L139
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1620 00b8 0320     		movs	r0, #3
  1621 00ba EAE7     		b	.L133
  1622              	.L139:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 100
+ARM GAS  /tmp/ccG8xVzu.s 			page 100
 
 
 1723:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1672              		.loc 1 1762 0
  1673 002a 436F     		ldr	r3, [r0, #116]
  1674 002c 2BB1     		cbz	r3, .L141
-ARM GAS  /tmp/ccQ5PNEm.s 			page 101
+ARM GAS  /tmp/ccG8xVzu.s 			page 101
 
 
 1766:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1718 0068 9369     		ldr	r3, [r2, #24]
  1719 006a 43F01003 		orr	r3, r3, #16
  1720 006e 9361     		str	r3, [r2, #24]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 102
+ARM GAS  /tmp/ccG8xVzu.s 			page 102
 
 
  1721 0070 EAE7     		b	.L143
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1770 0032 0022     		movs	r2, #0
  1771 0034 9A63     		str	r2, [r3, #56]
 1826:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       {
-ARM GAS  /tmp/ccQ5PNEm.s 			page 103
+ARM GAS  /tmp/ccG8xVzu.s 			page 103
 
 
  1772              		.loc 1 1826 0
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1819              		.thumb_func
  1820              		.fpu fpv4-sp-d16
  1822              	HAL_UART_TxCpltCallback:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 104
+ARM GAS  /tmp/ccG8xVzu.s 			page 104
 
 
  1823              	.LFB155:
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  1871 001e 1A68     		ldr	r2, [r3]
  1872 0020 1368     		ldr	r3, [r2]
  1873              	.LVL137:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 105
+ARM GAS  /tmp/ccG8xVzu.s 			page 105
 
 
  1874 0022 43F04003 		orr	r3, r3, #64
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3783:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3784:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Tx process is ended, restore huart->gState to Ready */
 3785:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->gState = HAL_UART_STATE_READY;
-ARM GAS  /tmp/ccQ5PNEm.s 			page 106
+ARM GAS  /tmp/ccG8xVzu.s 			page 106
 
 
  1916              		.loc 1 3785 0
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3334:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   UART_HandleTypeDef *huart = (UART_HandleTypeDef *)(hdma->Parent);
  1960              		.loc 1 3334 0
  1961              		.cfi_startproc
-ARM GAS  /tmp/ccQ5PNEm.s 			page 107
+ARM GAS  /tmp/ccG8xVzu.s 			page 107
 
 
  1962              		@ args = 0, pretend = 0, frame = 0
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3803:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
 3804:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_RxISR_8BIT(UART_HandleTypeDef *huart)
 3805:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** {
-ARM GAS  /tmp/ccQ5PNEm.s 			page 108
+ARM GAS  /tmp/ccG8xVzu.s 			page 108
 
 
  2011              		.loc 1 3805 0
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3843:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     __HAL_UART_SEND_REQ(huart, UART_RXDATA_FLUSH_REQUEST);
  2028              		.loc 1 3843 0
  2029 000e 0268     		ldr	r2, [r0]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 109
+ARM GAS  /tmp/ccG8xVzu.s 			page 109
 
 
  2030 0010 9369     		ldr	r3, [r2, #24]
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3826:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  2075              		.loc 1 3826 0
  2076 0056 2023     		movs	r3, #32
-ARM GAS  /tmp/ccQ5PNEm.s 			page 110
+ARM GAS  /tmp/ccG8xVzu.s 			page 110
 
 
  2077 0058 C0F88430 		str	r3, [r0, #132]
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3863:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     uhdata = (uint16_t) READ_REG(huart->Instance->RDR);
 3864:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     tmp = (uint16_t *) huart->pRxBuffPtr ;
 3865:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     *tmp = (uint16_t)(uhdata & uhMask);
-ARM GAS  /tmp/ccQ5PNEm.s 			page 111
+ARM GAS  /tmp/ccG8xVzu.s 			page 111
 
 
 3866:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->pRxBuffPtr += 2U;
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2133              		.loc 1 3865 0
  2134 0020 1340     		ands	r3, r3, r2
  2135              	.LVL166:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 112
+ARM GAS  /tmp/ccG8xVzu.s 			page 112
 
 
  2136 0022 0B80     		strh	r3, [r1]	@ movhi
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3898:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3899:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** /**
 3900:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @brief RX interrupt handler for 7 or 8  bits data word length and FIFO mode is enabled.
-ARM GAS  /tmp/ccQ5PNEm.s 			page 113
+ARM GAS  /tmp/ccG8xVzu.s 			page 113
 
 
 3901:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @note   Function is called under interruption only, once
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3936:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->RxISR = NULL;
 3937:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3938:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #if (USE_HAL_UART_REGISTER_CALLBACKS == 1)
-ARM GAS  /tmp/ccQ5PNEm.s 			page 114
+ARM GAS  /tmp/ccG8xVzu.s 			page 114
 
 
 3939:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         /*Call registered Rx complete callback*/
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2223              	.LVL175:
  2224 0024 B6B2     		uxth	r6, r6
  2225              	.LVL176:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 115
+ARM GAS  /tmp/ccG8xVzu.s 			page 115
 
 
  2226              	.L175:
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2269              		.loc 1 3943 0
  2270 0072 2046     		mov	r0, r4
  2271 0074 FFF7FEFF 		bl	HAL_UART_RxCpltCallback
-ARM GAS  /tmp/ccQ5PNEm.s 			page 116
+ARM GAS  /tmp/ccG8xVzu.s 			page 116
 
 
  2272              	.LVL178:
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3976:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param huart UART handle.
 3977:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval None
 3978:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 117
+ARM GAS  /tmp/ccG8xVzu.s 			page 117
 
 
 3979:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_RxISR_16BIT_FIFOEN(UART_HandleTypeDef *huart)
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 4014:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         /*Call registered Rx complete callback*/
 4015:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->RxCpltCallback(huart);
 4016:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #else
-ARM GAS  /tmp/ccQ5PNEm.s 			page 118
+ARM GAS  /tmp/ccG8xVzu.s 			page 118
 
 
 4017:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         /*Call legacy weak Rx complete callback*/
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2359              	.L186:
 3990:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  2360              		.loc 1 3990 0 discriminator 1
-ARM GAS  /tmp/ccQ5PNEm.s 			page 119
+ARM GAS  /tmp/ccG8xVzu.s 			page 119
 
 
  2361 0026 3DB3     		cbz	r5, .L192
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 4018:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
  2405              		.loc 1 4018 0
  2406 0070 2046     		mov	r0, r4
-ARM GAS  /tmp/ccQ5PNEm.s 			page 120
+ARM GAS  /tmp/ccG8xVzu.s 			page 120
 
 
  2407 0072 FFF7FEFF 		bl	HAL_UART_RxCpltCallback
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2456              		@ frame_needed = 0, uses_anonymous_args = 0
  2457              	.LVL196:
  2458 0000 08B5     		push	{r3, lr}
-ARM GAS  /tmp/ccQ5PNEm.s 			page 121
+ARM GAS  /tmp/ccG8xVzu.s 			page 121
 
 
  2459              	.LCFI18:
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2505              		.weak	HAL_UART_RxHalfCpltCallback
  2506              		.syntax unified
  2507              		.thumb
-ARM GAS  /tmp/ccQ5PNEm.s 			page 122
+ARM GAS  /tmp/ccG8xVzu.s 			page 122
 
 
  2508              		.thumb_func
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2562              	HAL_UART_ErrorCallback:
  2563              	.LFB159:
 2480:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Prevent unused argument(s) compilation warning */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 123
+ARM GAS  /tmp/ccG8xVzu.s 			page 123
 
 
  2564              		.loc 1 2480 0
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2613              	.LVL210:
  2614              	.L203:
 3420:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       (rxstate == HAL_UART_STATE_BUSY_RX))
-ARM GAS  /tmp/ccQ5PNEm.s 			page 124
+ARM GAS  /tmp/ccG8xVzu.s 			page 124
 
 
  2615              		.loc 1 3420 0 is_stmt 1
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2662              		.thumb_func
  2663              		.fpu fpv4-sp-d16
  2665              	HAL_UART_IRQHandler:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 125
+ARM GAS  /tmp/ccG8xVzu.s 			page 125
 
 
  2666              	.LFB154:
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2710 0028 0BB1     		cbz	r3, .L208
 2207:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
  2711              		.loc 1 2207 0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 126
+ARM GAS  /tmp/ccG8xVzu.s 			page 126
 
 
  2712 002a 2046     		mov	r0, r4
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2755 006a 2168     		ldr	r1, [r4]
  2756 006c 0226     		movs	r6, #2
  2757 006e 0E62     		str	r6, [r1, #32]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 127
+ARM GAS  /tmp/ccG8xVzu.s 			page 127
 
 
 2231:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2800 00be 15F0806F 		tst	r5, #67108864
  2801 00c2 09D0     		beq	.L219
 2255:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 128
+ARM GAS  /tmp/ccG8xVzu.s 			page 128
 
 
  2802              		.loc 1 2255 0 is_stmt 1
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2846              	.L222:
 2286:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  2847              		.loc 1 2286 0 is_stmt 1
-ARM GAS  /tmp/ccQ5PNEm.s 			page 129
+ARM GAS  /tmp/ccG8xVzu.s 			page 129
 
 
  2848 010e 2046     		mov	r0, r4
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2893 0152 2046     		mov	r0, r4
  2894 0154 FFF7FEFF 		bl	HAL_UART_ErrorCallback
  2895              	.LVL237:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 130
+ARM GAS  /tmp/ccG8xVzu.s 			page 130
 
 
 2343:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2940              	.LVL245:
 2365:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
  2941              		.loc 1 2365 0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 131
+ARM GAS  /tmp/ccG8xVzu.s 			page 131
 
 
  2942 0198 49E7     		b	.L208
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  2985              	.LVL253:
  2986 01d2 FFF7FEFF 		bl	HAL_UARTEx_TxFifoEmptyCallback
  2987              	.LVL254:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 132
+ARM GAS  /tmp/ccG8xVzu.s 			page 132
 
 
 2397:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3038              		.thumb
  3039              		.thumb_func
  3040              		.fpu fpv4-sp-d16
-ARM GAS  /tmp/ccQ5PNEm.s 			page 133
+ARM GAS  /tmp/ccG8xVzu.s 			page 133
 
 
  3042              	HAL_UART_AbortCpltCallback:
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3091              		.loc 1 1884 0
  3092 0020 0268     		ldr	r2, [r0]
  3093 0022 9268     		ldr	r2, [r2, #8]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 134
+ARM GAS  /tmp/ccG8xVzu.s 			page 134
 
 
  3094 0024 12F0800F 		tst	r2, #128
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3138              	.LVL263:
  3139              	.L242:
 1890:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
-ARM GAS  /tmp/ccQ5PNEm.s 			page 135
+ARM GAS  /tmp/ccG8xVzu.s 			page 135
 
 
  3140              		.loc 1 1890 0
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3183              		.loc 1 1965 0
  3184 00a6 2367     		str	r3, [r4, #112]
 1968:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 136
+ARM GAS  /tmp/ccG8xVzu.s 			page 136
 
 
  3185              		.loc 1 1968 0
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3229 00e4 10BD     		pop	{r4, pc}
  3230              	.LVL271:
  3231              	.L254:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 137
+ARM GAS  /tmp/ccG8xVzu.s 			page 137
 
 
 1976:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3281 0012 08BD     		pop	{r3, pc}
  3282              	.LVL275:
  3283              	.L258:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 138
+ARM GAS  /tmp/ccG8xVzu.s 			page 138
 
 
 3537:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->RxXferCount = 0U;
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3469:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  3331              		.loc 1 3469 0
  3332 0002 806A     		ldr	r0, [r0, #40]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 139
+ARM GAS  /tmp/ccG8xVzu.s 			page 139
 
 
  3333              	.LVL278:
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3374              		.loc 1 3495 0
  3375 003e 0268     		ldr	r2, [r0]
  3376 0040 9369     		ldr	r3, [r2, #24]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 140
+ARM GAS  /tmp/ccG8xVzu.s 			page 140
 
 
  3377 0042 43F01003 		orr	r3, r3, #16
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3430              		.loc 1 2017 0
  3431 000e 0268     		ldr	r2, [r0]
  3432 0010 9368     		ldr	r3, [r2, #8]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 141
+ARM GAS  /tmp/ccG8xVzu.s 			page 141
 
 
  3433 0012 23F40003 		bic	r3, r3, #8388608
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3477              	.L269:
 2062:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  3478              		.loc 1 2062 0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 142
+ARM GAS  /tmp/ccG8xVzu.s 			page 142
 
 
  3479 0056 0022     		movs	r2, #0
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3528 0000 08B5     		push	{r3, lr}
  3529              	.LCFI27:
  3530              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/ccQ5PNEm.s 			page 143
+ARM GAS  /tmp/ccG8xVzu.s 			page 143
 
 
  3531              		.cfi_offset 3, -8
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2532:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  3579              		.loc 1 2532 0
  3580 0000 7047     		bx	lr
-ARM GAS  /tmp/ccQ5PNEm.s 			page 144
+ARM GAS  /tmp/ccG8xVzu.s 			page 144
 
 
  3581              		.cfi_endproc
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3630 0034 9A63     		str	r2, [r3, #56]
 2122:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       {
  3631              		.loc 1 2122 0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 145
+ARM GAS  /tmp/ccG8xVzu.s 			page 145
 
 
  3632 0036 806F     		ldr	r0, [r0, #120]
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2164:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  3676              		.loc 1 2164 0
  3677 0074 0F22     		movs	r2, #15
-ARM GAS  /tmp/ccQ5PNEm.s 			page 146
+ARM GAS  /tmp/ccG8xVzu.s 			page 146
 
 
  3678 0076 1A62     		str	r2, [r3, #32]
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3618:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  3727              		.loc 1 3618 0
  3728 001a 2023     		movs	r3, #32
-ARM GAS  /tmp/ccQ5PNEm.s 			page 147
+ARM GAS  /tmp/ccG8xVzu.s 			page 147
 
 
  3729 001c C0F88430 		str	r3, [r0, #132]
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3779              	.L291:
 2578:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  3780              		.loc 1 2578 0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 148
+ARM GAS  /tmp/ccG8xVzu.s 			page 148
 
 
  3781 0020 38BD     		pop	{r3, r4, r5, pc}
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3831 001a 80F87C20 		strb	r2, [r0, #124]
 2595:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  3832              		.loc 1 2595 0 is_stmt 1 discriminator 2
-ARM GAS  /tmp/ccQ5PNEm.s 			page 149
+ARM GAS  /tmp/ccG8xVzu.s 			page 149
 
 
  3833 001e 2422     		movs	r2, #36
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3880              		.thumb_func
  3881              		.fpu fpv4-sp-d16
  3883              	HAL_UART_DisableReceiverTimeout:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 150
+ARM GAS  /tmp/ccG8xVzu.s 			page 150
 
 
  3884              	.LFB165:
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3927 003c 0120     		movs	r0, #1
  3928              	.LVL326:
  3929 003e 7047     		bx	lr
-ARM GAS  /tmp/ccQ5PNEm.s 			page 151
+ARM GAS  /tmp/ccG8xVzu.s 			page 151
 
 
  3930              	.LVL327:
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  3981              		.thumb_func
  3982              		.fpu fpv4-sp-d16
  3984              	HAL_HalfDuplex_EnableTransmitter:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 152
+ARM GAS  /tmp/ccG8xVzu.s 			page 152
 
 
  3985              	.LFB169:
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4028 003a 7047     		bx	lr
  4029              		.cfi_endproc
  4030              	.LFE169:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 153
+ARM GAS  /tmp/ccG8xVzu.s 			page 153
 
 
  4032              		.section	.text.HAL_HalfDuplex_EnableReceiver,"ax",%progbits
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4078              	.LVL338:
  4079              	.L318:
 2737:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->gState = HAL_UART_STATE_BUSY;
-ARM GAS  /tmp/ccQ5PNEm.s 			page 154
+ARM GAS  /tmp/ccG8xVzu.s 			page 154
 
 
  4080              		.loc 1 2737 0
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4129              	.LVL341:
  4130 002a FFF7FEFF 		bl	assert_failed
  4131              	.LVL342:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 155
+ARM GAS  /tmp/ccG8xVzu.s 			page 155
 
 
  4132              	.L320:
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2805:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   uint32_t temp1;
  4180              		.loc 1 2805 0
  4181              		.cfi_startproc
-ARM GAS  /tmp/ccQ5PNEm.s 			page 156
+ARM GAS  /tmp/ccG8xVzu.s 			page 156
 
 
  4182              		@ args = 0, pretend = 0, frame = 0
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2866:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   uint32_t tmpreg;
  4234              		.loc 1 2866 0
  4235              		.cfi_startproc
-ARM GAS  /tmp/ccQ5PNEm.s 			page 157
+ARM GAS  /tmp/ccG8xVzu.s 			page 157
 
 
  4236              		@ args = 0, pretend = 0, frame = 0
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4282 003a 03D0     		beq	.L333
 2884:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     assert_param(IS_UART_ONE_BIT_SAMPLE(huart->Init.OneBitSampling));
  4283              		.loc 1 2884 0 discriminator 3
-ARM GAS  /tmp/ccQ5PNEm.s 			page 158
+ARM GAS  /tmp/ccG8xVzu.s 			page 158
 
 
  4284 003c B3F5005F 		cmp	r3, #8192
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4326              		.loc 1 2890 0 discriminator 3
  4327 0086 B3F5407F 		cmp	r3, #768
  4328 008a 40F08C80 		bne	.L421
-ARM GAS  /tmp/ccQ5PNEm.s 			page 159
+ARM GAS  /tmp/ccG8xVzu.s 			page 159
 
 
  4329              	.L337:
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4374 00d0 2268     		ldr	r2, [r4]
  4375 00d2 6B4B     		ldr	r3, .L436+4
  4376 00d4 9A42     		cmp	r2, r3
-ARM GAS  /tmp/ccQ5PNEm.s 			page 160
+ARM GAS  /tmp/ccG8xVzu.s 			page 160
 
 
  4377 00d6 01D0     		beq	.L340
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2933:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
  4422              		.loc 1 2933 0 is_stmt 1
  4423 0120 5749     		ldr	r1, .L436+4
-ARM GAS  /tmp/ccQ5PNEm.s 			page 161
+ARM GAS  /tmp/ccG8xVzu.s 			page 161
 
 
  4424 0122 8B42     		cmp	r3, r1
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4471 017a 4248     		ldr	r0, .L436+8
  4472 017c FFF7FEFF 		bl	assert_failed
  4473              	.LVL365:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 162
+ARM GAS  /tmp/ccG8xVzu.s 			page 162
 
 
  4474 0180 66E7     		b	.L332
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4521 01d2 02F00302 		and	r2, r2, #3
  4522 01d6 032A     		cmp	r2, #3
  4523 01d8 09D8     		bhi	.L342
-ARM GAS  /tmp/ccQ5PNEm.s 			page 163
+ARM GAS  /tmp/ccG8xVzu.s 			page 163
 
 
  4524 01da DFE802F0 		tbb	[pc, r2]
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4573 0213 00       		.p2align 1
  4574              	.L350:
 2930:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccQ5PNEm.s 			page 164
+ARM GAS  /tmp/ccG8xVzu.s 			page 164
 
 
  4575              		.loc 1 2930 0
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4621 024a 69E7     		b	.L346
  4622              	.LVL383:
  4623              	.L355:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 165
+ARM GAS  /tmp/ccG8xVzu.s 			page 165
 
 
 2930:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4671 0298 004C0040 		.word	1073761280
  4672              	.LVL389:
  4673              	.L428:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 166
+ARM GAS  /tmp/ccG8xVzu.s 			page 166
 
 
 2930:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4721 02de 0222     		movs	r2, #2
  4722 02e0 1EE7     		b	.L346
  4723              	.LVL395:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 167
+ARM GAS  /tmp/ccG8xVzu.s 			page 167
 
 
  4724              	.L429:
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4770 0312 33F81220 		ldrh	r2, [r3, r2, lsl #1]
  4771 0316 B0FBF2F3 		udiv	r3, r0, r2
  4772              	.LVL402:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 168
+ARM GAS  /tmp/ccG8xVzu.s 			page 168
 
 
 2963:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****           (lpuart_ker_ck_pres > (4096U * huart->Init.BaudRate)))
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4821 0376 05       		.byte	(.L383-.L381)/2
  4822 0377 65       		.byte	(.L406-.L381)/2
  4823 0378 2A       		.byte	(.L384-.L381)/2
-ARM GAS  /tmp/ccQ5PNEm.s 			page 169
+ARM GAS  /tmp/ccG8xVzu.s 			page 169
 
 
  4824 0379 65       		.byte	(.L406-.L381)/2
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4870 03be 0020     		movs	r0, #0
  4871 03c0 22E0     		b	.L372
  4872              	.LVL414:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 170
+ARM GAS  /tmp/ccG8xVzu.s 			page 170
 
 
  4873              	.L382:
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  4917 03fe 9A42     		cmp	r2, r3
  4918 0400 27D8     		bhi	.L413
 3058:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
-ARM GAS  /tmp/ccQ5PNEm.s 			page 171
+ARM GAS  /tmp/ccG8xVzu.s 			page 171
 
 
  4919              		.loc 1 3058 0
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 2966:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
  4962              		.loc 1 2966 0
  4963 0432 0120     		movs	r0, #1
-ARM GAS  /tmp/ccQ5PNEm.s 			page 172
+ARM GAS  /tmp/ccG8xVzu.s 			page 172
 
 
  4964 0434 E8E7     		b	.L372
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5014              		.section	.text.UART_AdvFeatureConfig,"ax",%progbits
  5015              		.align	1
  5016              		.global	UART_AdvFeatureConfig
-ARM GAS  /tmp/ccQ5PNEm.s 			page 173
+ARM GAS  /tmp/ccG8xVzu.s 			page 173
 
 
  5017              		.syntax unified
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5064              		.loc 1 3098 0
  5065 0036 236B     		ldr	r3, [r4, #48]
  5066 0038 1BB1     		cbz	r3, .L445
-ARM GAS  /tmp/ccQ5PNEm.s 			page 174
+ARM GAS  /tmp/ccG8xVzu.s 			page 174
 
 
 3098:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     MODIFY_REG(huart->Instance->CR2, USART_CR2_RXINV, huart->AdvancedInit.RxPinLevelInvert);
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5111 0086 5368     		ldr	r3, [r2, #4]
  5112 0088 23F40043 		bic	r3, r3, #32768
  5113 008c A16B     		ldr	r1, [r4, #56]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 175
+ARM GAS  /tmp/ccG8xVzu.s 			page 175
 
 
  5114 008e 0B43     		orrs	r3, r3, r1
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3133:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     assert_param(IS_UART_ADVFEATURE_AUTOBAUDRATE(huart->AdvancedInit.AutoBaudRateEnable));
  5159              		.loc 1 3133 0
  5160 00da 2368     		ldr	r3, [r4]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 176
+ARM GAS  /tmp/ccG8xVzu.s 			page 176
 
 
  5161 00dc 414A     		ldr	r2, .L472
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5205              		.loc 1 3147 0
  5206 012c E36C     		ldr	r3, [r4, #76]
  5207 012e 13B1     		cbz	r3, .L459
-ARM GAS  /tmp/ccQ5PNEm.s 			page 177
+ARM GAS  /tmp/ccG8xVzu.s 			page 177
 
 
 3147:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     MODIFY_REG(huart->Instance->CR2, USART_CR2_MSBFIRST, huart->AdvancedInit.MSBFirst);
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5254 0176 40F62841 		movw	r1, #3112
  5255 017a 1B48     		ldr	r0, .L472+4
  5256 017c FFF7FEFF 		bl	assert_failed
-ARM GAS  /tmp/ccQ5PNEm.s 			page 178
+ARM GAS  /tmp/ccG8xVzu.s 			page 178
 
 
  5257              	.LVL449:
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3139:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       MODIFY_REG(huart->Instance->CR2, USART_CR2_ABRMODE, huart->AdvancedInit.AutoBaudRateMode);
  5303              		.loc 1 3139 0 discriminator 4
  5304 01cc 40F64341 		movw	r1, #3139
-ARM GAS  /tmp/ccQ5PNEm.s 			page 179
+ARM GAS  /tmp/ccG8xVzu.s 			page 179
 
 
  5305 01d0 0548     		ldr	r0, .L472+4
@@ -10738,7 +10738,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5358 0012 37EA0303 		bics	r3, r7, r3
  5359 0016 0CBF     		ite	eq
  5360 0018 0123     		moveq	r3, #1
-ARM GAS  /tmp/ccQ5PNEm.s 			page 180
+ARM GAS  /tmp/ccG8xVzu.s 			page 180
 
 
  5361 001a 0023     		movne	r3, #0
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3248:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  5404              		.loc 1 3248 0
  5405 006e 0023     		movs	r3, #0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 181
+ARM GAS  /tmp/ccG8xVzu.s 			page 181
 
 
  5406 0070 84F87C30 		strb	r3, [r4, #124]
@@ -10858,7 +10858,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5452              		.cfi_startproc
  5453              		@ args = 0, pretend = 0, frame = 0
  5454              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 182
+ARM GAS  /tmp/ccG8xVzu.s 			page 182
 
 
  5455              	.LVL458:
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 1061:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->TxXferCount = Size;
  5501              		.loc 1 1061 0 discriminator 2
  5502 003e A4F85480 		strh	r8, [r4, #84]	@ movhi
-ARM GAS  /tmp/ccQ5PNEm.s 			page 183
+ARM GAS  /tmp/ccG8xVzu.s 			page 183
 
 
 1062:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -10978,7 +10978,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5546 007c 9BB2     		uxth	r3, r3
  5547 007e A4F85630 		strh	r3, [r4, #86]	@ movhi
  5548              	.L486:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 184
+ARM GAS  /tmp/ccG8xVzu.s 			page 184
 
 
 1078:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
@@ -11038,7 +11038,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5594              		.loc 1 1111 0
  5595 00c4 1846     		mov	r0, r3
  5596 00c6 02B0     		add	sp, sp, #8
-ARM GAS  /tmp/ccQ5PNEm.s 			page 185
+ARM GAS  /tmp/ccG8xVzu.s 			page 185
 
 
  5597              	.LCFI37:
@@ -11098,7 +11098,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5648              		.cfi_offset 6, -20
  5649              		.cfi_offset 7, -16
  5650              		.cfi_offset 8, -12
-ARM GAS  /tmp/ccQ5PNEm.s 			page 186
+ARM GAS  /tmp/ccG8xVzu.s 			page 186
 
 
  5651              		.cfi_offset 9, -8
@@ -11158,7 +11158,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5694 0046 A368     		ldr	r3, [r4, #8]
  5695 0048 B3F5805F 		cmp	r3, #4096
  5696 004c 06D0     		beq	.L524
-ARM GAS  /tmp/ccQ5PNEm.s 			page 187
+ARM GAS  /tmp/ccG8xVzu.s 			page 187
 
 
  5697 004e A3B9     		cbnz	r3, .L507
@@ -11218,7 +11218,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5740              	.L511:
 1170:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  5741              		.loc 1 1170 0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 188
+ARM GAS  /tmp/ccG8xVzu.s 			page 188
 
 
  5742 0094 0023     		movs	r3, #0
@@ -11278,7 +11278,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5786 00d0 013B     		subs	r3, r3, #1
  5787 00d2 9BB2     		uxth	r3, r3
  5788 00d4 A4F85E30 		strh	r3, [r4, #94]	@ movhi
-ARM GAS  /tmp/ccQ5PNEm.s 			page 189
+ARM GAS  /tmp/ccG8xVzu.s 			page 189
 
 
  5789              	.L512:
@@ -11338,7 +11338,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5835              	.L517:
  5836              	.LCFI42:
  5837              		.cfi_restore_state
-ARM GAS  /tmp/ccQ5PNEm.s 			page 190
+ARM GAS  /tmp/ccG8xVzu.s 			page 190
 
 
 1140:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
@@ -11398,7 +11398,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
 3165:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  5889              		.loc 1 3165 0
  5890 000c FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  /tmp/ccQ5PNEm.s 			page 191
+ARM GAS  /tmp/ccG8xVzu.s 			page 191
 
 
  5891              	.LVL499:
@@ -11458,7 +11458,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5938 0050 E4D0     		beq	.L530
 3174:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
  5939              		.loc 1 3174 0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 192
+ARM GAS  /tmp/ccG8xVzu.s 			page 192
 
 
  5940 0052 0320     		movs	r0, #3
@@ -11518,7 +11518,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  5989              		.loc 1 309 0
  5990 000e 0368     		ldr	r3, [r0]
  5991 0010 314A     		ldr	r2, .L551
-ARM GAS  /tmp/ccQ5PNEm.s 			page 193
+ARM GAS  /tmp/ccG8xVzu.s 			page 193
 
 
  5992 0012 9342     		cmp	r3, r2
@@ -11578,7 +11578,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6036              		.loc 1 348 0
  6037 0062 A36A     		ldr	r3, [r4, #40]
  6038 0064 93BB     		cbnz	r3, .L550
-ARM GAS  /tmp/ccQ5PNEm.s 			page 194
+ARM GAS  /tmp/ccG8xVzu.s 			page 194
 
 
  6039              	.L543:
@@ -11638,7 +11638,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6083 00b0 9342     		cmp	r3, r2
  6084 00b2 C5D0     		beq	.L541
  314:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
-ARM GAS  /tmp/ccQ5PNEm.s 			page 195
+ARM GAS  /tmp/ccG8xVzu.s 			page 195
 
 
  6085              		.loc 1 314 0 discriminator 5
@@ -11698,7 +11698,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6135              		.loc 1 372 0
  6136              		.cfi_startproc
  6137              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 196
+ARM GAS  /tmp/ccG8xVzu.s 			page 196
 
 
  6138              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -11758,7 +11758,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6182              		.loc 1 403 0
  6183 0040 2423     		movs	r3, #36
  6184 0042 C4F88030 		str	r3, [r4, #128]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 197
+ARM GAS  /tmp/ccG8xVzu.s 			page 197
 
 
  405:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -11818,7 +11818,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6229              		.loc 1 385 0
  6230 008e 84F87C30 		strb	r3, [r4, #124]
  399:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #endif /* (USE_HAL_UART_REGISTER_CALLBACKS) */
-ARM GAS  /tmp/ccQ5PNEm.s 			page 198
+ARM GAS  /tmp/ccG8xVzu.s 			page 198
 
 
  6231              		.loc 1 399 0
@@ -11878,7 +11878,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6281              	.LCFI51:
  6282              		.cfi_def_cfa_offset 16
  6283              		.cfi_offset 3, -16
-ARM GAS  /tmp/ccQ5PNEm.s 			page 199
+ARM GAS  /tmp/ccG8xVzu.s 			page 199
 
 
  6284              		.cfi_offset 4, -12
@@ -11938,7 +11938,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6328              		.loc 1 468 0
  6329 0048 D4F88030 		ldr	r3, [r4, #128]
  6330 004c 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccQ5PNEm.s 			page 200
+ARM GAS  /tmp/ccG8xVzu.s 			page 200
 
 
  6331 004e 32D0     		beq	.L581
@@ -11998,7 +11998,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6376 009c 43F00103 		orr	r3, r3, #1
  6377 00a0 1360     		str	r3, [r2]
  519:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
-ARM GAS  /tmp/ccQ5PNEm.s 			page 201
+ARM GAS  /tmp/ccG8xVzu.s 			page 201
 
 
  6378              		.loc 1 519 0
@@ -12058,7 +12058,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  460:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
  6426              		.loc 1 460 0
  6427 00ce 0120     		movs	r0, #1
-ARM GAS  /tmp/ccQ5PNEm.s 			page 202
+ARM GAS  /tmp/ccG8xVzu.s 			page 202
 
 
  6428 00d0 00E0     		b	.L568
@@ -12118,7 +12118,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6477 000e B2F5006F 		cmp	r2, #2048
  6478 0012 2ED1     		bne	.L596
  6479              	.LVL545:
-ARM GAS  /tmp/ccQ5PNEm.s 			page 203
+ARM GAS  /tmp/ccG8xVzu.s 			page 203
 
 
  6480              	.L587:
@@ -12178,7 +12178,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  603:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  6525              		.loc 1 603 0
  6526 0060 2268     		ldr	r2, [r4]
-ARM GAS  /tmp/ccQ5PNEm.s 			page 204
+ARM GAS  /tmp/ccG8xVzu.s 			page 204
 
 
  6527 0062 1368     		ldr	r3, [r2]
@@ -12238,7 +12238,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6574              		.cfi_restore 5
  6575              		.cfi_restore 6
  6576              		.cfi_restore 14
-ARM GAS  /tmp/ccQ5PNEm.s 			page 205
+ARM GAS  /tmp/ccG8xVzu.s 			page 205
 
 
  546:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
@@ -12298,7 +12298,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6625 0020 2023     		movs	r3, #32
  6626 0022 C0F88030 		str	r3, [r0, #128]
 2673:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
-ARM GAS  /tmp/ccQ5PNEm.s 			page 206
+ARM GAS  /tmp/ccG8xVzu.s 			page 206
 
 
  6627              		.loc 1 2673 0 discriminator 2
@@ -12358,7 +12358,7 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6676 001e 1360     		str	r3, [r2]
 2691:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  6677              		.loc 1 2691 0 discriminator 2
-ARM GAS  /tmp/ccQ5PNEm.s 			page 207
+ARM GAS  /tmp/ccG8xVzu.s 			page 207
 
 
  6678 0020 2023     		movs	r3, #32
@@ -12418,200 +12418,200 @@ ARM GAS  /tmp/ccQ5PNEm.s 			page 1
  6728              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h"
  6729              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
  6730              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
-ARM GAS  /tmp/ccQ5PNEm.s 			page 208
+ARM GAS  /tmp/ccG8xVzu.s 			page 208
 
 
  6731              		.file 12 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
  6732              		.file 13 "Core/Inc/stm32g4xx_hal_conf.h"
  6733              		.file 14 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h"
  6734              		.file 15 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h"
-ARM GAS  /tmp/ccQ5PNEm.s 			page 209
+ARM GAS  /tmp/ccG8xVzu.s 			page 209
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32g4xx_hal_uart.c
-     /tmp/ccQ5PNEm.s:18     .text.UART_EndTxTransfer:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:24     .text.UART_EndTxTransfer:0000000000000000 UART_EndTxTransfer
-     /tmp/ccQ5PNEm.s:52     .text.UART_EndRxTransfer:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:58     .text.UART_EndRxTransfer:0000000000000000 UART_EndRxTransfer
-     /tmp/ccQ5PNEm.s:89     .text.UART_TxISR_8BIT:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:95     .text.UART_TxISR_8BIT:0000000000000000 UART_TxISR_8BIT
-     /tmp/ccQ5PNEm.s:147    .text.UART_TxISR_16BIT:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:153    .text.UART_TxISR_16BIT:0000000000000000 UART_TxISR_16BIT
-     /tmp/ccQ5PNEm.s:210    .text.UART_TxISR_8BIT_FIFOEN:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:216    .text.UART_TxISR_8BIT_FIFOEN:0000000000000000 UART_TxISR_8BIT_FIFOEN
-     /tmp/ccQ5PNEm.s:289    .text.UART_TxISR_16BIT_FIFOEN:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:295    .text.UART_TxISR_16BIT_FIFOEN:0000000000000000 UART_TxISR_16BIT_FIFOEN
-     /tmp/ccQ5PNEm.s:373    .text.HAL_UART_MspInit:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:380    .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
-     /tmp/ccQ5PNEm.s:394    .text.HAL_UART_MspDeInit:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:401    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
-     /tmp/ccQ5PNEm.s:415    .text.HAL_UART_DeInit:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:422    .text.HAL_UART_DeInit:0000000000000000 HAL_UART_DeInit
-     /tmp/ccQ5PNEm.s:519    .text.HAL_UART_DeInit:0000000000000078 $d
-     /tmp/ccQ5PNEm.s:525    .text.HAL_UART_Transmit_IT:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:532    .text.HAL_UART_Transmit_IT:0000000000000000 HAL_UART_Transmit_IT
-     /tmp/ccQ5PNEm.s:670    .text.HAL_UART_Transmit_IT:00000000000000a8 $d
-     /tmp/ccQ5PNEm.s:678    .text.HAL_UART_Receive_IT:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:685    .text.HAL_UART_Receive_IT:0000000000000000 HAL_UART_Receive_IT
-     /tmp/ccQ5PNEm.s:891    .text.HAL_UART_Receive_IT:0000000000000118 $d
-     /tmp/ccQ5PNEm.s:2009   .text.UART_RxISR_8BIT:0000000000000000 UART_RxISR_8BIT
-     /tmp/ccQ5PNEm.s:2182   .text.UART_RxISR_8BIT_FIFOEN:0000000000000000 UART_RxISR_8BIT_FIFOEN
-     /tmp/ccQ5PNEm.s:2315   .text.UART_RxISR_16BIT_FIFOEN:0000000000000000 UART_RxISR_16BIT_FIFOEN
-     /tmp/ccQ5PNEm.s:2095   .text.UART_RxISR_16BIT:0000000000000000 UART_RxISR_16BIT
-     /tmp/ccQ5PNEm.s:899    .text.HAL_UART_Transmit_DMA:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:906    .text.HAL_UART_Transmit_DMA:0000000000000000 HAL_UART_Transmit_DMA
-     /tmp/ccQ5PNEm.s:1035   .text.HAL_UART_Transmit_DMA:00000000000000a0 $d
-     /tmp/ccQ5PNEm.s:1842   .text.UART_DMATransmitCplt:0000000000000000 UART_DMATransmitCplt
-     /tmp/ccQ5PNEm.s:1958   .text.UART_DMATxHalfCplt:0000000000000000 UART_DMATxHalfCplt
-     /tmp/ccQ5PNEm.s:2582   .text.UART_DMAError:0000000000000000 UART_DMAError
-     /tmp/ccQ5PNEm.s:1042   .text.HAL_UART_Receive_DMA:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:1049   .text.HAL_UART_Receive_DMA:0000000000000000 HAL_UART_Receive_DMA
-     /tmp/ccQ5PNEm.s:1182   .text.HAL_UART_Receive_DMA:00000000000000ac $d
-     /tmp/ccQ5PNEm.s:2451   .text.UART_DMAReceiveCplt:0000000000000000 UART_DMAReceiveCplt
-     /tmp/ccQ5PNEm.s:2531   .text.UART_DMARxHalfCplt:0000000000000000 UART_DMARxHalfCplt
-     /tmp/ccQ5PNEm.s:1189   .text.HAL_UART_DMAPause:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:1196   .text.HAL_UART_DMAPause:0000000000000000 HAL_UART_DMAPause
-     /tmp/ccQ5PNEm.s:1288   .text.HAL_UART_DMAResume:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:1295   .text.HAL_UART_DMAResume:0000000000000000 HAL_UART_DMAResume
-     /tmp/ccQ5PNEm.s:1366   .text.HAL_UART_DMAStop:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:1373   .text.HAL_UART_DMAStop:0000000000000000 HAL_UART_DMAStop
-     /tmp/ccQ5PNEm.s:1491   .text.HAL_UART_Abort:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:1498   .text.HAL_UART_Abort:0000000000000000 HAL_UART_Abort
-     /tmp/ccQ5PNEm.s:1633   .text.HAL_UART_AbortTransmit:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:1640   .text.HAL_UART_AbortTransmit:0000000000000000 HAL_UART_AbortTransmit
-     /tmp/ccQ5PNEm.s:1726   .text.HAL_UART_AbortReceive:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:1733   .text.HAL_UART_AbortReceive:0000000000000000 HAL_UART_AbortReceive
-     /tmp/ccQ5PNEm.s:1815   .text.HAL_UART_TxCpltCallback:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:1822   .text.HAL_UART_TxCpltCallback:0000000000000000 HAL_UART_TxCpltCallback
-     /tmp/ccQ5PNEm.s:1836   .text.UART_DMATransmitCplt:0000000000000000 $t
-ARM GAS  /tmp/ccQ5PNEm.s 			page 210
+     /tmp/ccG8xVzu.s:18     .text.UART_EndTxTransfer:0000000000000000 $t
+     /tmp/ccG8xVzu.s:24     .text.UART_EndTxTransfer:0000000000000000 UART_EndTxTransfer
+     /tmp/ccG8xVzu.s:52     .text.UART_EndRxTransfer:0000000000000000 $t
+     /tmp/ccG8xVzu.s:58     .text.UART_EndRxTransfer:0000000000000000 UART_EndRxTransfer
+     /tmp/ccG8xVzu.s:89     .text.UART_TxISR_8BIT:0000000000000000 $t
+     /tmp/ccG8xVzu.s:95     .text.UART_TxISR_8BIT:0000000000000000 UART_TxISR_8BIT
+     /tmp/ccG8xVzu.s:147    .text.UART_TxISR_16BIT:0000000000000000 $t
+     /tmp/ccG8xVzu.s:153    .text.UART_TxISR_16BIT:0000000000000000 UART_TxISR_16BIT
+     /tmp/ccG8xVzu.s:210    .text.UART_TxISR_8BIT_FIFOEN:0000000000000000 $t
+     /tmp/ccG8xVzu.s:216    .text.UART_TxISR_8BIT_FIFOEN:0000000000000000 UART_TxISR_8BIT_FIFOEN
+     /tmp/ccG8xVzu.s:289    .text.UART_TxISR_16BIT_FIFOEN:0000000000000000 $t
+     /tmp/ccG8xVzu.s:295    .text.UART_TxISR_16BIT_FIFOEN:0000000000000000 UART_TxISR_16BIT_FIFOEN
+     /tmp/ccG8xVzu.s:373    .text.HAL_UART_MspInit:0000000000000000 $t
+     /tmp/ccG8xVzu.s:380    .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
+     /tmp/ccG8xVzu.s:394    .text.HAL_UART_MspDeInit:0000000000000000 $t
+     /tmp/ccG8xVzu.s:401    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
+     /tmp/ccG8xVzu.s:415    .text.HAL_UART_DeInit:0000000000000000 $t
+     /tmp/ccG8xVzu.s:422    .text.HAL_UART_DeInit:0000000000000000 HAL_UART_DeInit
+     /tmp/ccG8xVzu.s:519    .text.HAL_UART_DeInit:0000000000000078 $d
+     /tmp/ccG8xVzu.s:525    .text.HAL_UART_Transmit_IT:0000000000000000 $t
+     /tmp/ccG8xVzu.s:532    .text.HAL_UART_Transmit_IT:0000000000000000 HAL_UART_Transmit_IT
+     /tmp/ccG8xVzu.s:670    .text.HAL_UART_Transmit_IT:00000000000000a8 $d
+     /tmp/ccG8xVzu.s:678    .text.HAL_UART_Receive_IT:0000000000000000 $t
+     /tmp/ccG8xVzu.s:685    .text.HAL_UART_Receive_IT:0000000000000000 HAL_UART_Receive_IT
+     /tmp/ccG8xVzu.s:891    .text.HAL_UART_Receive_IT:0000000000000118 $d
+     /tmp/ccG8xVzu.s:2009   .text.UART_RxISR_8BIT:0000000000000000 UART_RxISR_8BIT
+     /tmp/ccG8xVzu.s:2182   .text.UART_RxISR_8BIT_FIFOEN:0000000000000000 UART_RxISR_8BIT_FIFOEN
+     /tmp/ccG8xVzu.s:2315   .text.UART_RxISR_16BIT_FIFOEN:0000000000000000 UART_RxISR_16BIT_FIFOEN
+     /tmp/ccG8xVzu.s:2095   .text.UART_RxISR_16BIT:0000000000000000 UART_RxISR_16BIT
+     /tmp/ccG8xVzu.s:899    .text.HAL_UART_Transmit_DMA:0000000000000000 $t
+     /tmp/ccG8xVzu.s:906    .text.HAL_UART_Transmit_DMA:0000000000000000 HAL_UART_Transmit_DMA
+     /tmp/ccG8xVzu.s:1035   .text.HAL_UART_Transmit_DMA:00000000000000a0 $d
+     /tmp/ccG8xVzu.s:1842   .text.UART_DMATransmitCplt:0000000000000000 UART_DMATransmitCplt
+     /tmp/ccG8xVzu.s:1958   .text.UART_DMATxHalfCplt:0000000000000000 UART_DMATxHalfCplt
+     /tmp/ccG8xVzu.s:2582   .text.UART_DMAError:0000000000000000 UART_DMAError
+     /tmp/ccG8xVzu.s:1042   .text.HAL_UART_Receive_DMA:0000000000000000 $t
+     /tmp/ccG8xVzu.s:1049   .text.HAL_UART_Receive_DMA:0000000000000000 HAL_UART_Receive_DMA
+     /tmp/ccG8xVzu.s:1182   .text.HAL_UART_Receive_DMA:00000000000000ac $d
+     /tmp/ccG8xVzu.s:2451   .text.UART_DMAReceiveCplt:0000000000000000 UART_DMAReceiveCplt
+     /tmp/ccG8xVzu.s:2531   .text.UART_DMARxHalfCplt:0000000000000000 UART_DMARxHalfCplt
+     /tmp/ccG8xVzu.s:1189   .text.HAL_UART_DMAPause:0000000000000000 $t
+     /tmp/ccG8xVzu.s:1196   .text.HAL_UART_DMAPause:0000000000000000 HAL_UART_DMAPause
+     /tmp/ccG8xVzu.s:1288   .text.HAL_UART_DMAResume:0000000000000000 $t
+     /tmp/ccG8xVzu.s:1295   .text.HAL_UART_DMAResume:0000000000000000 HAL_UART_DMAResume
+     /tmp/ccG8xVzu.s:1366   .text.HAL_UART_DMAStop:0000000000000000 $t
+     /tmp/ccG8xVzu.s:1373   .text.HAL_UART_DMAStop:0000000000000000 HAL_UART_DMAStop
+     /tmp/ccG8xVzu.s:1491   .text.HAL_UART_Abort:0000000000000000 $t
+     /tmp/ccG8xVzu.s:1498   .text.HAL_UART_Abort:0000000000000000 HAL_UART_Abort
+     /tmp/ccG8xVzu.s:1633   .text.HAL_UART_AbortTransmit:0000000000000000 $t
+     /tmp/ccG8xVzu.s:1640   .text.HAL_UART_AbortTransmit:0000000000000000 HAL_UART_AbortTransmit
+     /tmp/ccG8xVzu.s:1726   .text.HAL_UART_AbortReceive:0000000000000000 $t
+     /tmp/ccG8xVzu.s:1733   .text.HAL_UART_AbortReceive:0000000000000000 HAL_UART_AbortReceive
+     /tmp/ccG8xVzu.s:1815   .text.HAL_UART_TxCpltCallback:0000000000000000 $t
+     /tmp/ccG8xVzu.s:1822   .text.HAL_UART_TxCpltCallback:0000000000000000 HAL_UART_TxCpltCallback
+     /tmp/ccG8xVzu.s:1836   .text.UART_DMATransmitCplt:0000000000000000 $t
+ARM GAS  /tmp/ccG8xVzu.s 			page 210
 
 
-     /tmp/ccQ5PNEm.s:1893   .text.UART_EndTransmit_IT:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:1899   .text.UART_EndTransmit_IT:0000000000000000 UART_EndTransmit_IT
-     /tmp/ccQ5PNEm.s:1931   .text.HAL_UART_TxHalfCpltCallback:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:1938   .text.HAL_UART_TxHalfCpltCallback:0000000000000000 HAL_UART_TxHalfCpltCallback
-     /tmp/ccQ5PNEm.s:1952   .text.UART_DMATxHalfCplt:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:1982   .text.HAL_UART_RxCpltCallback:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:1989   .text.HAL_UART_RxCpltCallback:0000000000000000 HAL_UART_RxCpltCallback
-     /tmp/ccQ5PNEm.s:2003   .text.UART_RxISR_8BIT:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:2089   .text.UART_RxISR_16BIT:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:2176   .text.UART_RxISR_8BIT_FIFOEN:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:2304   .text.UART_RxISR_8BIT_FIFOEN:00000000000000a8 $d
-     /tmp/ccQ5PNEm.s:2309   .text.UART_RxISR_16BIT_FIFOEN:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:2440   .text.UART_RxISR_16BIT_FIFOEN:00000000000000a4 $d
-     /tmp/ccQ5PNEm.s:2445   .text.UART_DMAReceiveCplt:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:2504   .text.HAL_UART_RxHalfCpltCallback:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:2511   .text.HAL_UART_RxHalfCpltCallback:0000000000000000 HAL_UART_RxHalfCpltCallback
-     /tmp/ccQ5PNEm.s:2525   .text.UART_DMARxHalfCplt:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:2555   .text.HAL_UART_ErrorCallback:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:2562   .text.HAL_UART_ErrorCallback:0000000000000000 HAL_UART_ErrorCallback
-     /tmp/ccQ5PNEm.s:2576   .text.UART_DMAError:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:2658   .text.HAL_UART_IRQHandler:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:2665   .text.HAL_UART_IRQHandler:0000000000000000 HAL_UART_IRQHandler
-     /tmp/ccQ5PNEm.s:2993   .text.HAL_UART_IRQHandler:00000000000001d8 $d
-     /tmp/ccQ5PNEm.s:3006   .text.UART_DMAAbortOnError:0000000000000000 UART_DMAAbortOnError
-     /tmp/ccQ5PNEm.s:3000   .text.UART_DMAAbortOnError:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3035   .text.HAL_UART_AbortCpltCallback:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3042   .text.HAL_UART_AbortCpltCallback:0000000000000000 HAL_UART_AbortCpltCallback
-     /tmp/ccQ5PNEm.s:3056   .text.HAL_UART_Abort_IT:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3063   .text.HAL_UART_Abort_IT:0000000000000000 HAL_UART_Abort_IT
-     /tmp/ccQ5PNEm.s:3241   .text.HAL_UART_Abort_IT:00000000000000f4 $d
-     /tmp/ccQ5PNEm.s:3319   .text.UART_DMATxAbortCallback:0000000000000000 UART_DMATxAbortCallback
-     /tmp/ccQ5PNEm.s:3253   .text.UART_DMARxAbortCallback:0000000000000000 UART_DMARxAbortCallback
-     /tmp/ccQ5PNEm.s:3247   .text.UART_DMARxAbortCallback:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3313   .text.UART_DMATxAbortCallback:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3384   .text.HAL_UART_AbortTransmitCpltCallback:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3391   .text.HAL_UART_AbortTransmitCpltCallback:0000000000000000 HAL_UART_AbortTransmitCpltCallback
-     /tmp/ccQ5PNEm.s:3405   .text.HAL_UART_AbortTransmit_IT:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3412   .text.HAL_UART_AbortTransmit_IT:0000000000000000 HAL_UART_AbortTransmit_IT
-     /tmp/ccQ5PNEm.s:3510   .text.HAL_UART_AbortTransmit_IT:0000000000000080 $d
-     /tmp/ccQ5PNEm.s:3521   .text.UART_DMATxOnlyAbortCallback:0000000000000000 UART_DMATxOnlyAbortCallback
-     /tmp/ccQ5PNEm.s:3515   .text.UART_DMATxOnlyAbortCallback:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3564   .text.HAL_UART_AbortReceiveCpltCallback:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3571   .text.HAL_UART_AbortReceiveCpltCallback:0000000000000000 HAL_UART_AbortReceiveCpltCallback
-     /tmp/ccQ5PNEm.s:3585   .text.HAL_UART_AbortReceive_IT:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3592   .text.HAL_UART_AbortReceive_IT:0000000000000000 HAL_UART_AbortReceive_IT
-     /tmp/ccQ5PNEm.s:3689   .text.HAL_UART_AbortReceive_IT:0000000000000084 $d
-     /tmp/ccQ5PNEm.s:3700   .text.UART_DMARxOnlyAbortCallback:0000000000000000 UART_DMARxOnlyAbortCallback
-     /tmp/ccQ5PNEm.s:3694   .text.UART_DMARxOnlyAbortCallback:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3739   .text.HAL_UART_ReceiverTimeout_Config:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3746   .text.HAL_UART_ReceiverTimeout_Config:0000000000000000 HAL_UART_ReceiverTimeout_Config
-     /tmp/ccQ5PNEm.s:3795   .text.HAL_UART_ReceiverTimeout_Config:0000000000000030 $d
-     /tmp/ccQ5PNEm.s:3801   .text.HAL_UART_EnableReceiverTimeout:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3808   .text.HAL_UART_EnableReceiverTimeout:0000000000000000 HAL_UART_EnableReceiverTimeout
-     /tmp/ccQ5PNEm.s:3871   .text.HAL_UART_EnableReceiverTimeout:0000000000000048 $d
-     /tmp/ccQ5PNEm.s:3876   .text.HAL_UART_DisableReceiverTimeout:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3883   .text.HAL_UART_DisableReceiverTimeout:0000000000000000 HAL_UART_DisableReceiverTimeout
-     /tmp/ccQ5PNEm.s:3946   .text.HAL_UART_DisableReceiverTimeout:0000000000000048 $d
-ARM GAS  /tmp/ccQ5PNEm.s 			page 211
+     /tmp/ccG8xVzu.s:1893   .text.UART_EndTransmit_IT:0000000000000000 $t
+     /tmp/ccG8xVzu.s:1899   .text.UART_EndTransmit_IT:0000000000000000 UART_EndTransmit_IT
+     /tmp/ccG8xVzu.s:1931   .text.HAL_UART_TxHalfCpltCallback:0000000000000000 $t
+     /tmp/ccG8xVzu.s:1938   .text.HAL_UART_TxHalfCpltCallback:0000000000000000 HAL_UART_TxHalfCpltCallback
+     /tmp/ccG8xVzu.s:1952   .text.UART_DMATxHalfCplt:0000000000000000 $t
+     /tmp/ccG8xVzu.s:1982   .text.HAL_UART_RxCpltCallback:0000000000000000 $t
+     /tmp/ccG8xVzu.s:1989   .text.HAL_UART_RxCpltCallback:0000000000000000 HAL_UART_RxCpltCallback
+     /tmp/ccG8xVzu.s:2003   .text.UART_RxISR_8BIT:0000000000000000 $t
+     /tmp/ccG8xVzu.s:2089   .text.UART_RxISR_16BIT:0000000000000000 $t
+     /tmp/ccG8xVzu.s:2176   .text.UART_RxISR_8BIT_FIFOEN:0000000000000000 $t
+     /tmp/ccG8xVzu.s:2304   .text.UART_RxISR_8BIT_FIFOEN:00000000000000a8 $d
+     /tmp/ccG8xVzu.s:2309   .text.UART_RxISR_16BIT_FIFOEN:0000000000000000 $t
+     /tmp/ccG8xVzu.s:2440   .text.UART_RxISR_16BIT_FIFOEN:00000000000000a4 $d
+     /tmp/ccG8xVzu.s:2445   .text.UART_DMAReceiveCplt:0000000000000000 $t
+     /tmp/ccG8xVzu.s:2504   .text.HAL_UART_RxHalfCpltCallback:0000000000000000 $t
+     /tmp/ccG8xVzu.s:2511   .text.HAL_UART_RxHalfCpltCallback:0000000000000000 HAL_UART_RxHalfCpltCallback
+     /tmp/ccG8xVzu.s:2525   .text.UART_DMARxHalfCplt:0000000000000000 $t
+     /tmp/ccG8xVzu.s:2555   .text.HAL_UART_ErrorCallback:0000000000000000 $t
+     /tmp/ccG8xVzu.s:2562   .text.HAL_UART_ErrorCallback:0000000000000000 HAL_UART_ErrorCallback
+     /tmp/ccG8xVzu.s:2576   .text.UART_DMAError:0000000000000000 $t
+     /tmp/ccG8xVzu.s:2658   .text.HAL_UART_IRQHandler:0000000000000000 $t
+     /tmp/ccG8xVzu.s:2665   .text.HAL_UART_IRQHandler:0000000000000000 HAL_UART_IRQHandler
+     /tmp/ccG8xVzu.s:2993   .text.HAL_UART_IRQHandler:00000000000001d8 $d
+     /tmp/ccG8xVzu.s:3006   .text.UART_DMAAbortOnError:0000000000000000 UART_DMAAbortOnError
+     /tmp/ccG8xVzu.s:3000   .text.UART_DMAAbortOnError:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3035   .text.HAL_UART_AbortCpltCallback:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3042   .text.HAL_UART_AbortCpltCallback:0000000000000000 HAL_UART_AbortCpltCallback
+     /tmp/ccG8xVzu.s:3056   .text.HAL_UART_Abort_IT:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3063   .text.HAL_UART_Abort_IT:0000000000000000 HAL_UART_Abort_IT
+     /tmp/ccG8xVzu.s:3241   .text.HAL_UART_Abort_IT:00000000000000f4 $d
+     /tmp/ccG8xVzu.s:3319   .text.UART_DMATxAbortCallback:0000000000000000 UART_DMATxAbortCallback
+     /tmp/ccG8xVzu.s:3253   .text.UART_DMARxAbortCallback:0000000000000000 UART_DMARxAbortCallback
+     /tmp/ccG8xVzu.s:3247   .text.UART_DMARxAbortCallback:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3313   .text.UART_DMATxAbortCallback:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3384   .text.HAL_UART_AbortTransmitCpltCallback:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3391   .text.HAL_UART_AbortTransmitCpltCallback:0000000000000000 HAL_UART_AbortTransmitCpltCallback
+     /tmp/ccG8xVzu.s:3405   .text.HAL_UART_AbortTransmit_IT:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3412   .text.HAL_UART_AbortTransmit_IT:0000000000000000 HAL_UART_AbortTransmit_IT
+     /tmp/ccG8xVzu.s:3510   .text.HAL_UART_AbortTransmit_IT:0000000000000080 $d
+     /tmp/ccG8xVzu.s:3521   .text.UART_DMATxOnlyAbortCallback:0000000000000000 UART_DMATxOnlyAbortCallback
+     /tmp/ccG8xVzu.s:3515   .text.UART_DMATxOnlyAbortCallback:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3564   .text.HAL_UART_AbortReceiveCpltCallback:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3571   .text.HAL_UART_AbortReceiveCpltCallback:0000000000000000 HAL_UART_AbortReceiveCpltCallback
+     /tmp/ccG8xVzu.s:3585   .text.HAL_UART_AbortReceive_IT:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3592   .text.HAL_UART_AbortReceive_IT:0000000000000000 HAL_UART_AbortReceive_IT
+     /tmp/ccG8xVzu.s:3689   .text.HAL_UART_AbortReceive_IT:0000000000000084 $d
+     /tmp/ccG8xVzu.s:3700   .text.UART_DMARxOnlyAbortCallback:0000000000000000 UART_DMARxOnlyAbortCallback
+     /tmp/ccG8xVzu.s:3694   .text.UART_DMARxOnlyAbortCallback:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3739   .text.HAL_UART_ReceiverTimeout_Config:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3746   .text.HAL_UART_ReceiverTimeout_Config:0000000000000000 HAL_UART_ReceiverTimeout_Config
+     /tmp/ccG8xVzu.s:3795   .text.HAL_UART_ReceiverTimeout_Config:0000000000000030 $d
+     /tmp/ccG8xVzu.s:3801   .text.HAL_UART_EnableReceiverTimeout:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3808   .text.HAL_UART_EnableReceiverTimeout:0000000000000000 HAL_UART_EnableReceiverTimeout
+     /tmp/ccG8xVzu.s:3871   .text.HAL_UART_EnableReceiverTimeout:0000000000000048 $d
+     /tmp/ccG8xVzu.s:3876   .text.HAL_UART_DisableReceiverTimeout:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3883   .text.HAL_UART_DisableReceiverTimeout:0000000000000000 HAL_UART_DisableReceiverTimeout
+     /tmp/ccG8xVzu.s:3946   .text.HAL_UART_DisableReceiverTimeout:0000000000000048 $d
+ARM GAS  /tmp/ccG8xVzu.s 			page 211
 
 
-     /tmp/ccQ5PNEm.s:3951   .text.HAL_MultiProcessor_EnterMuteMode:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3958   .text.HAL_MultiProcessor_EnterMuteMode:0000000000000000 HAL_MultiProcessor_EnterMuteMode
-     /tmp/ccQ5PNEm.s:3977   .text.HAL_HalfDuplex_EnableTransmitter:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:3984   .text.HAL_HalfDuplex_EnableTransmitter:0000000000000000 HAL_HalfDuplex_EnableTransmitter
-     /tmp/ccQ5PNEm.s:4033   .text.HAL_HalfDuplex_EnableReceiver:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:4040   .text.HAL_HalfDuplex_EnableReceiver:0000000000000000 HAL_HalfDuplex_EnableReceiver
-     /tmp/ccQ5PNEm.s:4089   .text.HAL_LIN_SendBreak:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:4096   .text.HAL_LIN_SendBreak:0000000000000000 HAL_LIN_SendBreak
-     /tmp/ccQ5PNEm.s:4165   .text.HAL_LIN_SendBreak:0000000000000060 $d
-     /tmp/ccQ5PNEm.s:4171   .text.HAL_UART_GetState:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:4178   .text.HAL_UART_GetState:0000000000000000 HAL_UART_GetState
-     /tmp/ccQ5PNEm.s:4200   .text.HAL_UART_GetError:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:4207   .text.HAL_UART_GetError:0000000000000000 HAL_UART_GetError
-     /tmp/ccQ5PNEm.s:4225   .text.UART_SetConfig:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:4232   .text.UART_SetConfig:0000000000000000 UART_SetConfig
-     /tmp/ccQ5PNEm.s:4435   .text.UART_SetConfig:000000000000013c $d
-     /tmp/ccQ5PNEm.s:4445   .text.UART_SetConfig:000000000000014e $t
-     /tmp/ccQ5PNEm.s:4526   .text.UART_SetConfig:00000000000001de $d
-     /tmp/ccQ5PNEm.s:4530   .text.UART_SetConfig:00000000000001e2 $t
-     /tmp/ccQ5PNEm.s:4560   .text.UART_SetConfig:0000000000000206 $d
-     /tmp/ccQ5PNEm.s:4664   .text.UART_SetConfig:000000000000027c $d
-     /tmp/ccQ5PNEm.s:4675   .text.UART_SetConfig:000000000000029c $t
-     /tmp/ccQ5PNEm.s:4730   .text.UART_SetConfig:00000000000002ec $d
-     /tmp/ccQ5PNEm.s:4819   .text.UART_SetConfig:0000000000000374 $d
-     /tmp/ccQ5PNEm.s:5008   .text.UART_SetConfig:0000000000000458 $d
-     /tmp/ccQ5PNEm.s:5015   .text.UART_AdvFeatureConfig:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:5022   .text.UART_AdvFeatureConfig:0000000000000000 UART_AdvFeatureConfig
-     /tmp/ccQ5PNEm.s:5319   .text.UART_AdvFeatureConfig:00000000000001e4 $d
-     /tmp/ccQ5PNEm.s:5325   .text.UART_WaitOnFlagUntilTimeout:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:5332   .text.UART_WaitOnFlagUntilTimeout:0000000000000000 UART_WaitOnFlagUntilTimeout
-     /tmp/ccQ5PNEm.s:5442   .text.HAL_UART_Transmit:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:5449   .text.HAL_UART_Transmit:0000000000000000 HAL_UART_Transmit
-     /tmp/ccQ5PNEm.s:5629   .text.HAL_UART_Receive:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:5636   .text.HAL_UART_Receive:0000000000000000 HAL_UART_Receive
-     /tmp/ccQ5PNEm.s:5862   .text.UART_CheckIdleState:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:5869   .text.UART_CheckIdleState:0000000000000000 UART_CheckIdleState
-     /tmp/ccQ5PNEm.s:5961   .text.HAL_UART_Init:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:5968   .text.HAL_UART_Init:0000000000000000 HAL_UART_Init
-     /tmp/ccQ5PNEm.s:6120   .text.HAL_UART_Init:00000000000000d8 $d
-     /tmp/ccQ5PNEm.s:6126   .text.HAL_HalfDuplex_Init:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:6133   .text.HAL_HalfDuplex_Init:0000000000000000 HAL_HalfDuplex_Init
-     /tmp/ccQ5PNEm.s:6256   .text.HAL_HalfDuplex_Init:00000000000000a8 $d
-     /tmp/ccQ5PNEm.s:6262   .text.HAL_LIN_Init:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:6269   .text.HAL_LIN_Init:0000000000000000 HAL_LIN_Init
-     /tmp/ccQ5PNEm.s:6440   .text.HAL_LIN_Init:00000000000000d8 $d
-     /tmp/ccQ5PNEm.s:6446   .text.HAL_MultiProcessor_Init:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:6453   .text.HAL_MultiProcessor_Init:0000000000000000 HAL_MultiProcessor_Init
-     /tmp/ccQ5PNEm.s:6585   .text.HAL_MultiProcessor_Init:00000000000000a8 $d
-     /tmp/ccQ5PNEm.s:6590   .text.HAL_MultiProcessor_EnableMuteMode:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:6597   .text.HAL_MultiProcessor_EnableMuteMode:0000000000000000 HAL_MultiProcessor_EnableMuteMode
-     /tmp/ccQ5PNEm.s:6643   .text.HAL_MultiProcessor_DisableMuteMode:0000000000000000 $t
-     /tmp/ccQ5PNEm.s:6650   .text.HAL_MultiProcessor_DisableMuteMode:0000000000000000 HAL_MultiProcessor_DisableMuteMode
-     /tmp/ccQ5PNEm.s:6706   .rodata.UARTPrescTable:0000000000000000 UARTPrescTable
-     /tmp/ccQ5PNEm.s:6697   .rodata.HAL_UART_DeInit.str1.4:0000000000000000 $d
-     /tmp/ccQ5PNEm.s:6702   .rodata.UARTPrescTable:0000000000000000 $d
-     /tmp/ccQ5PNEm.s:4573   .text.UART_SetConfig:0000000000000213 $d
-     /tmp/ccQ5PNEm.s:4573   .text.UART_SetConfig:0000000000000214 $t
-ARM GAS  /tmp/ccQ5PNEm.s 			page 212
+     /tmp/ccG8xVzu.s:3951   .text.HAL_MultiProcessor_EnterMuteMode:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3958   .text.HAL_MultiProcessor_EnterMuteMode:0000000000000000 HAL_MultiProcessor_EnterMuteMode
+     /tmp/ccG8xVzu.s:3977   .text.HAL_HalfDuplex_EnableTransmitter:0000000000000000 $t
+     /tmp/ccG8xVzu.s:3984   .text.HAL_HalfDuplex_EnableTransmitter:0000000000000000 HAL_HalfDuplex_EnableTransmitter
+     /tmp/ccG8xVzu.s:4033   .text.HAL_HalfDuplex_EnableReceiver:0000000000000000 $t
+     /tmp/ccG8xVzu.s:4040   .text.HAL_HalfDuplex_EnableReceiver:0000000000000000 HAL_HalfDuplex_EnableReceiver
+     /tmp/ccG8xVzu.s:4089   .text.HAL_LIN_SendBreak:0000000000000000 $t
+     /tmp/ccG8xVzu.s:4096   .text.HAL_LIN_SendBreak:0000000000000000 HAL_LIN_SendBreak
+     /tmp/ccG8xVzu.s:4165   .text.HAL_LIN_SendBreak:0000000000000060 $d
+     /tmp/ccG8xVzu.s:4171   .text.HAL_UART_GetState:0000000000000000 $t
+     /tmp/ccG8xVzu.s:4178   .text.HAL_UART_GetState:0000000000000000 HAL_UART_GetState
+     /tmp/ccG8xVzu.s:4200   .text.HAL_UART_GetError:0000000000000000 $t
+     /tmp/ccG8xVzu.s:4207   .text.HAL_UART_GetError:0000000000000000 HAL_UART_GetError
+     /tmp/ccG8xVzu.s:4225   .text.UART_SetConfig:0000000000000000 $t
+     /tmp/ccG8xVzu.s:4232   .text.UART_SetConfig:0000000000000000 UART_SetConfig
+     /tmp/ccG8xVzu.s:4435   .text.UART_SetConfig:000000000000013c $d
+     /tmp/ccG8xVzu.s:4445   .text.UART_SetConfig:000000000000014e $t
+     /tmp/ccG8xVzu.s:4526   .text.UART_SetConfig:00000000000001de $d
+     /tmp/ccG8xVzu.s:4530   .text.UART_SetConfig:00000000000001e2 $t
+     /tmp/ccG8xVzu.s:4560   .text.UART_SetConfig:0000000000000206 $d
+     /tmp/ccG8xVzu.s:4664   .text.UART_SetConfig:000000000000027c $d
+     /tmp/ccG8xVzu.s:4675   .text.UART_SetConfig:000000000000029c $t
+     /tmp/ccG8xVzu.s:4730   .text.UART_SetConfig:00000000000002ec $d
+     /tmp/ccG8xVzu.s:4819   .text.UART_SetConfig:0000000000000374 $d
+     /tmp/ccG8xVzu.s:5008   .text.UART_SetConfig:0000000000000458 $d
+     /tmp/ccG8xVzu.s:5015   .text.UART_AdvFeatureConfig:0000000000000000 $t
+     /tmp/ccG8xVzu.s:5022   .text.UART_AdvFeatureConfig:0000000000000000 UART_AdvFeatureConfig
+     /tmp/ccG8xVzu.s:5319   .text.UART_AdvFeatureConfig:00000000000001e4 $d
+     /tmp/ccG8xVzu.s:5325   .text.UART_WaitOnFlagUntilTimeout:0000000000000000 $t
+     /tmp/ccG8xVzu.s:5332   .text.UART_WaitOnFlagUntilTimeout:0000000000000000 UART_WaitOnFlagUntilTimeout
+     /tmp/ccG8xVzu.s:5442   .text.HAL_UART_Transmit:0000000000000000 $t
+     /tmp/ccG8xVzu.s:5449   .text.HAL_UART_Transmit:0000000000000000 HAL_UART_Transmit
+     /tmp/ccG8xVzu.s:5629   .text.HAL_UART_Receive:0000000000000000 $t
+     /tmp/ccG8xVzu.s:5636   .text.HAL_UART_Receive:0000000000000000 HAL_UART_Receive
+     /tmp/ccG8xVzu.s:5862   .text.UART_CheckIdleState:0000000000000000 $t
+     /tmp/ccG8xVzu.s:5869   .text.UART_CheckIdleState:0000000000000000 UART_CheckIdleState
+     /tmp/ccG8xVzu.s:5961   .text.HAL_UART_Init:0000000000000000 $t
+     /tmp/ccG8xVzu.s:5968   .text.HAL_UART_Init:0000000000000000 HAL_UART_Init
+     /tmp/ccG8xVzu.s:6120   .text.HAL_UART_Init:00000000000000d8 $d
+     /tmp/ccG8xVzu.s:6126   .text.HAL_HalfDuplex_Init:0000000000000000 $t
+     /tmp/ccG8xVzu.s:6133   .text.HAL_HalfDuplex_Init:0000000000000000 HAL_HalfDuplex_Init
+     /tmp/ccG8xVzu.s:6256   .text.HAL_HalfDuplex_Init:00000000000000a8 $d
+     /tmp/ccG8xVzu.s:6262   .text.HAL_LIN_Init:0000000000000000 $t
+     /tmp/ccG8xVzu.s:6269   .text.HAL_LIN_Init:0000000000000000 HAL_LIN_Init
+     /tmp/ccG8xVzu.s:6440   .text.HAL_LIN_Init:00000000000000d8 $d
+     /tmp/ccG8xVzu.s:6446   .text.HAL_MultiProcessor_Init:0000000000000000 $t
+     /tmp/ccG8xVzu.s:6453   .text.HAL_MultiProcessor_Init:0000000000000000 HAL_MultiProcessor_Init
+     /tmp/ccG8xVzu.s:6585   .text.HAL_MultiProcessor_Init:00000000000000a8 $d
+     /tmp/ccG8xVzu.s:6590   .text.HAL_MultiProcessor_EnableMuteMode:0000000000000000 $t
+     /tmp/ccG8xVzu.s:6597   .text.HAL_MultiProcessor_EnableMuteMode:0000000000000000 HAL_MultiProcessor_EnableMuteMode
+     /tmp/ccG8xVzu.s:6643   .text.HAL_MultiProcessor_DisableMuteMode:0000000000000000 $t
+     /tmp/ccG8xVzu.s:6650   .text.HAL_MultiProcessor_DisableMuteMode:0000000000000000 HAL_MultiProcessor_DisableMuteMode
+     /tmp/ccG8xVzu.s:6706   .rodata.UARTPrescTable:0000000000000000 UARTPrescTable
+     /tmp/ccG8xVzu.s:6697   .rodata.HAL_UART_DeInit.str1.4:0000000000000000 $d
+     /tmp/ccG8xVzu.s:6702   .rodata.UARTPrescTable:0000000000000000 $d
+     /tmp/ccG8xVzu.s:4573   .text.UART_SetConfig:0000000000000213 $d
+     /tmp/ccG8xVzu.s:4573   .text.UART_SetConfig:0000000000000214 $t
+ARM GAS  /tmp/ccG8xVzu.s 			page 212
 
 
-     /tmp/ccQ5PNEm.s:4739   .text.UART_SetConfig:00000000000002f5 $d
-     /tmp/ccQ5PNEm.s:4739   .text.UART_SetConfig:00000000000002f6 $t
-     /tmp/ccQ5PNEm.s:4828   .text.UART_SetConfig:000000000000037d $d
-     /tmp/ccQ5PNEm.s:4828   .text.UART_SetConfig:000000000000037e $t
+     /tmp/ccG8xVzu.s:4739   .text.UART_SetConfig:00000000000002f5 $d
+     /tmp/ccG8xVzu.s:4739   .text.UART_SetConfig:00000000000002f6 $t
+     /tmp/ccG8xVzu.s:4828   .text.UART_SetConfig:000000000000037d $d
+     /tmp/ccG8xVzu.s:4828   .text.UART_SetConfig:000000000000037e $t
 
 UNDEFINED SYMBOLS
 assert_failed

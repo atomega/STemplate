@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccafCtH6.s 			page 1
+ARM GAS  /tmp/ccPT1Qao.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
   30:Core/Src/main.c **** 
   31:Core/Src/main.c **** /* USER CODE END PTD */
   32:Core/Src/main.c **** 
-ARM GAS  /tmp/ccafCtH6.s 			page 2
+ARM GAS  /tmp/ccPT1Qao.s 			page 2
 
 
   33:Core/Src/main.c **** /* Private define ------------------------------------------------------------*/
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
   87:Core/Src/main.c **** 
   88:Core/Src/main.c ****   /* Initialize all configured peripherals */
   89:Core/Src/main.c ****   MX_GPIO_Init();
-ARM GAS  /tmp/ccafCtH6.s 			page 3
+ARM GAS  /tmp/ccPT1Qao.s 			page 3
 
 
   90:Core/Src/main.c ****   MX_LPUART1_UART_Init();
@@ -130,7 +130,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
   96:Core/Src/main.c ****   /* USER CODE BEGIN WHILE */
   97:Core/Src/main.c ****   while (1)
   98:Core/Src/main.c ****   {
-  99:Core/Src/main.c ****         app_main(); // call c++ main loop
+  99:Core/Src/main.c ****     app_main(); // call c++ main loop
  100:Core/Src/main.c ****     /* USER CODE END WHILE */
  101:Core/Src/main.c **** 
  102:Core/Src/main.c ****     /* USER CODE BEGIN 3 */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  144:Core/Src/main.c ****   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
  145:Core/Src/main.c ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
  146:Core/Src/main.c ****   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
-ARM GAS  /tmp/ccafCtH6.s 			page 4
+ARM GAS  /tmp/ccPT1Qao.s 			page 4
 
 
  147:Core/Src/main.c **** 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  201:Core/Src/main.c ****   }
  202:Core/Src/main.c ****   /* USER CODE BEGIN LPUART1_Init 2 */
  203:Core/Src/main.c **** 
-ARM GAS  /tmp/ccafCtH6.s 			page 5
+ARM GAS  /tmp/ccPT1Qao.s 			page 5
 
 
  204:Core/Src/main.c ****   /* USER CODE END LPUART1_Init 2 */
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
   65 002e 02F02002 		and	r2, r2, #32
   66 0032 0292     		str	r2, [sp, #8]
   67 0034 029A     		ldr	r2, [sp, #8]
-ARM GAS  /tmp/ccafCtH6.s 			page 6
+ARM GAS  /tmp/ccPT1Qao.s 			page 6
 
 
   68              	.LBE3:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  227:Core/Src/main.c **** 
  228:Core/Src/main.c ****   /*Configure GPIO pin : B1_Pin */
  229:Core/Src/main.c ****   GPIO_InitStruct.Pin = B1_Pin;
-ARM GAS  /tmp/ccafCtH6.s 			page 7
+ARM GAS  /tmp/ccPT1Qao.s 			page 7
 
 
  115              		.loc 1 229 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  250:Core/Src/main.c ****   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
  149              		.loc 1 250 0
  150 00be 07A9     		add	r1, sp, #28
-ARM GAS  /tmp/ccafCtH6.s 			page 8
+ARM GAS  /tmp/ccPT1Qao.s 			page 8
 
 
  151 00c0 3046     		mov	r0, r6
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  182 00f0 4FF6F773 		movw	r3, #65527
  183 00f4 0793     		str	r3, [sp, #28]
  274:Core/Src/main.c ****                           |GPIO_PIN_11|GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14
-ARM GAS  /tmp/ccafCtH6.s 			page 9
+ARM GAS  /tmp/ccPT1Qao.s 			page 9
 
 
  275:Core/Src/main.c ****                           |GPIO_PIN_15|GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  226              		.thumb
  227              		.thumb_func
  228              		.fpu fpv4-sp-d16
-ARM GAS  /tmp/ccafCtH6.s 			page 10
+ARM GAS  /tmp/ccPT1Qao.s 			page 10
 
 
  230              	MX_LPUART1_UART_Init:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  272 0028 2046     		mov	r0, r4
  273 002a FFF7FEFF 		bl	HAL_UARTEx_SetTxFifoThreshold
  274              	.LVL9:
-ARM GAS  /tmp/ccafCtH6.s 			page 11
+ARM GAS  /tmp/ccPT1Qao.s 			page 11
 
 
  194:Core/Src/main.c ****   {
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  325 0010 1194     		str	r4, [sp, #68]
  326 0012 1294     		str	r4, [sp, #72]
  327 0014 1394     		str	r4, [sp, #76]
-ARM GAS  /tmp/ccafCtH6.s 			page 12
+ARM GAS  /tmp/ccPT1Qao.s 			page 12
 
 
  328 0016 1494     		str	r4, [sp, #80]
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  369              		.loc 1 133 0
  370 0052 2293     		str	r3, [sp, #136]
  134:Core/Src/main.c ****   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
-ARM GAS  /tmp/ccafCtH6.s 			page 13
+ARM GAS  /tmp/ccPT1Qao.s 			page 13
 
 
  371              		.loc 1 134 0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  415              		.syntax unified
  416              		.thumb
  417              		.thumb_func
-ARM GAS  /tmp/ccafCtH6.s 			page 14
+ARM GAS  /tmp/ccPT1Qao.s 			page 14
 
 
  418              		.fpu fpv4-sp-d16
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  295:Core/Src/main.c ****   * @retval None
  296:Core/Src/main.c ****   */
  297:Core/Src/main.c **** void Error_Handler(void)
-ARM GAS  /tmp/ccafCtH6.s 			page 15
+ARM GAS  /tmp/ccPT1Qao.s 			page 15
 
 
  298:Core/Src/main.c **** {
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  497              		.file 3 "/usr/include/newlib/sys/_stdint.h"
  498              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
  499              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h"
-ARM GAS  /tmp/ccafCtH6.s 			page 16
+ARM GAS  /tmp/ccPT1Qao.s 			page 16
 
 
  500              		.file 6 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h"
@@ -914,26 +914,26 @@ ARM GAS  /tmp/ccafCtH6.s 			page 1
  510              		.file 16 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h"
  511              		.file 17 "Core/Inc/app_main.h"
  512              		.file 18 "<built-in>"
-ARM GAS  /tmp/ccafCtH6.s 			page 17
+ARM GAS  /tmp/ccPT1Qao.s 			page 17
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.c
-     /tmp/ccafCtH6.s:18     .text.MX_GPIO_Init:0000000000000000 $t
-     /tmp/ccafCtH6.s:24     .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
-     /tmp/ccafCtH6.s:214    .text.MX_GPIO_Init:0000000000000118 $d
-     /tmp/ccafCtH6.s:224    .text.MX_LPUART1_UART_Init:0000000000000000 $t
-     /tmp/ccafCtH6.s:230    .text.MX_LPUART1_UART_Init:0000000000000000 MX_LPUART1_UART_Init
-     /tmp/ccafCtH6.s:289    .text.MX_LPUART1_UART_Init:0000000000000040 $d
+     /tmp/ccPT1Qao.s:18     .text.MX_GPIO_Init:0000000000000000 $t
+     /tmp/ccPT1Qao.s:24     .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
+     /tmp/ccPT1Qao.s:214    .text.MX_GPIO_Init:0000000000000118 $d
+     /tmp/ccPT1Qao.s:224    .text.MX_LPUART1_UART_Init:0000000000000000 $t
+     /tmp/ccPT1Qao.s:230    .text.MX_LPUART1_UART_Init:0000000000000000 MX_LPUART1_UART_Init
+     /tmp/ccPT1Qao.s:289    .text.MX_LPUART1_UART_Init:0000000000000040 $d
                             *COM*:000000000000008c hlpuart1
-     /tmp/ccafCtH6.s:295    .text.SystemClock_Config:0000000000000000 $t
-     /tmp/ccafCtH6.s:302    .text.SystemClock_Config:0000000000000000 SystemClock_Config
-     /tmp/ccafCtH6.s:413    .text.main:0000000000000000 $t
-     /tmp/ccafCtH6.s:420    .text.main:0000000000000000 main
-     /tmp/ccafCtH6.s:453    .text.Error_Handler:0000000000000000 $t
-     /tmp/ccafCtH6.s:460    .text.Error_Handler:0000000000000000 Error_Handler
-     /tmp/ccafCtH6.s:473    .text.assert_failed:0000000000000000 $t
-     /tmp/ccafCtH6.s:480    .text.assert_failed:0000000000000000 assert_failed
+     /tmp/ccPT1Qao.s:295    .text.SystemClock_Config:0000000000000000 $t
+     /tmp/ccPT1Qao.s:302    .text.SystemClock_Config:0000000000000000 SystemClock_Config
+     /tmp/ccPT1Qao.s:413    .text.main:0000000000000000 $t
+     /tmp/ccPT1Qao.s:420    .text.main:0000000000000000 main
+     /tmp/ccPT1Qao.s:453    .text.Error_Handler:0000000000000000 $t
+     /tmp/ccPT1Qao.s:460    .text.Error_Handler:0000000000000000 Error_Handler
+     /tmp/ccPT1Qao.s:473    .text.assert_failed:0000000000000000 $t
+     /tmp/ccPT1Qao.s:480    .text.assert_failed:0000000000000000 assert_failed
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccr5p31M.s 			page 1
+ARM GAS  /tmp/ccdLH5j4.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -31,9 +31,9 @@ ARM GAS  /tmp/ccr5p31M.s 			page 1
    1:Core/Src/Cpp/app_main.cpp **** #include "app_main.h"
    2:Core/Src/Cpp/app_main.cpp **** #include <stdint.h>
    3:Core/Src/Cpp/app_main.cpp **** 
-   4:Core/Src/Cpp/app_main.cpp **** //#include "stm32g4xx_hal_gpio.h"
-   5:Core/Src/Cpp/app_main.cpp **** #include "main.h"
-   6:Core/Src/Cpp/app_main.cpp **** 
+   4:Core/Src/Cpp/app_main.cpp **** #include "main.h"
+   5:Core/Src/Cpp/app_main.cpp **** 
+   6:Core/Src/Cpp/app_main.cpp **** #include "stm32g4xx_hal.h"
    7:Core/Src/Cpp/app_main.cpp **** 
    8:Core/Src/Cpp/app_main.cpp **** int app_main()
    9:Core/Src/Cpp/app_main.cpp **** {
@@ -47,45 +47,136 @@ ARM GAS  /tmp/ccr5p31M.s 			page 1
   36              		.cfi_def_cfa_offset 8
   37              		.cfi_offset 3, -8
   38              		.cfi_offset 14, -4
-  39              	.L2:
+  39              	.L8:
   10:Core/Src/Cpp/app_main.cpp **** 	uint32_t i = 0;
   11:Core/Src/Cpp/app_main.cpp **** 	while(1)
   12:Core/Src/Cpp/app_main.cpp **** 	{
   13:Core/Src/Cpp/app_main.cpp **** 		
-  14:Core/Src/Cpp/app_main.cpp **** 		
-  15:Core/Src/Cpp/app_main.cpp **** 		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
-  40              		.loc 1 15 0 discriminator 1
+  14:Core/Src/Cpp/app_main.cpp **** 		//HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+  15:Core/Src/Cpp/app_main.cpp **** 		
+  16:Core/Src/Cpp/app_main.cpp **** 
+  17:Core/Src/Cpp/app_main.cpp **** 		
+  18:Core/Src/Cpp/app_main.cpp **** 		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
+  40              		.loc 1 18 0
+ARM GAS  /tmp/ccdLH5j4.s 			page 2
+
+
   41 0002 0122     		movs	r2, #1
   42 0004 2021     		movs	r1, #32
   43 0006 4FF09040 		mov	r0, #1207959552
-ARM GAS  /tmp/ccr5p31M.s 			page 2
-
-
   44 000a FFF7FEFF 		bl	HAL_GPIO_WritePin
   45              	.LVL0:
-  46 000e F8E7     		b	.L2
-  47              		.cfi_endproc
-  48              	.LFE132:
-  49              		.fnend
-  51              		.text
-  52              	.Letext0:
-  53              		.file 2 "/usr/include/newlib/machine/_default_types.h"
-  54              		.file 3 "/usr/include/newlib/sys/_stdint.h"
-  55              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
-  56              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h"
-  57              		.file 6 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h"
-  58              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
-  59              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h"
-  60              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
-  61              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
-  62              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
-ARM GAS  /tmp/ccr5p31M.s 			page 3
+  19:Core/Src/Cpp/app_main.cpp **** 		for(i = 0; i < 0xFFFFF; i++);
+  46              		.loc 1 19 0
+  47 000e 0023     		movs	r3, #0
+  48              	.LVL1:
+  49              	.L3:
+  50              		.loc 1 19 0 is_stmt 0 discriminator 3
+  51 0010 144A     		ldr	r2, .L11
+  52 0012 9342     		cmp	r3, r2
+  53 0014 01D8     		bhi	.L2
+  54              		.loc 1 19 0 discriminator 2
+  55 0016 0133     		adds	r3, r3, #1
+  56              	.LVL2:
+  57 0018 FAE7     		b	.L3
+  58              	.L2:
+  20:Core/Src/Cpp/app_main.cpp **** 
+  21:Core/Src/Cpp/app_main.cpp **** 		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
+  59              		.loc 1 21 0 is_stmt 1
+  60 001a 0022     		movs	r2, #0
+  61 001c 2021     		movs	r1, #32
+  62 001e 4FF09040 		mov	r0, #1207959552
+  63 0022 FFF7FEFF 		bl	HAL_GPIO_WritePin
+  64              	.LVL3:
+  22:Core/Src/Cpp/app_main.cpp **** 		for(i = 0; i < 0xFFFFF; i++);
+  65              		.loc 1 22 0
+  66 0026 0023     		movs	r3, #0
+  67              	.LVL4:
+  68              	.L5:
+  69              		.loc 1 22 0 is_stmt 0 discriminator 3
+  70 0028 0E4A     		ldr	r2, .L11
+  71 002a 9342     		cmp	r3, r2
+  72 002c 01D8     		bhi	.L4
+  73              		.loc 1 22 0 discriminator 2
+  74 002e 0133     		adds	r3, r3, #1
+  75              	.LVL5:
+  76 0030 FAE7     		b	.L5
+  77              	.L4:
+  23:Core/Src/Cpp/app_main.cpp **** 	
+  24:Core/Src/Cpp/app_main.cpp **** 	
+  25:Core/Src/Cpp/app_main.cpp **** 		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
+  78              		.loc 1 25 0 is_stmt 1
+  79 0032 0122     		movs	r2, #1
+  80 0034 2021     		movs	r1, #32
+  81 0036 4FF09040 		mov	r0, #1207959552
+  82 003a FFF7FEFF 		bl	HAL_GPIO_WritePin
+  83              	.LVL6:
+  26:Core/Src/Cpp/app_main.cpp **** 		for(i = 0; i < 0xFFFFFF; i++);
+  84              		.loc 1 26 0
+  85 003e 0023     		movs	r3, #0
+  86              	.LVL7:
+  87              	.L7:
+  88              		.loc 1 26 0 is_stmt 0 discriminator 3
+  89 0040 094A     		ldr	r2, .L11+4
+ARM GAS  /tmp/ccdLH5j4.s 			page 3
+
+
+  90 0042 9342     		cmp	r3, r2
+  91 0044 01D8     		bhi	.L6
+  92              		.loc 1 26 0 discriminator 2
+  93 0046 0133     		adds	r3, r3, #1
+  94              	.LVL8:
+  95 0048 FAE7     		b	.L7
+  96              	.L6:
+  27:Core/Src/Cpp/app_main.cpp **** 
+  28:Core/Src/Cpp/app_main.cpp **** 		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
+  97              		.loc 1 28 0 is_stmt 1
+  98 004a 0022     		movs	r2, #0
+  99 004c 2021     		movs	r1, #32
+ 100 004e 4FF09040 		mov	r0, #1207959552
+ 101 0052 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 102              	.LVL9:
+  29:Core/Src/Cpp/app_main.cpp **** 		for(i = 0; i < 0xFFFFFF; i++);
+ 103              		.loc 1 29 0
+ 104 0056 0023     		movs	r3, #0
+ 105              	.LVL10:
+ 106              	.L9:
+ 107              		.loc 1 29 0 is_stmt 0 discriminator 3
+ 108 0058 034A     		ldr	r2, .L11+4
+ 109 005a 9342     		cmp	r3, r2
+ 110 005c D1D8     		bhi	.L8
+ 111              		.loc 1 29 0 discriminator 2
+ 112 005e 0133     		adds	r3, r3, #1
+ 113              	.LVL11:
+ 114 0060 FAE7     		b	.L9
+ 115              	.L12:
+ 116 0062 00BF     		.align	2
+ 117              	.L11:
+ 118 0064 FEFF0F00 		.word	1048574
+ 119 0068 FEFFFF00 		.word	16777214
+ 120              		.cfi_endproc
+ 121              	.LFE132:
+ 122              		.fnend
+ 124              		.text
+ 125              	.Letext0:
+ 126              		.file 2 "/usr/include/newlib/machine/_default_types.h"
+ 127              		.file 3 "/usr/include/newlib/sys/_stdint.h"
+ 128              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
+ 129              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h"
+ 130              		.file 6 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h"
+ 131              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
+ 132              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h"
+ 133              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
+ 134              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
+ 135              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
+ARM GAS  /tmp/ccdLH5j4.s 			page 4
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 app_main.cpp
-     /tmp/ccr5p31M.s:18     .text.app_main:0000000000000000 $t
-     /tmp/ccr5p31M.s:25     .text.app_main:0000000000000000 app_main
+     /tmp/ccdLH5j4.s:18     .text.app_main:0000000000000000 $t
+     /tmp/ccdLH5j4.s:25     .text.app_main:0000000000000000 app_main
+     /tmp/ccdLH5j4.s:118    .text.app_main:0000000000000064 $d
          .ARM.extab.text.app_main:0000000000000000 $d
          .ARM.exidx.text.app_main:0000000000000000 $d
 
