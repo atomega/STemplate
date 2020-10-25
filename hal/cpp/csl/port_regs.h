@@ -1,4 +1,8 @@
+#ifndef _PORT_REGS_H_
+#define _PORT_REGS_H_
 
+namespace csl
+{
 
 union MODER {
     struct MODES{
@@ -77,14 +81,65 @@ union MODER {
     uint32_t raw;
 };
 
+union OTYPER {
+	struct TYPES {
+		enum{PUSH_PULL = 0,
+		     OPEN-DRAIN = 1};
+	};
+	struct OT_0 : TYPES {
+		typedef Bits<uint32_t, 0, 1> bits;
+	};
+	struct OT_1 : TYPES {
+		typedef Bits<uint32_t, 1, 1> bits;
+	};
+	struct OT_2 : TYPES {
+		typedef Bits<uint32_t, 2, 1> bits;
+	};
+	struct OT_3 : TYPES {
+		typedef Bits<uint32_t, 3, 1> bits;
+	};
+	struct OT_4 : TYPES {
+		typedef Bits<uint32_t, 4, 1> bits;
+	};
+	struct OT_5 : TYPES {
+		typedef Bits<uint32_t, 5, 1> bits;
+	};
+	struct OT_6 : TYPES {
+		typedef Bits<uint32_t, 6, 1> bits;
+	};
+	struct OT_7 : TYPES {
+		typedef Bits<uint32_t, 7, 1> bits;
+	};
+	struct OT_8 : TYPES {
+		typedef Bits<uint32_t, 8, 1> bits;
+	};
+	struct OT_9 : TYPES {
+		typedef Bits<uint32_t, 9, 1> bits;
+	};
+	struct OT_10 : TYPES {
+		typedef Bits<uint32_t, 10, 1> bits;
+	};
+	struct OT_11 : TYPES {
+		typedef Bits<uint32_t, 11, 1> bits;
+	};
+	struct OT_12 : TYPES {
+		typedef Bits<uint32_t, 12, 1> bits;
+	};
+	struct OT_13 : TYPES {
+		typedef Bits<uint32_t, 13, 1> bits;
+	};
+	struct OT_14 : TYPES {
+		typedef Bits<uint32_t, 14, 1> bits;
+	};
+	struct OT_15 : TYPES {
+		typedef Bits<uint32_t, 15, 1> bits;
+	};
 
-template<Id id>
-struct GetAddrReg
-{
-  static const uintptr_t ctrl;
+
 };
 
 
+} // namespace csl
 
+#endif // _PORT_REGS_H_
 
-MODER mode_reg = MODER::MODE_14::ANALOG_MODE;
