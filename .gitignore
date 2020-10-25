@@ -1,3 +1,6 @@
 # vim
 *.swp
+*.o
+*.d
+*.lst
 hal/app/
