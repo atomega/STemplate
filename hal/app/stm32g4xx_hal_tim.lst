@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccvJe7Ob.s 			page 1
+ARM GAS  /tmp/ccLufi87.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -18,15 +18,14 @@ ARM GAS  /tmp/ccvJe7Ob.s 			page 1
   15              	.Ltext0:
   16              		.cfi_sections	.debug_frame
   17              	.Letext0:
-  18              		.file 1 "/usr/include/newlib/machine/_default_types.h"
-  19              		.file 2 "/usr/include/newlib/sys/_stdint.h"
-  20              		.file 3 "Drivers/CMSIS/Include/core_cm4.h"
-  21              		.file 4 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h"
-  22              		.file 5 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
-  23              		.file 6 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
-  24              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
-  25              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
-ARM GAS  /tmp/ccvJe7Ob.s 			page 2
+  18              		.file 1 "/usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h"
+  19              		.file 2 "Drivers/CMSIS/Include/core_cm4.h"
+  20              		.file 3 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h"
+  21              		.file 4 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
+  22              		.file 5 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
+  23              		.file 6 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
+  24              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
+ARM GAS  /tmp/ccLufi87.s 			page 2
 
 
 DEFINED SYMBOLS

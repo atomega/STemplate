@@ -1,4 +1,5 @@
-../../app/app_main.o: Core/Src/Cpp/app_main.cpp Core/Inc/main.h \
+../../app/app_main.o: Core/Src/Cpp/app_main.cpp ../../cpp/csl/hw_reg.h \
+ ../../cpp/csl/bits.h Core/Inc/main.h \
  Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
  Core/Inc/stm32g4xx_hal_conf.h \
  Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
@@ -25,6 +26,10 @@
  Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h \
  Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h \
  Core/Inc/app_main.h Core/Inc/main.h Core/Inc/usart.h Core/Inc/gpio.h
+
+../../cpp/csl/hw_reg.h:
+
+../../cpp/csl/bits.h:
 
 Core/Inc/main.h:
 
