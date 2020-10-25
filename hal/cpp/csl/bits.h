@@ -19,7 +19,7 @@ enum
   bit_28 = 0x10000000, bit_29 = 0x20000000, bit_30 = 0x40000000, bit31 = 0x80000000
 }
 
-/*
+
 template<class T, unsigned int START, unsigned int STOP>
 struct Bits {
 		Bits& operator=(T v)
@@ -35,7 +35,7 @@ struct Bits {
 	private:
 		T _raw;
 };
-*/
+
 
 } // namespace csl
 

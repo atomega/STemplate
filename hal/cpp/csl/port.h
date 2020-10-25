@@ -53,10 +53,51 @@ struct GetAddrReg
   static const uintptr_t BRR;
 };
 
+/**
+ * @brief Implementation of port A
+ */
 template<>
 struct GetAddrReg<A>
 {
   static const uintptr_t MODER = BASE_ADDRESS_PORT_A;
+  static const uintptr_t OTYPER = MODER + 0x04;
+  static const uintptr_t OSPEEDER = MODER + 0x08;
+  static const uintptr_t PUPDR = MODER + 0x0C;
+  static const uintptr_t IDR = MODER + 0x10;
+  static const uintptr_t ODR = MODER + 0x14;
+  static const uintptr_t BSRR = MODER + 0x18;
+  static const uintptr_t LCKR = MODER + 0x1C;
+  static const uintptr_t AFRL = MODER + 0x20;
+  static const uintptr_t AFRH = MODER + 0x24;
+  static const uintptr_t BRR = MODER + 0x28;
+};
+
+/**
+ * @brief Implementation of port B
+ */
+template<>
+struct GetAddrReg<B>
+{
+  static const uintptr_t MODER = BASE_ADDRESS_PORT_B;
+  static const uintptr_t OTYPER = MODER + 0x04;
+  static const uintptr_t OSPEEDER = MODER + 0x08;
+  static const uintptr_t PUPDR = MODER + 0x0C;
+  static const uintptr_t IDR = MODER + 0x10;
+  static const uintptr_t ODR = MODER + 0x14;
+  static const uintptr_t BSRR = MODER + 0x18;
+  static const uintptr_t LCKR = MODER + 0x1C;
+  static const uintptr_t AFRL = MODER + 0x20;
+  static const uintptr_t AFRH = MODER + 0x24;
+  static const uintptr_t BRR = MODER + 0x28;
+};
+
+/**
+ * @brief Implementation of port C
+ */
+template<>
+struct GetAddrReg<C>
+{
+  static const uintptr_t MODER = BASE_ADDRESS_PORT_C;
   static const uintptr_t OTYPER = MODER + 0x04;
   static const uintptr_t OSPEEDER = MODER + 0x08;
   static const uintptr_t PUPDR = MODER + 0x0C;
