@@ -116,7 +116,7 @@ C_DEFS =  \
 AS_INCLUDES = 
 
 # C includes
-C_INCLUDES =  \
+C_INCLUDES +=  \
 -ICore/Inc \
 -IDrivers/STM32G4xx_HAL_Driver/Inc \
 -IDrivers/STM32G4xx_HAL_Driver/Inc/Legacy \
