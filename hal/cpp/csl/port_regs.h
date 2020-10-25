@@ -135,7 +135,25 @@ union OTYPER {
 		typedef Bits<uint32_t, 15, 1> bits;
 	};
 
-
+	union Bits{
+		OTYPER::OT_0::bits = OT_0;
+		OTYPER::OT_1::bits = OT_1;
+		OTYPER::OT_2::bits = OT_2;
+		OTYPER::OT_3::bits = OT_3;
+		OTYPER::OT_4::bits = OT_4;
+		OTYPER::OT_5::bits = OT_5;
+		OTYPER::OT_6::bits = OT_6;
+		OTYPER::OT_7::bits = OT_7;
+		OTYPER::OT_8::bits = OT_8;
+		OTYPER::OT_9::bits = OT_9;
+		OTYPER::OT_10::bits = OT_10;
+		OTYPER::OT_11::bits = OT_11;
+		OTYPER::OT_12::bits = OT_12;
+		OTYPER::OT_13::bits = OT_13;
+		OTYPER::OT_14::bits = OT_14;
+		OTYPER::OT_15::bits = OT_15;
+	}bits;
+	uint32_t raw;
 };
 
 
