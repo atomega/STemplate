@@ -3,6 +3,8 @@
 
 #include <stdint.h> // C2000 does not define <cstdint>
 
+#include <port_regs.h>
+
 namespace csl
 {
 
