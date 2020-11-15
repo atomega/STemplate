@@ -121,6 +121,7 @@ C_DEFS =  \
 # AS includes
 AS_INCLUDES = 
 
+# Key += added by us for compatibility with the main Makefile made by us.
 # C includes
 C_INCLUDES +=  \
 -ICore/Inc \
