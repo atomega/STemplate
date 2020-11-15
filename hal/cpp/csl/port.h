@@ -20,7 +20,7 @@ enum
  */
 enum Id
 {
-  A,B,C,D,E,F,G
+  A,B,C,D,E,F,G,XX
 };
 
 enum {
@@ -186,8 +186,6 @@ struct GetAddrReg<G>
   static const uintptr_t AFRH 		= MODER + 0x24;
   static const uintptr_t BRR 		= MODER + 0x28;
 };
-
-
 
 //
 // Port Definiton 

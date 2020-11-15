@@ -11,6 +11,11 @@
 namespace csl{
 namespace pin{
 
+enum
+{
+	noOfPins = 64
+};
+
 /**
  * @brief Pin Direction.
  */
@@ -74,6 +79,79 @@ enum AlternateFunction{
 };
 
 
+constexpr port::Id pinMap[noOfPins] = 
+{
+port::XX,
+port::C,
+port::C,
+port::C,
+port::F,
+port::F,
+port::G,
+port::C,
+port::C,
+port::C,
+port::C,
+port::A,
+port::A,
+port::A,
+port::XX,
+port::XX,
+port::A,
+port::A,
+port::A,
+port::A,
+port::A,
+port::C,
+port::C,
+port::B,
+port::B,
+port::B,
+port::XX,
+port::XX,
+port::XX,
+port::B,
+port::XX,
+port::XX,
+port::B,
+port::B,
+port::B,
+port::B,
+port::B,
+port::C,
+port::C,
+port::C,
+port::C,
+port::A,
+port::A,
+port::A,
+port::A,
+port::A,
+port::XX,
+port::XX,
+port::A,
+port::A,
+port::A,
+port::C,
+port::C,
+port::C,
+port::D,
+port::B,
+port::B,
+port::B,
+port::B,
+port::B,
+port::B,
+port::B,
+port::XX,
+port::XX
+};
+
+
+
+
+
+
 
 /**
 * @brief The STM32 Pin Id "hardware dependent".
@@ -133,7 +211,18 @@ enum Id
 	pin_49,
 	pin_50,
 	pin_51,
-	pin_52
+	pin_52,
+	pin_53,
+	pin_54,
+	pin_55,
+	pin_56,
+	pin_57,
+	pin_58,
+	pin_59,
+	pin_60,
+	pin_61,
+	pin_62,
+	pin_63
 };
 
 
@@ -145,13 +234,12 @@ enum Id
 template<Id pinId>
 struct GetPort
 {
-	switch(pinId)
-	{
-		case  : 
-	}
+
+	
 
 
-  static const port::Id id = pinId < port::numPins ? port::a : port::b;
+
+  //static const port::Id id = pinId < port::numPins ? port::a : port::b;
 };
 
 /**
@@ -214,11 +302,12 @@ class Pin : public PinBase<GetPort<id>::id>
      * @param isPullupEn true if pull-up enabled (default: enabled)
      * @param sync sync to specified clock (default: sync to system clock)
      */
-    Pin(Direction dir = in,
+    /*
+	  Pin(Direction dir = in,
         Mux mux = fun1,
         bool isPullupEn = true,
         Sync sync = syncToSysClk);
-
+*/
     /**
      * @brief Sets the direction of the pin.
      *
