@@ -2,14 +2,23 @@
 #define _PIN_H_
 
 #include "bits.h"
-#include "HwReg.h"
-#include "Port.h"
+#include "hw_reg.h"
+#include "port.h"
 
 
 // TODO: implement lock feature -> datasheet 9.4.8
 
 namespace csl{
 namespace pin{
+
+/**
+ * @brief Pin Direction.
+ */
+enum Direction 
+{
+	in, 
+	out
+};
 
 /**
  * @brief Pin Modes.
@@ -22,16 +31,6 @@ enum Mode{
 };
 
 /**
- * @brief Pin Speeds
- */
-enum Speed{
-    low,
-    medium,
-    high,
-    very_high
-};
-
-/**
  * @brief Pin States.
  */
 enum State{
@@ -40,6 +39,16 @@ enum State{
     pull_down,
     push_pull,
     open_drain
+};
+
+/**
+ * @brief Pin Speeds
+ */
+enum Speed{
+    low,
+    medium,
+    high,
+    very_high
 };
 
 /**
@@ -67,17 +76,7 @@ enum AlternateFunction{
 
 
 /**
- * @brief Pin Direction.
- */
-enum Direction 
-{
-	in, 
-	out
-};
-
-
-/**
-* @brief The STM32 Id hardware dependent.
+* @brief The STM32 Pin Id "hardware dependent".
 *
 */
 enum Id 
@@ -139,6 +138,23 @@ enum Id
 
 
 /**
+ * @brief Template meta programming to get the port ID derived from the pin ID.
+ *
+ * @tparam pinId pin ID
+ */
+template<Id pinId>
+struct GetPort
+{
+	switch(pinId)
+	{
+		case  : 
+	}
+
+
+  static const port::Id id = pinId < port::numPins ? port::a : port::b;
+};
+
+/**
 * @brief The STM32 pin base class.
 *
 * @param id port ID
@@ -151,19 +167,19 @@ public:
     /**
      * @brief Initializes the port if required.
      *
-     * @param mode Pin Mode
      * @param bitNr bit number
      * @param dir pin direction
-     * @param af alternate alternative function 
+     * @param mode Pin Mode
      * @param state Physical Pin State 
      * @param speed Physical Pin Speed 
+     * @param af alternative function 
      */
     PinBase(unsigned int bitNr,
-			Mode mode, 
             Direction dir,
-            AlternateFunction af,
+			Mode mode, 
 			State state,
-            Speed speed);
+            Speed speed,
+            AlternateFunction af);
 
     /**
      * @brief Sets the direction of the pin.
@@ -174,16 +190,64 @@ public:
     void setDirection(unsigned int bitNr, Direction dir);
 
 private:
-    enum
-    {
-      muxBitWidth = 2,  ///< bit width per mux setting
-      syncBitWidth = 2, ///< bit width per sync setting
-      pudBitWidth = 1   ///< bit width per pud setting
-    };
-
     static bool initDonePort; ///< port initialized flag
 };
 
+
+
+/**
+ * @brief Abstracts C2000 pins.
+ *
+ * @tparam id pin ID
+ */
+template<Id id>
+class Pin : public PinBase<GetPort<id>::id>
+{
+
+  public:
+
+    /**
+     * @brief Initializes the pin to the default configuration.
+     *
+     * @param dir pin direction (default: in)
+     * @param af alternative function 
+     * @param isPullupEn true if pull-up enabled (default: enabled)
+     * @param sync sync to specified clock (default: sync to system clock)
+     */
+    Pin(Direction dir = in,
+        Mux mux = fun1,
+        bool isPullupEn = true,
+        Sync sync = syncToSysClk);
+
+    /**
+     * @brief Sets the direction of the pin.
+     *
+     * @param dir pin direction
+     */
+    void setDirection(Direction dir);
+
+    /**
+     * @brief Sets the pin.
+     */
+    void set();
+
+    /**
+     * @brief Clears the pin.
+     */
+    void clear();
+
+    /**
+     * @brief Toggles the pin.
+     */
+    void toggle();
+
+    /**
+     * @brief Returns the state of the pin.
+     *
+     * @return pin state
+     */
+    bool get() const;
+};
 
 }   // namespace pin
 

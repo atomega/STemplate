@@ -13,7 +13,7 @@ namespace csl
 	 * match the used architecture bit width
 	 */
 	template<typename RegType>
-	class HWReg
+	class HwReg
 	{
 		public:
 			/**
@@ -79,21 +79,21 @@ namespace csl
 			  *
 			  * @note Is set private to prevent destruction of directly mapped register. 
 			  */
-			~HWReg(); 		 
+			~HwReg(); 		 
 
 			/**
 			 * @brief The copy constructor.
 			 *
 			 * @note Is set private to prevent copying of directly mapped register.
 			 */
-			HWReg(const  HWReg&);
+			HwReg(const  HwReg&);
 
 			/**
 			 * @brief The assignment operator.
 			 *
 			 * @note Is set private to prevent copying directly mapped register.
 			 */
-			HWReg& operator=(const HWReg&);
+			HwReg& operator=(const HwReg&);
 			
 			volatile RegType reg; ///< register which is directly mapped to the register address
 	};

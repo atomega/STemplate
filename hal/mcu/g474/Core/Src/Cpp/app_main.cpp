@@ -1,4 +1,5 @@
 #include "hw_reg.h"
+#include "pin.h"
 #include "main.h"
 #include "app_main.h"
 
