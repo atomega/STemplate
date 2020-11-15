@@ -15,60 +15,72 @@ namespace pin{
  * @brief Pin Modes.
  */
 enum Mode{
-    INPUT_MODE,
-    GENERAL_PURPOUSE_OUTPUT_MODE,
-    ALTERNATE_FUNCTION_MODE,
-    ANALOG_MODE
+    input_mode,
+    general_purpouse_output_mode,
+    alternate_function_mode,
+    analog_mode
 };
 
 /**
  * @brief Pin Speeds
  */
 enum Speed{
-    LOW,
-    MEDIUM,
-    HIGH,
-    VERY_HIGH
+    low,
+    medium,
+    high,
+    very_high
 };
 
 /**
  * @brief Pin States.
  */
 enum State{
-    FLOATING,
-    PULL_UP,
-    PULL_DOWN,
-    PUSH_PULL,
-    OPEN_DRAIN
+    floating,
+    pull_up,
+    pull_down,
+    push_pull,
+    open_drain
 };
 
+/**
+ * @brief Pin Alternative funtion mapping.
+ */
 enum AlternateFunction{
-    AF_0,
-    AF_1,
-    AF_2,
-    AF_3,
-    AF_4,
-    AF_5,
-    AF_6,
-    AF_7,
-    AF_8,
-    AF_9,
-    AF_10,
-    AF_11,
-    AF_12,
-    AF_13,
-    AF_14,
-    AF_15
+    af_0,
+    af_1,
+    af_2,
+    af_3,
+    af_4,
+    af_5,
+    af_6,
+    af_7,
+    af_8,
+    af_9,
+    af_10,
+    af_11,
+    af_12,
+    af_13,
+    af_14,
+    af_15
 };
 
 
+
+/**
+ * @brief Pin Direction.
+ */
+enum Direction 
+{
+	in, 
+	out
+};
 
 
 /**
 * @brief The STM32 Id hardware dependent.
 *
 */
-emun Id 
+enum Id 
 {
 	pin_0 = 0, // must be 0
 	pin_1,
@@ -139,17 +151,19 @@ public:
     /**
      * @brief Initializes the port if required.
      *
+     * @param mode Pin Mode
      * @param bitNr bit number
      * @param dir pin direction
-     * @param mux pin mux
-     * @param isPullupEn true if pull-up enabled
-     * @param sync sync to specified clock
+     * @param af alternate alternative function 
+     * @param state Physical Pin State 
+     * @param speed Physical Pin Speed 
      */
     PinBase(unsigned int bitNr,
+			Mode mode, 
             Direction dir,
-            Mux mux,
-            bool isPullupEn,
-            Sync sync);
+            AlternateFunction af,
+			State state,
+            Speed speed);
 
     /**
      * @brief Sets the direction of the pin.
