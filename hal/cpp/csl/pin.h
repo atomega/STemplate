@@ -238,6 +238,7 @@ struct GetPort
 	
 
 
+  static const port::Id id = pinMap[pinId];
 
   //static const port::Id id = pinId < port::numPins ? port::a : port::b;
 };
